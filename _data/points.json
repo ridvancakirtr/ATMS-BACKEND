@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "5ffb21fcac13c2331c858a30",
+        "name": "Ölüdeniz",
+        "type": "Konum",
+        "city": "5ffb2b99b79f5b2ec0d25625"
+    },
+    {
+        "_id": "5ffb2204ac13c2331c858a31",
+        "name": "Çalış",
+        "type": "Konum",
+        "city": "5ffb2b99b79f5b2ec0d25625"
+    },
+    {
+        "_id": "5ffb221dac13c2331c858a32",
+        "name": "Ölüdeniz - Lykia World Hotel",
+        "type": "Otel",
+        "city": "5ffb2b99b79f5b2ec0d25625"
+    },
+    {
+        "_id": "5ffb2233ac13c2331c858a33",
+        "name": "İçmeler",
+        "type": "Konum",
+        "city": "5ffb2b99b79f5b2ec0d25623"
+    },
+    {
+        "_id": "5ffb225eac13c2331c858a34",
+        "name": "Yalanıcı Boğaz",
+        "type": "Konum",
+        "city": "5ffb2b99b79f5b2ec0d25623"
+    },
+    {
+        "_id": "5ffb2274ac13c2331c858a35",
+        "name": "Güllük",
+        "type": "Konum",
+        "city": "5ffb2b99b79f5b2ec0d25627"
+    },
+    {
+        "_id": "5ffb227fac13c2331c858a36",
+        "name": "Rixos Otel",
+        "type": "Otel",
+        "city": "5ffb2b99b79f5b2ec0d25627"
+    }
+]

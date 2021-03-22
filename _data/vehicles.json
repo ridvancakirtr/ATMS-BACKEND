@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "5ff961864658c82a84d7d5b1",
+        "isRental": false,
+        "brand": "Mercedes",
+        "model": "C180",
+        "year": 2020,
+        "km": 9000,
+        "plate": "48E6654",
+        "note": "Araç Notu"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5b2",
+        "isRental": true,
+        "brand": "Wolksvagen",
+        "model": "Transporter",
+        "year": 2018,
+        "km": 145000,
+        "plate": "48E1245",
+        "note": "Araç Notu"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5b3",
+        "isRental": false,
+        "brand": "Wolksvagen",
+        "model": "Crafter",
+        "year": 2019,
+        "km": 125000,
+        "plate": "48E1010",
+        "note": "Araç Notu"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5b4",
+        "isRental": false,
+        "brand": "Mercedes",
+        "model": "Vito",
+        "year": 2020,
+        "km": 155000,
+        "plate": "48E2133",
+        "note": "Araç Notu"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5b5",
+        "isRental": false,
+        "brand": "Mercedes",
+        "model": "Sprinter",
+        "year": 2020,
+        "km": 115000,
+        "plate": "48E9988",
+        "note": "Araç Notu"
+    }
+]

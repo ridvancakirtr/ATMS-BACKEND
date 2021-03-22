@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "5ff961864658c82a84d7d5c1",
+        "name": "Mercedes Vito (9+1)",
+        "pax": 9,
+        "queue": 0
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c2",
+        "name": "Wolksvagen Crafter (7+1)",
+        "pax": 7,
+        "queue": 2
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c3",
+        "name": "Mercedes Sprinter (12+1)",
+        "pax": 12,
+        "queue": 1
+    }
+]

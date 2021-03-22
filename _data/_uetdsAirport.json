@@ -1,0 +1,394 @@
+[
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25343",
+        "code": 99133,
+        "cityCode": 1,
+        "name": "Şakirpaşa Havalimanı",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25344",
+        "code": 99139,
+        "cityCode": 2,
+        "name": "Adıyaman Havalimanı",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25345",
+        "code": 99132,
+        "cityCode": 3,
+        "name": "Afyon Havalimanı",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25348",
+        "code": 99134,
+        "cityCode": 6,
+        "name": "Ankara Esenboğa Havalimanı",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25347",
+        "code": 99166,
+        "cityCode": 5,
+        "name": "Amasya Merzifon Havalimanı",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25346",
+        "code": 99140,
+        "cityCode": 4,
+        "name": "Ağrı Ahmed-i Hani Havalimanı",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25349",
+        "code": 99141,
+        "cityCode": 7,
+        "name": "Gazipaşa Havalimanı",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534a",
+        "code": 99135,
+        "cityCode": 7,
+        "name": "Antalya Havalimanı",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534b",
+        "code": 99142,
+        "cityCode": 10,
+        "name": "Balıkesir Merkez Havalimanı",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534c",
+        "code": 99107,
+        "cityCode": 10,
+        "name": "Balıkesir Koca Seyit Havalimanı",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534d",
+        "code": 99167,
+        "cityCode": 12,
+        "name": "Bingöl Havalimanı",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534e",
+        "code": 99124,
+        "cityCode": 16,
+        "name": "Bursa Yenişehir Havalimanı",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2534f",
+        "code": 99168,
+        "cityCode": 17,
+        "name": "Çanakkale Havalimanı",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25352",
+        "code": 99126,
+        "cityCode": 21,
+        "name": "Diyarbakır Havalimanı",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25350",
+        "code": 99128,
+        "cityCode": 17,
+        "name": "Gökçeada Havalimanı",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25351",
+        "code": 99143,
+        "cityCode": 20,
+        "name": "Denizli Çardak Havalimanı",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25354",
+        "code": 99109,
+        "cityCode": 24,
+        "name": "Erzincan Havalimanı",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25353",
+        "code": 99144,
+        "cityCode": 23,
+        "name": "Elazığ Havalimanı",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25355",
+        "code": 99100,
+        "cityCode": 25,
+        "name": "Erzurum Havalimanı",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25356",
+        "code": 99162,
+        "cityCode": 26,
+        "name": "Eskişehir Anadolu Havalimanı",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25357",
+        "code": 99101,
+        "cityCode": 27,
+        "name": "Gaziantep Havalimanı",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25358",
+        "code": 99110,
+        "cityCode": 30,
+        "name": "Hakkâri Yüksekova Selahaddin Eyyubi Havalimanı",
+        "cityName": "HAKKARİ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535b",
+        "code": 99157,
+        "cityCode": 34,
+        "name": "İstanbul Havalimanı",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535a",
+        "code": 99112,
+        "cityCode": 32,
+        "name": "Isparta Süleyman Demirel Havalimanı",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25359",
+        "code": 99161,
+        "cityCode": 31,
+        "name": "Hatay Havalimanı",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535c",
+        "code": 99136,
+        "cityCode": 34,
+        "name": "Atatürk Havalimanı",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535d",
+        "code": 99102,
+        "cityCode": 34,
+        "name": "Sabiha Gökçen Havalimanı",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535e",
+        "code": 99164,
+        "cityCode": 35,
+        "name": "Adnan Menderes Havalimanı",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2535f",
+        "code": 99113,
+        "cityCode": 36,
+        "name": "Kars Harakani Havalimanı",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25361",
+        "code": 99103,
+        "cityCode": 38,
+        "name": "Erkilet Havalimanı",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25362",
+        "code": 99155,
+        "cityCode": 41,
+        "name": "Cengiz Topel Havalimanı",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25360",
+        "code": 99154,
+        "cityCode": 37,
+        "name": "Kastamonu Havalimanı",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25364",
+        "code": 99165,
+        "cityCode": 43,
+        "name": "Zafer Havalimanı",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25363",
+        "code": 99104,
+        "cityCode": 42,
+        "name": "Konya Havalimanı",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25366",
+        "code": 99145,
+        "cityCode": 46,
+        "name": "Kahramanmaraş Havalimanı",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25365",
+        "code": 99137,
+        "cityCode": 44,
+        "name": "Erhaç Havalimanı",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25368",
+        "code": 99151,
+        "cityCode": 48,
+        "name": "Milas-Bodrum Havalimanı",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25367",
+        "code": 99114,
+        "cityCode": 47,
+        "name": "Mardin Havalimanı",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25369",
+        "code": 99125,
+        "cityCode": 48,
+        "name": "Dalaman Havalimanı",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536b",
+        "code": 99105,
+        "cityCode": 50,
+        "name": "Nevşehir Kapadokya Havalimanı",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536c",
+        "code": 99163,
+        "cityCode": 52,
+        "name": "Ordu-Giresun Havalimanı",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536a",
+        "code": 99129,
+        "cityCode": 49,
+        "name": "Muş Havalimanı",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536e",
+        "code": 99115,
+        "cityCode": 56,
+        "name": "Siirt Havalimanı",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536f",
+        "code": 99116,
+        "cityCode": 57,
+        "name": "Sinop Havalimanı",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2536d",
+        "code": 99127,
+        "cityCode": 55,
+        "name": "Samsun Çarşamba Havalimanı",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25371",
+        "code": 99119,
+        "cityCode": 59,
+        "name": "Tekirdağ Çorlu Havalimanı",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25370",
+        "code": 99117,
+        "cityCode": 58,
+        "name": "Sivas Nuri Demirağ Havalimanı",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25372",
+        "code": 99169,
+        "cityCode": 60,
+        "name": "Tokat Havalimanı",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25373",
+        "code": 99152,
+        "cityCode": 61,
+        "name": "Trabzon Havalimanı",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25374",
+        "code": 99138,
+        "cityCode": 63,
+        "name": "Şanlıurfa GAP Havalimanı",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25376",
+        "code": 99146,
+        "cityCode": 65,
+        "name": "Ferit Melen Havalimanı",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25375",
+        "code": 99120,
+        "cityCode": 64,
+        "name": "Uşak Havalimanı",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25377",
+        "code": 99147,
+        "cityCode": 67,
+        "name": "Zonguldak Havalimanı",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d2537a",
+        "code": 99111,
+        "cityCode": 76,
+        "name": "Iğdır Havalimanı",
+        "cityName": "IĞDIR"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25378",
+        "code": 99108,
+        "cityCode": 72,
+        "name": "Batman Havalimanı",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b94b79f5b2ec0d25379",
+        "code": 99118,
+        "cityCode": 73,
+        "name": "Şırnak Şerafettin Elçi Havalimanı",
+        "cityName": "ŞIRNAK"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "5ff961864658c82a84d7d5c0",
+        "companyName": "Akgün Transfer",
+        "taxAdministration": "Dalaman",
+        "taxNumber": 11111,
+        "address": "Dalaman",
+        "authorizedName": "Hakan",
+        "authorizedSurname": "Akgün",
+        "authorizedPhone": 905469998888,
+        "authorizedEmail": "hakan@gmail.com",
+        "companyOwner":true
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c1",
+        "companyName": "MAVİ Transfer",
+        "taxAdministration": "Ortaca",
+        "taxNumber": 44444,
+        "address": "Ortaca",
+        "authorizedName": "Irmak",
+        "authorizedSurname": "Cansu",
+        "authorizedPhone": 905469937888,
+        "authorizedEmail": "irmak@gmail.com"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c2",
+        "companyName": "Sunny Transfer",
+        "taxAdministration": "Marmaris",
+        "taxNumber": 22222,
+        "address": "Marmaris",
+        "authorizedName": "Recep",
+        "authorizedSurname": "Osman",
+        "authorizedPhone": 905469955444,
+        "authorizedEmail": "recep@gmail.com"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c3",
+        "companyName": "RTE Transfer",
+        "taxAdministration": "Göcek",
+        "taxNumber": 33333,
+        "address": "Göcek",
+        "authorizedName": "Ufuk",
+        "authorizedSurname": "Aslan",
+        "authorizedPhone": 905469933658,
+        "authorizedEmail": "ufuk@gmail.com"
+    },
+    {
+        "_id": "5ff961864658c82a84d7d5c4",
+        "companyName": "SHUTTLE Transfer",
+        "taxAdministration": "Kaş",
+        "taxNumber": 55555,
+        "address": "Kaş",
+        "authorizedName": "Mehmet",
+        "authorizedSurname": "Yılmaz",
+        "authorizedPhone": 905469937877,
+        "authorizedEmail": "mehmet@gmail.com"
+    }
+]

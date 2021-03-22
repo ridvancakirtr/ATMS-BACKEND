@@ -1,0 +1,6974 @@
+[
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2537d",
+        "code": 1806,
+        "cityCode": 1,
+        "name": "İMAMOĞLU",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2537b",
+        "code": 2033,
+        "cityCode": 1,
+        "name": "ÇUKUROVA",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2537c",
+        "code": 2032,
+        "cityCode": 1,
+        "name": "SARIÇAM",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2537e",
+        "code": 1757,
+        "cityCode": 1,
+        "name": "ALADAĞ",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25380",
+        "code": 1734,
+        "cityCode": 1,
+        "name": "YUMURTALIK",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2537f",
+        "code": 1748,
+        "cityCode": 1,
+        "name": "YÜREĞİR",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25381",
+        "code": 1687,
+        "cityCode": 1,
+        "name": "TUFANBEYLİ",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25382",
+        "code": 1588,
+        "cityCode": 1,
+        "name": "SAİMBEYLİ",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25384",
+        "code": 1486,
+        "cityCode": 1,
+        "name": "KOZAN",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25383",
+        "code": 1580,
+        "cityCode": 1,
+        "name": "POZANTI",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25389",
+        "code": 1104,
+        "cityCode": 1,
+        "name": "SEYHAN",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538c",
+        "code": 1592,
+        "cityCode": 2,
+        "name": "SAMSAT",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25388",
+        "code": 1219,
+        "cityCode": 1,
+        "name": "CEYHAN",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25386",
+        "code": 1437,
+        "cityCode": 1,
+        "name": "KARAİSALI",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25385",
+        "code": 1443,
+        "cityCode": 1,
+        "name": "KARATAŞ",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25387",
+        "code": 1329,
+        "cityCode": 1,
+        "name": "FEKE",
+        "cityName": "ADANA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538b",
+        "code": 1985,
+        "cityCode": 2,
+        "name": "SİNCİK",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538a",
+        "code": 1989,
+        "cityCode": 2,
+        "name": "TUT",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538e",
+        "code": 1354,
+        "cityCode": 2,
+        "name": "GÖLBAŞI",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538d",
+        "code": 1425,
+        "cityCode": 2,
+        "name": "KAHTA",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25390",
+        "code": 1246,
+        "cityCode": 2,
+        "name": "ÇELİKHAN",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2538f",
+        "code": 1347,
+        "cityCode": 2,
+        "name": "GERGER",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25391",
+        "code": 1182,
+        "cityCode": 2,
+        "name": "BESNİ",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25392",
+        "code": 1105,
+        "cityCode": 2,
+        "name": "MERKEZ",
+        "cityName": "ADIYAMAN"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25393",
+        "code": 1961,
+        "cityCode": 3,
+        "name": "KIZILÖREN",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25394",
+        "code": 1944,
+        "cityCode": 3,
+        "name": "HOCALAR",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25398",
+        "code": 1773,
+        "cityCode": 3,
+        "name": "BAYAT",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25396",
+        "code": 1906,
+        "cityCode": 3,
+        "name": "ÇOBANLAR",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25395",
+        "code": 1923,
+        "cityCode": 3,
+        "name": "EVCİLER",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25397",
+        "code": 1809,
+        "cityCode": 3,
+        "name": "İSCEHİSAR",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539b",
+        "code": 1639,
+        "cityCode": 3,
+        "name": "SULTANDAĞI",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539d",
+        "code": 1594,
+        "cityCode": 3,
+        "name": "SANDIKLI",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539a",
+        "code": 1664,
+        "cityCode": 3,
+        "name": "ŞUHUT",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539e",
+        "code": 1404,
+        "cityCode": 3,
+        "name": "İHSANİYE",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a0",
+        "code": 1281,
+        "cityCode": 3,
+        "name": "DİNAR",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d25399",
+        "code": 1771,
+        "cityCode": 3,
+        "name": "BAŞMAKÇI",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539c",
+        "code": 1626,
+        "cityCode": 3,
+        "name": "SİNANPAŞA",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d2539f",
+        "code": 1306,
+        "cityCode": 3,
+        "name": "EMİRDAĞ",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a1",
+        "code": 1267,
+        "cityCode": 3,
+        "name": "DAZKIRI",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a2",
+        "code": 1239,
+        "cityCode": 3,
+        "name": "ÇAY",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a4",
+        "code": 1108,
+        "cityCode": 3,
+        "name": "MERKEZ",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a3",
+        "code": 1200,
+        "cityCode": 3,
+        "name": "BOLVADİN",
+        "cityName": "AFYONKARAHİSAR"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a8",
+        "code": 1379,
+        "cityCode": 4,
+        "name": "HAMUR",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a5",
+        "code": 1691,
+        "cityCode": 4,
+        "name": "TUTAK",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a6",
+        "code": 1667,
+        "cityCode": 4,
+        "name": "TAŞLIÇAY",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a7",
+        "code": 1568,
+        "cityCode": 4,
+        "name": "PATNOS",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253aa",
+        "code": 1287,
+        "cityCode": 4,
+        "name": "DOĞUBAYAZIT",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253a9",
+        "code": 1301,
+        "cityCode": 4,
+        "name": "ELEŞKİRT",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253ab",
+        "code": 1283,
+        "cityCode": 4,
+        "name": "DİYADİN",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253ac",
+        "code": 1111,
+        "cityCode": 4,
+        "name": "MERKEZ",
+        "cityName": "AĞRI"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253ae",
+        "code": 1668,
+        "cityCode": 5,
+        "name": "TAŞOVA",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253ad",
+        "code": 1938,
+        "cityCode": 5,
+        "name": "HAMAMÖZÜ",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253af",
+        "code": 1641,
+        "cityCode": 5,
+        "name": "SULUOVA",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b0",
+        "code": 1524,
+        "cityCode": 5,
+        "name": "MERZİFON",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b3",
+        "code": 1134,
+        "cityCode": 5,
+        "name": "MERKEZ",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b4",
+        "code": 2034,
+        "cityCode": 6,
+        "name": "PURSAKLAR",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b2",
+        "code": 1363,
+        "cityCode": 5,
+        "name": "GÖYNÜCEK",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b1",
+        "code": 1368,
+        "cityCode": 5,
+        "name": "GÜMÜŞHACIKÖY",
+        "cityName": "AMASYA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b6",
+        "code": 1922,
+        "cityCode": 6,
+        "name": "ETİMESGUT",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b5",
+        "code": 1924,
+        "cityCode": 6,
+        "name": "EVREN",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b8",
+        "code": 1815,
+        "cityCode": 6,
+        "name": "KAHRAMANKAZAN",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b7",
+        "code": 1872,
+        "cityCode": 6,
+        "name": "AKYURT",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253b9",
+        "code": 1747,
+        "cityCode": 6,
+        "name": "SİNCAN",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253ba",
+        "code": 1746,
+        "cityCode": 6,
+        "name": "MAMAK",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253be",
+        "code": 1658,
+        "cityCode": 6,
+        "name": "ŞEREFLİKOÇHİSAR",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253bd",
+        "code": 1723,
+        "cityCode": 6,
+        "name": "YENİMAHALLE",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253bb",
+        "code": 1745,
+        "cityCode": 6,
+        "name": "KEÇİÖREN",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b98b79f5b2ec0d253bc",
+        "code": 1744,
+        "cityCode": 6,
+        "name": "GÖLBAŞI",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253bf",
+        "code": 1578,
+        "cityCode": 6,
+        "name": "POLATLI",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c0",
+        "code": 1539,
+        "cityCode": 6,
+        "name": "NALLIHAN",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c3",
+        "code": 1387,
+        "cityCode": 6,
+        "name": "HAYMANA",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c8",
+        "code": 1227,
+        "cityCode": 6,
+        "name": "ÇAMLIDERE",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c1",
+        "code": 1473,
+        "cityCode": 6,
+        "name": "KIZILCAHAMAM",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c4",
+        "code": 1365,
+        "cityCode": 6,
+        "name": "GÜDÜL",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c7",
+        "code": 1231,
+        "cityCode": 6,
+        "name": "ÇANKAYA",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c2",
+        "code": 1427,
+        "cityCode": 6,
+        "name": "KALECİK",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c5",
+        "code": 1302,
+        "cityCode": 6,
+        "name": "ELMADAĞ",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c6",
+        "code": 1260,
+        "cityCode": 6,
+        "name": "ÇUBUK",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253c9",
+        "code": 1187,
+        "cityCode": 6,
+        "name": "BEYPAZARI",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ca",
+        "code": 1167,
+        "cityCode": 6,
+        "name": "BALA",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253cd",
+        "code": 2039,
+        "cityCode": 7,
+        "name": "MURATPAŞA",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253cc",
+        "code": 1130,
+        "cityCode": 6,
+        "name": "ALTINDAĞ",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253cb",
+        "code": 1157,
+        "cityCode": 6,
+        "name": "AYAŞ",
+        "cityName": "ANKARA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ce",
+        "code": 2038,
+        "cityCode": 7,
+        "name": "KONYAALTI",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253cf",
+        "code": 2037,
+        "cityCode": 7,
+        "name": "KEPEZ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d0",
+        "code": 2036,
+        "cityCode": 7,
+        "name": "DÖŞEMEALTI",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d1",
+        "code": 2035,
+        "cityCode": 7,
+        "name": "AKSU",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d2",
+        "code": 1959,
+        "cityCode": 7,
+        "name": "KEMER",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d3",
+        "code": 1946,
+        "cityCode": 7,
+        "name": "İBRADI",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d4",
+        "code": 1811,
+        "cityCode": 7,
+        "name": "DEMRE",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d6",
+        "code": 1512,
+        "cityCode": 7,
+        "name": "MANAVGAT",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d5",
+        "code": 1616,
+        "cityCode": 7,
+        "name": "SERİK",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d8",
+        "code": 1483,
+        "cityCode": 7,
+        "name": "KORKUTELİ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d7",
+        "code": 1492,
+        "cityCode": 7,
+        "name": "KUMLUCA",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253d9",
+        "code": 1451,
+        "cityCode": 7,
+        "name": "KAŞ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253db",
+        "code": 1337,
+        "cityCode": 7,
+        "name": "GAZİPAŞA",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253da",
+        "code": 1370,
+        "cityCode": 7,
+        "name": "GÜNDOĞMUŞ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253dc",
+        "code": 1333,
+        "cityCode": 7,
+        "name": "FİNİKE",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253dd",
+        "code": 1303,
+        "cityCode": 7,
+        "name": "ELMALI",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253de",
+        "code": 1138,
+        "cityCode": 7,
+        "name": "MERKEZ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253df",
+        "code": 1126,
+        "cityCode": 7,
+        "name": "ALANYA",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e0",
+        "code": 1121,
+        "cityCode": 7,
+        "name": "AKSEKİ",
+        "cityName": "ANTALYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e5",
+        "code": 1395,
+        "cityCode": 8,
+        "name": "HOPA",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e4",
+        "code": 1653,
+        "cityCode": 8,
+        "name": "ŞAVŞAT",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e7",
+        "code": 1152,
+        "cityCode": 8,
+        "name": "MERKEZ",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e1",
+        "code": 2105,
+        "cityCode": 8,
+        "name": "KEMALPAŞA",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e2",
+        "code": 1828,
+        "cityCode": 8,
+        "name": "MURGUL",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e6",
+        "code": 1202,
+        "cityCode": 8,
+        "name": "BORÇKA",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e3",
+        "code": 1736,
+        "cityCode": 8,
+        "name": "YUSUFELİ",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e8",
+        "code": 1147,
+        "cityCode": 8,
+        "name": "ARHAVİ",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253e9",
+        "code": 1145,
+        "cityCode": 8,
+        "name": "ARDANUÇ",
+        "cityName": "ARTVİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ea",
+        "code": 2076,
+        "cityCode": 9,
+        "name": "EFELER",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253eb",
+        "code": 2000,
+        "cityCode": 9,
+        "name": "DİDİM",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ec",
+        "code": 1968,
+        "cityCode": 9,
+        "name": "KÖŞK",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ed",
+        "code": 1957,
+        "cityCode": 9,
+        "name": "KARPUZLU",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ee",
+        "code": 1807,
+        "cityCode": 9,
+        "name": "İNCİRLİOVA",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f0",
+        "code": 1724,
+        "cityCode": 9,
+        "name": "YENİPAZAR",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ef",
+        "code": 1781,
+        "cityCode": 9,
+        "name": "BUHARKENT",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f1",
+        "code": 1640,
+        "cityCode": 9,
+        "name": "SULTANHİSAR",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f2",
+        "code": 1637,
+        "cityCode": 9,
+        "name": "SÖKE",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f3",
+        "code": 1542,
+        "cityCode": 9,
+        "name": "NAZİLLİ",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f4",
+        "code": 1498,
+        "cityCode": 9,
+        "name": "KUYUCAK",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f5",
+        "code": 1497,
+        "cityCode": 9,
+        "name": "KUŞADASI",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f6",
+        "code": 1479,
+        "cityCode": 9,
+        "name": "KOÇARLI",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f7",
+        "code": 1435,
+        "cityCode": 9,
+        "name": "KARACASU",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f9",
+        "code": 1256,
+        "cityCode": 9,
+        "name": "ÇİNE",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253f8",
+        "code": 1348,
+        "cityCode": 9,
+        "name": "GERMENCİK",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253fa",
+        "code": 1206,
+        "cityCode": 9,
+        "name": "BOZDOĞAN",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253fc",
+        "code": 2078,
+        "cityCode": 10,
+        "name": "KARESİ",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253fb",
+        "code": 1159,
+        "cityCode": 9,
+        "name": "MERKEZ",
+        "cityName": "AYDIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253fd",
+        "code": 2077,
+        "cityCode": 10,
+        "name": "ALTIEYLÜL",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253fe",
+        "code": 1928,
+        "cityCode": 10,
+        "name": "GÖMEÇ",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d253ff",
+        "code": 1824,
+        "cityCode": 10,
+        "name": "MARMARA",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25400",
+        "code": 1644,
+        "cityCode": 10,
+        "name": "SUSURLUK",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25401",
+        "code": 1619,
+        "cityCode": 10,
+        "name": "SINDIRGI",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25402",
+        "code": 1608,
+        "cityCode": 10,
+        "name": "SAVAŞTEPE",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25403",
+        "code": 1514,
+        "cityCode": 10,
+        "name": "MANYAS",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25404",
+        "code": 1462,
+        "cityCode": 10,
+        "name": "KEPSUT",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25405",
+        "code": 1418,
+        "cityCode": 10,
+        "name": "İVRİNDİ",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25406",
+        "code": 1384,
+        "cityCode": 10,
+        "name": "HAVRAN",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25407",
+        "code": 1360,
+        "cityCode": 10,
+        "name": "GÖNEN",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25408",
+        "code": 1310,
+        "cityCode": 10,
+        "name": "ERDEK",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25409",
+        "code": 1294,
+        "cityCode": 10,
+        "name": "EDREMİT",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540b",
+        "code": 1216,
+        "cityCode": 10,
+        "name": "BURHANİYE",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540a",
+        "code": 1291,
+        "cityCode": 10,
+        "name": "DURSUNBEY",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540c",
+        "code": 1191,
+        "cityCode": 10,
+        "name": "BİGADİÇ",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540d",
+        "code": 1171,
+        "cityCode": 10,
+        "name": "BANDIRMA",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540e",
+        "code": 1169,
+        "cityCode": 10,
+        "name": "BALYA",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2540f",
+        "code": 1168,
+        "cityCode": 10,
+        "name": "MERKEZ",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25410",
+        "code": 1161,
+        "cityCode": 10,
+        "name": "AYVALIK",
+        "cityName": "BALIKESİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25411",
+        "code": 1948,
+        "cityCode": 11,
+        "name": "İNHİSAR",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25412",
+        "code": 1857,
+        "cityCode": 11,
+        "name": "YENİPAZAR",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25415",
+        "code": 1559,
+        "cityCode": 11,
+        "name": "OSMANELİ",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25414",
+        "code": 1571,
+        "cityCode": 11,
+        "name": "PAZARYERİ",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25413",
+        "code": 1636,
+        "cityCode": 11,
+        "name": "SÖĞÜT",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25416",
+        "code": 1359,
+        "cityCode": 11,
+        "name": "GÖLPAZARI",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25417",
+        "code": 1210,
+        "cityCode": 11,
+        "name": "BOZÜYÜK",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25418",
+        "code": 1192,
+        "cityCode": 11,
+        "name": "MERKEZ",
+        "cityName": "BİLECİK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25419",
+        "code": 1996,
+        "cityCode": 12,
+        "name": "YEDİSU",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541a",
+        "code": 1855,
+        "cityCode": 12,
+        "name": "YAYLADERE",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541b",
+        "code": 1750,
+        "cityCode": 12,
+        "name": "ADAKLI",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541c",
+        "code": 1633,
+        "cityCode": 12,
+        "name": "SOLHAN",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541d",
+        "code": 1475,
+        "cityCode": 12,
+        "name": "KİĞI",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541e",
+        "code": 1446,
+        "cityCode": 12,
+        "name": "KARLIOVA",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2541f",
+        "code": 1344,
+        "cityCode": 12,
+        "name": "GENÇ",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25420",
+        "code": 1193,
+        "cityCode": 12,
+        "name": "MERKEZ",
+        "cityName": "BİNGÖL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25421",
+        "code": 1798,
+        "cityCode": 13,
+        "name": "GÜROYMAK",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25422",
+        "code": 1669,
+        "cityCode": 13,
+        "name": "TATVAN",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25423",
+        "code": 1537,
+        "cityCode": 13,
+        "name": "MUTKİ",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25424",
+        "code": 1394,
+        "cityCode": 13,
+        "name": "HİZAN",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25425",
+        "code": 1196,
+        "cityCode": 13,
+        "name": "MERKEZ",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25426",
+        "code": 1112,
+        "cityCode": 13,
+        "name": "AHLAT",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25427",
+        "code": 1106,
+        "cityCode": 13,
+        "name": "ADİLCEVAZ",
+        "cityName": "BİTLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542a",
+        "code": 1610,
+        "cityCode": 14,
+        "name": "SEBEN",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25428",
+        "code": 1997,
+        "cityCode": 14,
+        "name": "YENİÇAĞA",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25429",
+        "code": 1916,
+        "cityCode": 14,
+        "name": "DÖRTDİVAN",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542b",
+        "code": 1531,
+        "cityCode": 14,
+        "name": "MUDURNU",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542c",
+        "code": 1522,
+        "cityCode": 14,
+        "name": "MENGEN",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542e",
+        "code": 1364,
+        "cityCode": 14,
+        "name": "GÖYNÜK",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542d",
+        "code": 1466,
+        "cityCode": 14,
+        "name": "KIBRISCIK",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2542f",
+        "code": 1346,
+        "cityCode": 14,
+        "name": "GEREDE",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25430",
+        "code": 1199,
+        "cityCode": 14,
+        "name": "MERKEZ",
+        "cityName": "BOLU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25431",
+        "code": 1903,
+        "cityCode": 15,
+        "name": "ÇELTİKÇİ",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25433",
+        "code": 1874,
+        "cityCode": 15,
+        "name": "ALTINYAYLA",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25432",
+        "code": 1899,
+        "cityCode": 15,
+        "name": "ÇAVDIR",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25434",
+        "code": 1816,
+        "cityCode": 15,
+        "name": "KEMER",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25435",
+        "code": 1813,
+        "cityCode": 15,
+        "name": "KARAMANLI",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25436",
+        "code": 1728,
+        "cityCode": 15,
+        "name": "YEŞİLOVA",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25437",
+        "code": 1672,
+        "cityCode": 15,
+        "name": "TEFENNİ",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25438",
+        "code": 1357,
+        "cityCode": 15,
+        "name": "GÖLHİSAR",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25439",
+        "code": 1215,
+        "cityCode": 15,
+        "name": "MERKEZ",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543a",
+        "code": 1211,
+        "cityCode": 15,
+        "name": "BUCAK",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543b",
+        "code": 1109,
+        "cityCode": 15,
+        "name": "AĞLASUN",
+        "cityName": "BURDUR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543c",
+        "code": 1960,
+        "cityCode": 16,
+        "name": "KESTEL",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543d",
+        "code": 1935,
+        "cityCode": 16,
+        "name": "GÜRSU",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543f",
+        "code": 1832,
+        "cityCode": 16,
+        "name": "OSMANGAZİ",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2543e",
+        "code": 1859,
+        "cityCode": 16,
+        "name": "YILDIRIM",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25440",
+        "code": 1829,
+        "cityCode": 16,
+        "name": "NİLÜFER",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25441",
+        "code": 1799,
+        "cityCode": 16,
+        "name": "HARMANCIK",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25442",
+        "code": 1783,
+        "cityCode": 16,
+        "name": "BÜYÜKORHAN",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25443",
+        "code": 1725,
+        "cityCode": 16,
+        "name": "YENİŞEHİR",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25444",
+        "code": 1554,
+        "cityCode": 16,
+        "name": "ORHANGAZİ",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25445",
+        "code": 1553,
+        "cityCode": 16,
+        "name": "ORHANELİ",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25446",
+        "code": 1535,
+        "cityCode": 16,
+        "name": "MUSTAFAKEMALPAŞA",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25447",
+        "code": 1530,
+        "cityCode": 16,
+        "name": "MUDANYA",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25448",
+        "code": 1457,
+        "cityCode": 16,
+        "name": "KELES",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25449",
+        "code": 1434,
+        "cityCode": 16,
+        "name": "KARACABEY",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544a",
+        "code": 1420,
+        "cityCode": 16,
+        "name": "İZNİK",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544b",
+        "code": 1411,
+        "cityCode": 16,
+        "name": "İNEGÖL",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544c",
+        "code": 1343,
+        "cityCode": 16,
+        "name": "GEMLİK",
+        "cityName": "BURSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544d",
+        "code": 1722,
+        "cityCode": 17,
+        "name": "YENİCE",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544e",
+        "code": 1503,
+        "cityCode": 17,
+        "name": "LAPSEKİ",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2544f",
+        "code": 1408,
+        "cityCode": 17,
+        "name": "GÖKÇEADA",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25450",
+        "code": 1340,
+        "cityCode": 17,
+        "name": "GELİBOLU",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25452",
+        "code": 1293,
+        "cityCode": 17,
+        "name": "ECEABAT",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25451",
+        "code": 1326,
+        "cityCode": 17,
+        "name": "EZİNE",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25453",
+        "code": 1230,
+        "cityCode": 17,
+        "name": "MERKEZ",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25454",
+        "code": 1229,
+        "cityCode": 17,
+        "name": "ÇAN",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25455",
+        "code": 1205,
+        "cityCode": 17,
+        "name": "BOZCAADA",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25456",
+        "code": 1190,
+        "cityCode": 17,
+        "name": "BİGA",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25457",
+        "code": 1180,
+        "cityCode": 17,
+        "name": "BAYRAMİÇ",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25458",
+        "code": 1160,
+        "cityCode": 17,
+        "name": "AYVACIK",
+        "cityName": "ÇANAKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25459",
+        "code": 1963,
+        "cityCode": 18,
+        "name": "KORGUN",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545c",
+        "code": 1765,
+        "cityCode": 18,
+        "name": "ATKARACALAR",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545b",
+        "code": 1817,
+        "cityCode": 18,
+        "name": "KIZILIRMAK",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545a",
+        "code": 1885,
+        "cityCode": 18,
+        "name": "BAYRAMÖREN",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545d",
+        "code": 1718,
+        "cityCode": 18,
+        "name": "YAPRAKLI",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545e",
+        "code": 1649,
+        "cityCode": 18,
+        "name": "ŞABANÖZÜ",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2545f",
+        "code": 1555,
+        "cityCode": 18,
+        "name": "ORTA",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25460",
+        "code": 1494,
+        "cityCode": 18,
+        "name": "KURŞUNLU",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25461",
+        "code": 1399,
+        "cityCode": 18,
+        "name": "ILGAZ",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25462",
+        "code": 1300,
+        "cityCode": 18,
+        "name": "ELDİVAN",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25463",
+        "code": 1248,
+        "cityCode": 18,
+        "name": "ÇERKEŞ",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25465",
+        "code": 1976,
+        "cityCode": 19,
+        "name": "OĞUZLAR",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25466",
+        "code": 1972,
+        "cityCode": 19,
+        "name": "LAÇİN",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25464",
+        "code": 1232,
+        "cityCode": 18,
+        "name": "MERKEZ",
+        "cityName": "ÇANKIRI"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25467",
+        "code": 1911,
+        "cityCode": 19,
+        "name": "DODURGA",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25468",
+        "code": 1850,
+        "cityCode": 19,
+        "name": "UĞURLUDAĞ",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25469",
+        "code": 1778,
+        "cityCode": 19,
+        "name": "BOĞAZKALE",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546a",
+        "code": 1642,
+        "cityCode": 19,
+        "name": "SUNGURLU",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546b",
+        "code": 1558,
+        "cityCode": 19,
+        "name": "OSMANCIK",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546c",
+        "code": 1556,
+        "cityCode": 19,
+        "name": "ORTAKÖY",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546d",
+        "code": 1520,
+        "cityCode": 19,
+        "name": "MECİTÖZÜ",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25470",
+        "code": 1259,
+        "cityCode": 19,
+        "name": "MERKEZ",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546e",
+        "code": 1445,
+        "cityCode": 19,
+        "name": "KARGI",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2546f",
+        "code": 1414,
+        "cityCode": 19,
+        "name": "İSKİLİP",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25471",
+        "code": 1177,
+        "cityCode": 19,
+        "name": "BAYAT",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25472",
+        "code": 1124,
+        "cityCode": 19,
+        "name": "ALACA",
+        "cityName": "ÇORUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25473",
+        "code": 2079,
+        "cityCode": 20,
+        "name": "MERKEZEFENDİ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25474",
+        "code": 1889,
+        "cityCode": 20,
+        "name": "BOZKURT",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25475",
+        "code": 1888,
+        "cityCode": 20,
+        "name": "BEYAĞAÇ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25476",
+        "code": 1881,
+        "cityCode": 20,
+        "name": "BAKLAN",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25477",
+        "code": 1871,
+        "cityCode": 20,
+        "name": "PAMUKKALE",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25479",
+        "code": 1803,
+        "cityCode": 20,
+        "name": "HONAZ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547a",
+        "code": 1774,
+        "cityCode": 20,
+        "name": "BEKİLLİ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25478",
+        "code": 1840,
+        "cityCode": 20,
+        "name": "SERİNHİSAR",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547b",
+        "code": 1769,
+        "cityCode": 20,
+        "name": "BABADAĞ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547c",
+        "code": 1670,
+        "cityCode": 20,
+        "name": "TAVAS",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547d",
+        "code": 1597,
+        "cityCode": 20,
+        "name": "SARAYKÖY",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547e",
+        "code": 1426,
+        "cityCode": 20,
+        "name": "KALE",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2547f",
+        "code": 1371,
+        "cityCode": 20,
+        "name": "GÜNEY",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25480",
+        "code": 1271,
+        "cityCode": 20,
+        "name": "MERKEZ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25481",
+        "code": 1257,
+        "cityCode": 20,
+        "name": "ÇİVRİL",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25483",
+        "code": 1226,
+        "cityCode": 20,
+        "name": "ÇAMELİ",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25485",
+        "code": 1214,
+        "cityCode": 20,
+        "name": "BULDAN",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25484",
+        "code": 1224,
+        "cityCode": 20,
+        "name": "ÇAL",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25482",
+        "code": 1233,
+        "cityCode": 20,
+        "name": "ÇARDAK",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25486",
+        "code": 1102,
+        "cityCode": 20,
+        "name": "ACIPAYAM",
+        "cityName": "DENİZLİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25487",
+        "code": 2043,
+        "cityCode": 21,
+        "name": "YENİŞEHİR",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25488",
+        "code": 2042,
+        "cityCode": 21,
+        "name": "SUR",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25489",
+        "code": 2041,
+        "cityCode": 21,
+        "name": "KAYAPINAR",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548a",
+        "code": 2040,
+        "cityCode": 21,
+        "name": "BAĞLAR",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548b",
+        "code": 1962,
+        "cityCode": 21,
+        "name": "KOCAKÖY",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548c",
+        "code": 1791,
+        "cityCode": 21,
+        "name": "EĞİL",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548f",
+        "code": 1490,
+        "cityCode": 21,
+        "name": "KULP",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548e",
+        "code": 1504,
+        "cityCode": 21,
+        "name": "LİCE",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2548d",
+        "code": 1624,
+        "cityCode": 21,
+        "name": "SİLVAN",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25490",
+        "code": 1389,
+        "cityCode": 21,
+        "name": "HAZRO",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25493",
+        "code": 1284,
+        "cityCode": 21,
+        "name": "MERKEZ",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25491",
+        "code": 1381,
+        "cityCode": 21,
+        "name": "HANİ",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25492",
+        "code": 1315,
+        "cityCode": 21,
+        "name": "ERGANİ",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25494",
+        "code": 1278,
+        "cityCode": 21,
+        "name": "DİCLE",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25495",
+        "code": 1263,
+        "cityCode": 21,
+        "name": "ÇÜNGÜŞ",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25496",
+        "code": 1253,
+        "cityCode": 21,
+        "name": "ÇINAR",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25497",
+        "code": 1249,
+        "cityCode": 21,
+        "name": "ÇERMİK",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25499",
+        "code": 1988,
+        "cityCode": 22,
+        "name": "SÜLOĞLU",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25498",
+        "code": 1195,
+        "cityCode": 21,
+        "name": "BİSMİL",
+        "cityName": "DİYARBAKIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549a",
+        "code": 1705,
+        "cityCode": 22,
+        "name": "UZUNKÖPRÜ",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549b",
+        "code": 1523,
+        "cityCode": 22,
+        "name": "MERİÇ",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549c",
+        "code": 1502,
+        "cityCode": 22,
+        "name": "LALAPAŞA",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549d",
+        "code": 1464,
+        "cityCode": 22,
+        "name": "KEŞAN",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549e",
+        "code": 1412,
+        "cityCode": 22,
+        "name": "İPSALA",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2549f",
+        "code": 1385,
+        "cityCode": 22,
+        "name": "HAVSA",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a0",
+        "code": 1307,
+        "cityCode": 22,
+        "name": "ENEZ",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a1",
+        "code": 1295,
+        "cityCode": 22,
+        "name": "MERKEZ",
+        "cityName": "EDİRNE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a3",
+        "code": 1820,
+        "cityCode": 23,
+        "name": "KOVANCILAR",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a2",
+        "code": 1873,
+        "cityCode": 23,
+        "name": "ALACAKAYA",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a4",
+        "code": 1762,
+        "cityCode": 23,
+        "name": "ARICAK",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a5",
+        "code": 1631,
+        "cityCode": 23,
+        "name": "SİVRİCE",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a7",
+        "code": 1506,
+        "cityCode": 23,
+        "name": "MADEN",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a6",
+        "code": 1566,
+        "cityCode": 23,
+        "name": "PALU",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a8",
+        "code": 1455,
+        "cityCode": 23,
+        "name": "KEBAN",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254a9",
+        "code": 1438,
+        "cityCode": 23,
+        "name": "KARAKOÇAN",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ab",
+        "code": 1173,
+        "cityCode": 23,
+        "name": "BASKİL",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254aa",
+        "code": 1298,
+        "cityCode": 23,
+        "name": "MERKEZ",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ad",
+        "code": 1977,
+        "cityCode": 24,
+        "name": "OTLUKBELİ",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ac",
+        "code": 1110,
+        "cityCode": 23,
+        "name": "AĞIN",
+        "cityName": "ELAZIĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ae",
+        "code": 1853,
+        "cityCode": 24,
+        "name": "ÜZÜMLÜ",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254af",
+        "code": 1675,
+        "cityCode": 24,
+        "name": "TERCAN",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b2",
+        "code": 1459,
+        "cityCode": 24,
+        "name": "KEMAH",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b0",
+        "code": 1583,
+        "cityCode": 24,
+        "name": "REFAHİYE",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b1",
+        "code": 1460,
+        "cityCode": 24,
+        "name": "KEMALİYE",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b3",
+        "code": 1406,
+        "cityCode": 24,
+        "name": "İLİÇ",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b5",
+        "code": 1243,
+        "cityCode": 24,
+        "name": "ÇAYIRLI",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b4",
+        "code": 1318,
+        "cityCode": 24,
+        "name": "MERKEZ",
+        "cityName": "ERZİNCAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b6",
+        "code": 2045,
+        "cityCode": 25,
+        "name": "YAKUTİYE",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b7",
+        "code": 2044,
+        "cityCode": 25,
+        "name": "PALANDÖKEN",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b8",
+        "code": 1967,
+        "cityCode": 25,
+        "name": "KÖPRÜKÖY",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254b9",
+        "code": 1945,
+        "cityCode": 25,
+        "name": "AZİZİYE",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ba",
+        "code": 1865,
+        "cityCode": 25,
+        "name": "PAZARYOLU",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254bb",
+        "code": 1851,
+        "cityCode": 25,
+        "name": "UZUNDERE",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254bc",
+        "code": 1812,
+        "cityCode": 25,
+        "name": "KARAÇOBAN",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254bd",
+        "code": 1683,
+        "cityCode": 25,
+        "name": "TORTUM",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254be",
+        "code": 1674,
+        "cityCode": 25,
+        "name": "TEKMAN",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254bf",
+        "code": 1657,
+        "cityCode": 25,
+        "name": "ŞENKAYA",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c0",
+        "code": 1567,
+        "cityCode": 25,
+        "name": "PASİNLER",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c2",
+        "code": 1550,
+        "cityCode": 25,
+        "name": "OLTU",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c1",
+        "code": 1551,
+        "cityCode": 25,
+        "name": "OLUR",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c3",
+        "code": 1540,
+        "cityCode": 25,
+        "name": "NARMAN",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c4",
+        "code": 1444,
+        "cityCode": 25,
+        "name": "KARAYAZI",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c5",
+        "code": 1416,
+        "cityCode": 25,
+        "name": "İSPİR",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c7",
+        "code": 1392,
+        "cityCode": 25,
+        "name": "HINIS",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c6",
+        "code": 1396,
+        "cityCode": 25,
+        "name": "HORASAN",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c8",
+        "code": 1319,
+        "cityCode": 25,
+        "name": "MERKEZ",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254c9",
+        "code": 1235,
+        "cityCode": 25,
+        "name": "ÇAT",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ca",
+        "code": 1153,
+        "cityCode": 25,
+        "name": "AŞKALE",
+        "cityName": "ERZURUM"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254cc",
+        "code": 2046,
+        "cityCode": 26,
+        "name": "ODUNPAZARI",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254cb",
+        "code": 2047,
+        "cityCode": 26,
+        "name": "TEPEBAŞI",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254cd",
+        "code": 1973,
+        "cityCode": 26,
+        "name": "MİHALGAZİ",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254cf",
+        "code": 1934,
+        "cityCode": 26,
+        "name": "GÜNYÜZÜ",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ce",
+        "code": 1939,
+        "cityCode": 26,
+        "name": "HAN",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d0",
+        "code": 1808,
+        "cityCode": 26,
+        "name": "İNÖNÜ",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d1",
+        "code": 1777,
+        "cityCode": 26,
+        "name": "BEYLİKOVA",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d3",
+        "code": 1632,
+        "cityCode": 26,
+        "name": "SİVRİHİSAR",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d2",
+        "code": 1759,
+        "cityCode": 26,
+        "name": "ALPU",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d4",
+        "code": 1618,
+        "cityCode": 26,
+        "name": "SEYİTGAZİ",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d5",
+        "code": 1599,
+        "cityCode": 26,
+        "name": "SARICAKAYA",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d7",
+        "code": 1508,
+        "cityCode": 26,
+        "name": "MAHMUDİYE",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d6",
+        "code": 1527,
+        "cityCode": 26,
+        "name": "MİHALIÇÇIK",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254da",
+        "code": 2700,
+        "cityCode": 27,
+        "name": "MERKEZ",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d8",
+        "code": 1322,
+        "cityCode": 26,
+        "name": "MERKEZ",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254d9",
+        "code": 1255,
+        "cityCode": 26,
+        "name": "ÇİFTELER",
+        "cityName": "ESKİŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254db",
+        "code": 1974,
+        "cityCode": 27,
+        "name": "NURDAĞI",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254dc",
+        "code": 1956,
+        "cityCode": 27,
+        "name": "KARKAMIŞ",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254dd",
+        "code": 1844,
+        "cityCode": 27,
+        "name": "ŞEHİTKAMİL",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254de",
+        "code": 1841,
+        "cityCode": 27,
+        "name": "ŞAHİNBEY",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e0",
+        "code": 1549,
+        "cityCode": 27,
+        "name": "OĞUZELİ",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254df",
+        "code": 1720,
+        "cityCode": 27,
+        "name": "YAVUZELİ",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e1",
+        "code": 1546,
+        "cityCode": 27,
+        "name": "NİZİP",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e2",
+        "code": 1415,
+        "cityCode": 27,
+        "name": "İSLAHİYE",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e3",
+        "code": 1139,
+        "cityCode": 27,
+        "name": "ARABAN",
+        "cityName": "GAZİANTEP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e4",
+        "code": 1930,
+        "cityCode": 28,
+        "name": "GÜCE",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e5",
+        "code": 1912,
+        "cityCode": 28,
+        "name": "DOĞANKENT",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e6",
+        "code": 1894,
+        "cityCode": 28,
+        "name": "ÇANAKÇI",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e7",
+        "code": 1893,
+        "cityCode": 28,
+        "name": "ÇAMOLUK",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e8",
+        "code": 1854,
+        "cityCode": 28,
+        "name": "YAĞLIDERE",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ea",
+        "code": 1678,
+        "cityCode": 28,
+        "name": "TİREBOLU",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254e9",
+        "code": 1837,
+        "cityCode": 28,
+        "name": "PİRAZİZ",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254eb",
+        "code": 1654,
+        "cityCode": 28,
+        "name": "ŞEBİNKARAHİSAR",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ee",
+        "code": 1352,
+        "cityCode": 28,
+        "name": "MERKEZ",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ec",
+        "code": 1465,
+        "cityCode": 28,
+        "name": "KEŞAP",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ed",
+        "code": 1361,
+        "cityCode": 28,
+        "name": "GÖRELE",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ef",
+        "code": 1324,
+        "cityCode": 28,
+        "name": "EYNESİL",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f0",
+        "code": 1320,
+        "cityCode": 28,
+        "name": "ESPİYE",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f2",
+        "code": 1212,
+        "cityCode": 28,
+        "name": "BULANCAK",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f1",
+        "code": 1272,
+        "cityCode": 28,
+        "name": "DERELİ",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f4",
+        "code": 1971,
+        "cityCode": 29,
+        "name": "KÜRTÜN",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f3",
+        "code": 1133,
+        "cityCode": 28,
+        "name": "ALUCRA",
+        "cityName": "GİRESUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f5",
+        "code": 1822,
+        "cityCode": 29,
+        "name": "KÖSE",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f6",
+        "code": 1684,
+        "cityCode": 29,
+        "name": "TORUL",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f7",
+        "code": 1660,
+        "cityCode": 29,
+        "name": "ŞİRAN",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f8",
+        "code": 1458,
+        "cityCode": 29,
+        "name": "KELKİT",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254f9",
+        "code": 1369,
+        "cityCode": 29,
+        "name": "MERKEZ",
+        "cityName": "GÜMÜŞHANE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254fa",
+        "code": 1737,
+        "cityCode": 30,
+        "name": "YÜKSEKOVA",
+        "cityName": "HAKKARİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254fb",
+        "code": 1656,
+        "cityCode": 30,
+        "name": "ŞEMDİNLİ",
+        "cityName": "HAKKARİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254fc",
+        "code": 1377,
+        "cityCode": 30,
+        "name": "MERKEZ",
+        "cityName": "HAKKARİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254fd",
+        "code": 1261,
+        "cityCode": 30,
+        "name": "ÇUKURCA",
+        "cityName": "HAKKARİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254fe",
+        "code": 2083,
+        "cityCode": 31,
+        "name": "PAYAS",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d254ff",
+        "code": 2082,
+        "cityCode": 31,
+        "name": "DEFNE",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25500",
+        "code": 2081,
+        "cityCode": 31,
+        "name": "ARSUZ",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25503",
+        "code": 1887,
+        "cityCode": 31,
+        "name": "BELEN",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25501",
+        "code": 2080,
+        "cityCode": 31,
+        "name": "ANTAKYA",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25502",
+        "code": 1970,
+        "cityCode": 31,
+        "name": "KUMLU",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25504",
+        "code": 1792,
+        "cityCode": 31,
+        "name": "ERZİN",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25505",
+        "code": 1721,
+        "cityCode": 31,
+        "name": "YAYLADAĞI",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25506",
+        "code": 1591,
+        "cityCode": 31,
+        "name": "SAMANDAĞ",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25507",
+        "code": 1585,
+        "cityCode": 31,
+        "name": "REYHANLI",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25509",
+        "code": 1413,
+        "cityCode": 31,
+        "name": "İSKENDERUN",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25508",
+        "code": 1468,
+        "cityCode": 31,
+        "name": "KIRIKHAN",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550a",
+        "code": 1383,
+        "cityCode": 31,
+        "name": "MERKEZ",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550b",
+        "code": 1382,
+        "cityCode": 31,
+        "name": "HASSA",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550c",
+        "code": 1289,
+        "cityCode": 31,
+        "name": "DÖRTYOL",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550e",
+        "code": 2001,
+        "cityCode": 32,
+        "name": "YENİŞARBADEMLİ",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550d",
+        "code": 1131,
+        "cityCode": 31,
+        "name": "ALTINÖZÜ",
+        "cityName": "HATAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2550f",
+        "code": 1929,
+        "cityCode": 32,
+        "name": "GÖNEN",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25510",
+        "code": 1755,
+        "cityCode": 32,
+        "name": "AKSU",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25511",
+        "code": 1717,
+        "cityCode": 32,
+        "name": "YALVAÇ",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25512",
+        "code": 1699,
+        "cityCode": 32,
+        "name": "ULUBORLU",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25514",
+        "code": 1648,
+        "cityCode": 32,
+        "name": "SÜTÇÜLER",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25513",
+        "code": 1651,
+        "cityCode": 32,
+        "name": "ŞARKİKARAAĞAÇ",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25515",
+        "code": 1615,
+        "cityCode": 32,
+        "name": "SENİRKENT",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25516",
+        "code": 1456,
+        "cityCode": 32,
+        "name": "KEÇİBORLU",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25517",
+        "code": 1401,
+        "cityCode": 32,
+        "name": "MERKEZ",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25518",
+        "code": 1341,
+        "cityCode": 32,
+        "name": "GELENDOST",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25519",
+        "code": 1297,
+        "cityCode": 32,
+        "name": "EĞİRDİR",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551a",
+        "code": 1154,
+        "cityCode": 32,
+        "name": "ATABEY",
+        "cityName": "ISPARTA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551b",
+        "code": 2067,
+        "cityCode": 33,
+        "name": "YENİŞEHİR",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551c",
+        "code": 2066,
+        "cityCode": 33,
+        "name": "TOROSLAR",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551d",
+        "code": 2065,
+        "cityCode": 33,
+        "name": "MEZİTLİ",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551e",
+        "code": 2064,
+        "cityCode": 33,
+        "name": "AKDENİZ",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2551f",
+        "code": 1892,
+        "cityCode": 33,
+        "name": "ÇAMLIYAYLA",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25521",
+        "code": 1766,
+        "cityCode": 33,
+        "name": "AYDINCIK",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25520",
+        "code": 1779,
+        "cityCode": 33,
+        "name": "BOZYAZI",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25522",
+        "code": 1665,
+        "cityCode": 33,
+        "name": "TARSUS",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25523",
+        "code": 1621,
+        "cityCode": 33,
+        "name": "SİLİFKE",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25524",
+        "code": 1536,
+        "cityCode": 33,
+        "name": "MUT",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25525",
+        "code": 1402,
+        "cityCode": 33,
+        "name": "MERKEZ",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25526",
+        "code": 1366,
+        "cityCode": 33,
+        "name": "GÜLNAR",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25527",
+        "code": 1311,
+        "cityCode": 33,
+        "name": "ERDEMLİ",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25528",
+        "code": 1135,
+        "cityCode": 33,
+        "name": "ANAMUR",
+        "cityName": "MERSİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25529",
+        "code": 2055,
+        "cityCode": 34,
+        "name": "SULTANGAZİ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552a",
+        "code": 2054,
+        "cityCode": 34,
+        "name": "SANCAKTEPE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552b",
+        "code": 2053,
+        "cityCode": 34,
+        "name": "ESENYURT",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552d",
+        "code": 2051,
+        "cityCode": 34,
+        "name": "BEYLİKDÜZÜ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552c",
+        "code": 2052,
+        "cityCode": 34,
+        "name": "ÇEKMEKÖY",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552e",
+        "code": 2050,
+        "cityCode": 34,
+        "name": "BAŞAKŞEHİR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2552f",
+        "code": 2049,
+        "cityCode": 34,
+        "name": "ATAŞEHİR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25530",
+        "code": 2048,
+        "cityCode": 34,
+        "name": "ARNAVUTKÖY",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25532",
+        "code": 2015,
+        "cityCode": 34,
+        "name": "TUZLA",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25531",
+        "code": 2016,
+        "cityCode": 34,
+        "name": "ESENLER",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25534",
+        "code": 2012,
+        "cityCode": 34,
+        "name": "MALTEPE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25533",
+        "code": 2014,
+        "cityCode": 34,
+        "name": "SULTANBEYLİ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25536",
+        "code": 2005,
+        "cityCode": 34,
+        "name": "BAHÇELİEVLER",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25535",
+        "code": 2010,
+        "cityCode": 34,
+        "name": "GÜNGÖREN",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25537",
+        "code": 2004,
+        "cityCode": 34,
+        "name": "BAĞCILAR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25538",
+        "code": 2003,
+        "cityCode": 34,
+        "name": "AVCILAR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25539",
+        "code": 1886,
+        "cityCode": 34,
+        "name": "BAYRAMPAŞA",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553b",
+        "code": 1835,
+        "cityCode": 34,
+        "name": "PENDİK",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553c",
+        "code": 1823,
+        "cityCode": 34,
+        "name": "KÜÇÜKÇEKMECE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553a",
+        "code": 1852,
+        "cityCode": 34,
+        "name": "ÜMRANİYE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553d",
+        "code": 1810,
+        "cityCode": 34,
+        "name": "KAĞITHANE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553e",
+        "code": 1782,
+        "cityCode": 34,
+        "name": "BÜYÜKÇEKMECE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2553f",
+        "code": 1739,
+        "cityCode": 34,
+        "name": "ZEYTİNBURNU",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25541",
+        "code": 1663,
+        "cityCode": 34,
+        "name": "ŞİŞLİ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25540",
+        "code": 1708,
+        "cityCode": 34,
+        "name": "ÜSKÜDAR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25542",
+        "code": 1659,
+        "cityCode": 34,
+        "name": "ŞİLE",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25543",
+        "code": 1622,
+        "cityCode": 34,
+        "name": "SİLİVRİ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25544",
+        "code": 1604,
+        "cityCode": 34,
+        "name": "SARIYER",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25546",
+        "code": 1421,
+        "cityCode": 34,
+        "name": "KADIKÖY",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25545",
+        "code": 1449,
+        "cityCode": 34,
+        "name": "KARTAL",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25547",
+        "code": 1336,
+        "cityCode": 34,
+        "name": "GAZİOSMANPAŞA",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25549",
+        "code": 1325,
+        "cityCode": 34,
+        "name": "EYÜPSULTAN",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25548",
+        "code": 1327,
+        "cityCode": 34,
+        "name": "FATİH",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554a",
+        "code": 1305,
+        "cityCode": 34,
+        "name": "EMİNÖNÜ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554c",
+        "code": 1186,
+        "cityCode": 34,
+        "name": "BEYOĞLU",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554d",
+        "code": 1185,
+        "cityCode": 34,
+        "name": "BEYKOZ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554e",
+        "code": 1183,
+        "cityCode": 34,
+        "name": "BEŞİKTAŞ",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554f",
+        "code": 1166,
+        "cityCode": 34,
+        "name": "BAKIRKÖY",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25552",
+        "code": 2056,
+        "cityCode": 35,
+        "name": "BAYRAKLI",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25551",
+        "code": 2057,
+        "cityCode": 35,
+        "name": "KARABAĞLAR",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25550",
+        "code": 1103,
+        "cityCode": 34,
+        "name": "ADALAR",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25553",
+        "code": 2018,
+        "cityCode": 35,
+        "name": "GÜZELBAHÇE",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25554",
+        "code": 2013,
+        "cityCode": 35,
+        "name": "NARLIDERE",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25555",
+        "code": 2009,
+        "cityCode": 35,
+        "name": "GAZİEMİR",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25556",
+        "code": 2007,
+        "cityCode": 35,
+        "name": "ÇİĞLİ",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25557",
+        "code": 2006,
+        "cityCode": 35,
+        "name": "BALÇOVA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555a",
+        "code": 1780,
+        "cityCode": 35,
+        "name": "BUCA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25559",
+        "code": 1819,
+        "cityCode": 35,
+        "name": "KONAK",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25558",
+        "code": 1826,
+        "cityCode": 35,
+        "name": "MENDERES",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555b",
+        "code": 1776,
+        "cityCode": 35,
+        "name": "BEYDAĞ",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555c",
+        "code": 1703,
+        "cityCode": 35,
+        "name": "URLA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2554b",
+        "code": 1237,
+        "cityCode": 34,
+        "name": "ÇATALCA",
+        "cityName": "İSTANBUL"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555d",
+        "code": 1682,
+        "cityCode": 35,
+        "name": "TORBALI",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555e",
+        "code": 1677,
+        "cityCode": 35,
+        "name": "TİRE",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2555f",
+        "code": 1612,
+        "cityCode": 35,
+        "name": "SELÇUK",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25561",
+        "code": 1563,
+        "cityCode": 35,
+        "name": "ÖDEMİŞ",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25560",
+        "code": 1611,
+        "cityCode": 35,
+        "name": "SEFERİHİSAR",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25562",
+        "code": 1521,
+        "cityCode": 35,
+        "name": "MENEMEN",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25563",
+        "code": 1477,
+        "cityCode": 35,
+        "name": "KİRAZ",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25564",
+        "code": 1467,
+        "cityCode": 35,
+        "name": "KINIK",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25565",
+        "code": 1461,
+        "cityCode": 35,
+        "name": "KEMALPAŞA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25566",
+        "code": 1448,
+        "cityCode": 35,
+        "name": "KARŞIYAKA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25567",
+        "code": 1432,
+        "cityCode": 35,
+        "name": "KARABURUN",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25568",
+        "code": 1334,
+        "cityCode": 35,
+        "name": "FOÇA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25569",
+        "code": 1280,
+        "cityCode": 35,
+        "name": "DİKİLİ",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556a",
+        "code": 1251,
+        "cityCode": 35,
+        "name": "ÇEŞME",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556b",
+        "code": 1203,
+        "cityCode": 35,
+        "name": "BORNOVA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556d",
+        "code": 1178,
+        "cityCode": 35,
+        "name": "BAYINDIR",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556c",
+        "code": 1181,
+        "cityCode": 35,
+        "name": "BERGAMA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556e",
+        "code": 1128,
+        "cityCode": 35,
+        "name": "ALİAĞA",
+        "cityName": "İZMİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2556f",
+        "code": 1756,
+        "cityCode": 36,
+        "name": "AKYAKA",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25570",
+        "code": 1645,
+        "cityCode": 36,
+        "name": "SUSUZ",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25571",
+        "code": 1614,
+        "cityCode": 36,
+        "name": "SELİM",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25572",
+        "code": 1601,
+        "cityCode": 36,
+        "name": "SARIKAMIŞ",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25573",
+        "code": 1447,
+        "cityCode": 36,
+        "name": "MERKEZ",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25574",
+        "code": 1424,
+        "cityCode": 36,
+        "name": "KAĞIZMAN",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25575",
+        "code": 1279,
+        "cityCode": 36,
+        "name": "DİGOR",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25576",
+        "code": 1149,
+        "cityCode": 36,
+        "name": "ARPAÇAY",
+        "cityName": "KARS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25577",
+        "code": 1984,
+        "cityCode": 37,
+        "name": "SEYDİLER",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25578",
+        "code": 1940,
+        "cityCode": 37,
+        "name": "HANÖNÜ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25579",
+        "code": 1915,
+        "cityCode": 37,
+        "name": "DOĞANYURT",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557a",
+        "code": 1867,
+        "cityCode": 37,
+        "name": "AĞLI",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557b",
+        "code": 1845,
+        "cityCode": 37,
+        "name": "ŞENPAZAR",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557c",
+        "code": 1836,
+        "cityCode": 37,
+        "name": "PINARBAŞI",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557d",
+        "code": 1805,
+        "cityCode": 37,
+        "name": "İHSANGAZİ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557e",
+        "code": 1685,
+        "cityCode": 37,
+        "name": "TOSYA",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2557f",
+        "code": 1666,
+        "cityCode": 37,
+        "name": "TAŞKÖPRÜ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25580",
+        "code": 1499,
+        "cityCode": 37,
+        "name": "KÜRE",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25581",
+        "code": 1450,
+        "cityCode": 37,
+        "name": "MERKEZ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25582",
+        "code": 1410,
+        "cityCode": 37,
+        "name": "İNEBOLU",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25583",
+        "code": 1277,
+        "cityCode": 37,
+        "name": "DEVREKANİ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25584",
+        "code": 1264,
+        "cityCode": 37,
+        "name": "DADAY",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25585",
+        "code": 1238,
+        "cityCode": 37,
+        "name": "ÇATALZEYTİN",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25586",
+        "code": 1221,
+        "cityCode": 37,
+        "name": "CİDE",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25587",
+        "code": 1208,
+        "cityCode": 37,
+        "name": "BOZKURT",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25588",
+        "code": 1162,
+        "cityCode": 37,
+        "name": "AZDAVAY",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25589",
+        "code": 1140,
+        "cityCode": 37,
+        "name": "ARAÇ",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558a",
+        "code": 1101,
+        "cityCode": 37,
+        "name": "ABANA",
+        "cityName": "KASTAMONU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558b",
+        "code": 1978,
+        "cityCode": 38,
+        "name": "ÖZVATAN",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558c",
+        "code": 1936,
+        "cityCode": 38,
+        "name": "HACILAR",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558d",
+        "code": 1864,
+        "cityCode": 38,
+        "name": "MELİKGAZİ",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558e",
+        "code": 1863,
+        "cityCode": 38,
+        "name": "KOCASİNAN",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2558f",
+        "code": 1846,
+        "cityCode": 38,
+        "name": "TALAS",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25590",
+        "code": 1752,
+        "cityCode": 38,
+        "name": "AKKIŞLA",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25591",
+        "code": 1727,
+        "cityCode": 38,
+        "name": "YEŞİLHİSAR",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25592",
+        "code": 1715,
+        "cityCode": 38,
+        "name": "YAHYALI",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25593",
+        "code": 1680,
+        "cityCode": 38,
+        "name": "TOMARZA",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25594",
+        "code": 1605,
+        "cityCode": 38,
+        "name": "SARIZ",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25595",
+        "code": 1603,
+        "cityCode": 38,
+        "name": "SARIOĞLAN",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25596",
+        "code": 1576,
+        "cityCode": 38,
+        "name": "PINARBAŞI",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25597",
+        "code": 1409,
+        "cityCode": 38,
+        "name": "İNCESU",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25598",
+        "code": 1330,
+        "cityCode": 38,
+        "name": "FELAHİYE",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25599",
+        "code": 1275,
+        "cityCode": 38,
+        "name": "DEVELİ",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559a",
+        "code": 1218,
+        "cityCode": 38,
+        "name": "BÜNYAN",
+        "cityName": "KAYSERİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559b",
+        "code": 1714,
+        "cityCode": 39,
+        "name": "VİZE",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559c",
+        "code": 1577,
+        "cityCode": 39,
+        "name": "PINARHİSAR",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559f",
+        "code": 1480,
+        "cityCode": 39,
+        "name": "KOFÇAZ",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559e",
+        "code": 1505,
+        "cityCode": 39,
+        "name": "LÜLEBURGAZ",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2559d",
+        "code": 1572,
+        "cityCode": 39,
+        "name": "PEHLİVANKÖY",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a0",
+        "code": 1471,
+        "cityCode": 39,
+        "name": "MERKEZ",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a1",
+        "code": 1270,
+        "cityCode": 39,
+        "name": "DEMİRKÖY",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a2",
+        "code": 1163,
+        "cityCode": 39,
+        "name": "BABAESKİ",
+        "cityName": "KIRKLARELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a3",
+        "code": 1890,
+        "cityCode": 40,
+        "name": "BOZTEPE",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a4",
+        "code": 1869,
+        "cityCode": 40,
+        "name": "AKÇAKENT",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a5",
+        "code": 1754,
+        "cityCode": 40,
+        "name": "AKPINAR",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a6",
+        "code": 1529,
+        "cityCode": 40,
+        "name": "MUCUR",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a7",
+        "code": 1472,
+        "cityCode": 40,
+        "name": "MERKEZ",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a8",
+        "code": 1429,
+        "cityCode": 40,
+        "name": "KAMAN",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255a9",
+        "code": 1254,
+        "cityCode": 40,
+        "name": "ÇİÇEKDAĞI",
+        "cityName": "KIRŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255aa",
+        "code": 2063,
+        "cityCode": 41,
+        "name": "KARTEPE",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ac",
+        "code": 2061,
+        "cityCode": 41,
+        "name": "DİLOVASI",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ab",
+        "code": 2062,
+        "cityCode": 41,
+        "name": "İZMİT",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ad",
+        "code": 2060,
+        "cityCode": 41,
+        "name": "DARICA",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ae",
+        "code": 2059,
+        "cityCode": 41,
+        "name": "ÇAYIROVA",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255af",
+        "code": 2058,
+        "cityCode": 41,
+        "name": "BAŞİSKELE",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b0",
+        "code": 2030,
+        "cityCode": 41,
+        "name": "DERİNCE",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b1",
+        "code": 1821,
+        "cityCode": 41,
+        "name": "KÖRFEZ",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b2",
+        "code": 1478,
+        "cityCode": 41,
+        "name": "MERKEZ",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b3",
+        "code": 1440,
+        "cityCode": 41,
+        "name": "KARAMÜRSEL",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b4",
+        "code": 1430,
+        "cityCode": 41,
+        "name": "KANDIRA",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b5",
+        "code": 1355,
+        "cityCode": 41,
+        "name": "GÖLCÜK",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b6",
+        "code": 1338,
+        "cityCode": 41,
+        "name": "GEBZE",
+        "cityName": "KOCAELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b7",
+        "code": 1994,
+        "cityCode": 42,
+        "name": "YALIHÜYÜK",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b8",
+        "code": 1990,
+        "cityCode": 42,
+        "name": "TUZLUKÇU",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255b9",
+        "code": 1937,
+        "cityCode": 42,
+        "name": "HALKAPINAR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ba",
+        "code": 1933,
+        "cityCode": 42,
+        "name": "GÜNEYSINIR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255bb",
+        "code": 1920,
+        "cityCode": 42,
+        "name": "EMİRGAZİ",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255bd",
+        "code": 1902,
+        "cityCode": 42,
+        "name": "ÇELTİK",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255bc",
+        "code": 1907,
+        "cityCode": 42,
+        "name": "DERBENT",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255be",
+        "code": 1868,
+        "cityCode": 42,
+        "name": "AHIRLI",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255bf",
+        "code": 1848,
+        "cityCode": 42,
+        "name": "TAŞKENT",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c0",
+        "code": 1839,
+        "cityCode": 42,
+        "name": "SELÇUKLU",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c2",
+        "code": 1814,
+        "cityCode": 42,
+        "name": "KARATAY",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c1",
+        "code": 1827,
+        "cityCode": 42,
+        "name": "MERAM",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c3",
+        "code": 1804,
+        "cityCode": 42,
+        "name": "HÜYÜK",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c4",
+        "code": 1789,
+        "cityCode": 42,
+        "name": "DEREBUCAK",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c5",
+        "code": 1760,
+        "cityCode": 42,
+        "name": "ALTINEKİN",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c6",
+        "code": 1753,
+        "cityCode": 42,
+        "name": "AKÖREN",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c7",
+        "code": 1735,
+        "cityCode": 42,
+        "name": "YUNAK",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c8",
+        "code": 1617,
+        "cityCode": 42,
+        "name": "SEYDİŞEHİR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255c9",
+        "code": 1598,
+        "cityCode": 42,
+        "name": "SARAYÖNÜ",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ca",
+        "code": 1491,
+        "cityCode": 42,
+        "name": "KULU",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255cb",
+        "code": 1441,
+        "cityCode": 42,
+        "name": "KARAPINAR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255cc",
+        "code": 1422,
+        "cityCode": 42,
+        "name": "KADINHANI",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255cd",
+        "code": 1400,
+        "cityCode": 42,
+        "name": "ILGIN",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ce",
+        "code": 1375,
+        "cityCode": 42,
+        "name": "HADİM",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255cf",
+        "code": 1312,
+        "cityCode": 42,
+        "name": "EREĞLİ",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d0",
+        "code": 1285,
+        "cityCode": 42,
+        "name": "DOĞANHİSAR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d2",
+        "code": 1222,
+        "cityCode": 42,
+        "name": "CİHANBEYLİ",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d1",
+        "code": 1262,
+        "cityCode": 42,
+        "name": "ÇUMRA",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d3",
+        "code": 1207,
+        "cityCode": 42,
+        "name": "BOZKIR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d4",
+        "code": 1188,
+        "cityCode": 42,
+        "name": "BEYŞEHİR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d5",
+        "code": 1122,
+        "cityCode": 42,
+        "name": "AKŞEHİR",
+        "cityName": "KONYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d6",
+        "code": 1979,
+        "cityCode": 43,
+        "name": "PAZARLAR",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d7",
+        "code": 1898,
+        "cityCode": 43,
+        "name": "ÇAVDARHİSAR",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d8",
+        "code": 1843,
+        "cityCode": 43,
+        "name": "ŞAPHANE",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255d9",
+        "code": 1802,
+        "cityCode": 43,
+        "name": "HİSARCIK",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255da",
+        "code": 1790,
+        "cityCode": 43,
+        "name": "DUMLUPINAR",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255dc",
+        "code": 1671,
+        "cityCode": 43,
+        "name": "TAVŞANLI",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255db",
+        "code": 1764,
+        "cityCode": 43,
+        "name": "ASLANAPA",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255dd",
+        "code": 1625,
+        "cityCode": 43,
+        "name": "SİMAV",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255de",
+        "code": 1500,
+        "cityCode": 43,
+        "name": "MERKEZ",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255df",
+        "code": 1339,
+        "cityCode": 43,
+        "name": "GEDİZ",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e0",
+        "code": 1304,
+        "cityCode": 43,
+        "name": "EMET",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e1",
+        "code": 1288,
+        "cityCode": 43,
+        "name": "DOMANİÇ",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e2",
+        "code": 1132,
+        "cityCode": 43,
+        "name": "ALTINTAŞ",
+        "cityName": "KÜTAHYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e3",
+        "code": 1995,
+        "cityCode": 44,
+        "name": "YAZIHAN",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e4",
+        "code": 1969,
+        "cityCode": 44,
+        "name": "KULUNCAK",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e6",
+        "code": 1914,
+        "cityCode": 44,
+        "name": "DOĞANYOL",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e5",
+        "code": 1953,
+        "cityCode": 44,
+        "name": "KALE",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e7",
+        "code": 1772,
+        "cityCode": 44,
+        "name": "BATTALGAZİ",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e8",
+        "code": 1729,
+        "cityCode": 44,
+        "name": "YEŞİLYURT",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255e9",
+        "code": 1582,
+        "cityCode": 44,
+        "name": "PÜTÜRGE",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ea",
+        "code": 1509,
+        "cityCode": 44,
+        "name": "MERKEZ",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255eb",
+        "code": 1390,
+        "cityCode": 44,
+        "name": "HEKİMHAN",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ec",
+        "code": 1286,
+        "cityCode": 44,
+        "name": "DOĞANŞEHİR",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ed",
+        "code": 1265,
+        "cityCode": 44,
+        "name": "DARENDE",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ee",
+        "code": 1148,
+        "cityCode": 44,
+        "name": "ARGUVAN",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f0",
+        "code": 1114,
+        "cityCode": 44,
+        "name": "AKÇADAĞ",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ef",
+        "code": 1143,
+        "cityCode": 44,
+        "name": "ARAPGİR",
+        "cityName": "MALATYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f1",
+        "code": 2087,
+        "cityCode": 45,
+        "name": "YUNUSEMRE",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f3",
+        "code": 1965,
+        "cityCode": 45,
+        "name": "KÖPRÜBAŞI",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f2",
+        "code": 2086,
+        "cityCode": 45,
+        "name": "ŞEHZADELER",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f4",
+        "code": 1793,
+        "cityCode": 45,
+        "name": "GÖLMARMARA",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f5",
+        "code": 1751,
+        "cityCode": 45,
+        "name": "AHMETLİ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f6",
+        "code": 1689,
+        "cityCode": 45,
+        "name": "TURGUTLU",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f9",
+        "code": 1606,
+        "cityCode": 45,
+        "name": "SARUHANLI",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f8",
+        "code": 1613,
+        "cityCode": 45,
+        "name": "SELENDİ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255fa",
+        "code": 1600,
+        "cityCode": 45,
+        "name": "SARIGÖL",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255f7",
+        "code": 1634,
+        "cityCode": 45,
+        "name": "SOMA",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255fb",
+        "code": 1590,
+        "cityCode": 45,
+        "name": "SALİHLİ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255fc",
+        "code": 1513,
+        "cityCode": 45,
+        "name": "MERKEZ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255fd",
+        "code": 1489,
+        "cityCode": 45,
+        "name": "KULA",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255fe",
+        "code": 1470,
+        "cityCode": 45,
+        "name": "KIRKAĞAÇ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25600",
+        "code": 1269,
+        "cityCode": 45,
+        "name": "DEMİRCİ",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d255ff",
+        "code": 1362,
+        "cityCode": 45,
+        "name": "GÖRDES",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25601",
+        "code": 1127,
+        "cityCode": 45,
+        "name": "ALAŞEHİR",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25602",
+        "code": 1118,
+        "cityCode": 45,
+        "name": "AKHİSAR",
+        "cityName": "MANİSA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25604",
+        "code": 2084,
+        "cityCode": 46,
+        "name": "DULKADİROĞLU",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25603",
+        "code": 2085,
+        "cityCode": 46,
+        "name": "ONİKİŞUBAT",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25605",
+        "code": 1975,
+        "cityCode": 46,
+        "name": "NURHAK",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25606",
+        "code": 1919,
+        "cityCode": 46,
+        "name": "EKİNÖZÜ",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25607",
+        "code": 1785,
+        "cityCode": 46,
+        "name": "ÇAĞLAYANCERİT",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25608",
+        "code": 1694,
+        "cityCode": 46,
+        "name": "TÜRKOĞLU",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25609",
+        "code": 1570,
+        "cityCode": 46,
+        "name": "PAZARCIK",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560a",
+        "code": 1515,
+        "cityCode": 46,
+        "name": "MERKEZ",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560b",
+        "code": 1353,
+        "cityCode": 46,
+        "name": "GÖKSUN",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560c",
+        "code": 1299,
+        "cityCode": 46,
+        "name": "ELBİSTAN",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560e",
+        "code": 1107,
+        "cityCode": 46,
+        "name": "AFŞİN",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560d",
+        "code": 1136,
+        "cityCode": 46,
+        "name": "ANDIRIN",
+        "cityName": "KAHRAMANMARAŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2560f",
+        "code": 2088,
+        "cityCode": 47,
+        "name": "ARTUKLU",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25610",
+        "code": 2002,
+        "cityCode": 47,
+        "name": "YEŞİLLİ",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25612",
+        "code": 1609,
+        "cityCode": 47,
+        "name": "SAVUR",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25613",
+        "code": 1564,
+        "cityCode": 47,
+        "name": "ÖMERLİ",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25614",
+        "code": 1547,
+        "cityCode": 47,
+        "name": "NUSAYBİN",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25611",
+        "code": 1787,
+        "cityCode": 47,
+        "name": "DARGEÇİT",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25616",
+        "code": 1519,
+        "cityCode": 47,
+        "name": "MAZIDAĞI",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25615",
+        "code": 1526,
+        "cityCode": 47,
+        "name": "MİDYAT",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25617",
+        "code": 1516,
+        "cityCode": 47,
+        "name": "MERKEZ",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25618",
+        "code": 1474,
+        "cityCode": 47,
+        "name": "KIZILTEPE",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561b",
+        "code": 2089,
+        "cityCode": 48,
+        "name": "MENTEŞE",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561a",
+        "code": 2090,
+        "cityCode": 48,
+        "name": "SEYDİKEMER",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25619",
+        "code": 1273,
+        "cityCode": 47,
+        "name": "DERİK",
+        "cityName": "MARDİN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561c",
+        "code": 1958,
+        "cityCode": 48,
+        "name": "KAVAKLIDERE",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561d",
+        "code": 1831,
+        "cityCode": 48,
+        "name": "ORTACA",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561e",
+        "code": 1742,
+        "cityCode": 48,
+        "name": "DALAMAN",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25620",
+        "code": 1695,
+        "cityCode": 48,
+        "name": "ULA",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2561f",
+        "code": 1719,
+        "cityCode": 48,
+        "name": "YATAĞAN",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25621",
+        "code": 1532,
+        "cityCode": 48,
+        "name": "MERKEZ",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25622",
+        "code": 1528,
+        "cityCode": 48,
+        "name": "MİLAS",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25623",
+        "code": 1517,
+        "cityCode": 48,
+        "name": "MARMARİS",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25625",
+        "code": 1331,
+        "cityCode": 48,
+        "name": "FETHİYE",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25624",
+        "code": 1488,
+        "cityCode": 48,
+        "name": "KÖYCEĞİZ",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25628",
+        "code": 1964,
+        "cityCode": 49,
+        "name": "KORKUT",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25626",
+        "code": 1266,
+        "cityCode": 48,
+        "name": "DATÇA",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25627",
+        "code": 1197,
+        "cityCode": 48,
+        "name": "BODRUM",
+        "cityName": "MUĞLA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25629",
+        "code": 1801,
+        "cityCode": 49,
+        "name": "HASKÖY",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562a",
+        "code": 1711,
+        "cityCode": 49,
+        "name": "VARTO",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562b",
+        "code": 1534,
+        "cityCode": 49,
+        "name": "MERKEZ",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562c",
+        "code": 1510,
+        "cityCode": 49,
+        "name": "MALAZGİRT",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562d",
+        "code": 1213,
+        "cityCode": 49,
+        "name": "BULANIK",
+        "cityName": "MUŞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562f",
+        "code": 1707,
+        "cityCode": 50,
+        "name": "ÜRGÜP",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2562e",
+        "code": 1749,
+        "cityCode": 50,
+        "name": "ACIGÖL",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25630",
+        "code": 1543,
+        "cityCode": 50,
+        "name": "MERKEZ",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25631",
+        "code": 1485,
+        "cityCode": 50,
+        "name": "KOZAKLI",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25632",
+        "code": 1374,
+        "cityCode": 50,
+        "name": "HACIBEKTAŞ",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25633",
+        "code": 1367,
+        "cityCode": 50,
+        "name": "GÜLŞEHİR",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25634",
+        "code": 1274,
+        "cityCode": 50,
+        "name": "DERİNKUYU",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25635",
+        "code": 1155,
+        "cityCode": 50,
+        "name": "AVANOS",
+        "cityName": "NEVŞEHİR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25636",
+        "code": 1904,
+        "cityCode": 51,
+        "name": "ÇİFTLİK",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25637",
+        "code": 1876,
+        "cityCode": 51,
+        "name": "ALTUNHİSAR",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25638",
+        "code": 1700,
+        "cityCode": 51,
+        "name": "ULUKIŞLA",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25639",
+        "code": 1544,
+        "cityCode": 51,
+        "name": "MERKEZ",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563b",
+        "code": 1201,
+        "cityCode": 51,
+        "name": "BOR",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563a",
+        "code": 1225,
+        "cityCode": 51,
+        "name": "ÇAMARDI",
+        "cityName": "NİĞDE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563c",
+        "code": 2103,
+        "cityCode": 52,
+        "name": "ALTINORDU",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563e",
+        "code": 1950,
+        "cityCode": 52,
+        "name": "KABADÜZ",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563d",
+        "code": 1951,
+        "cityCode": 52,
+        "name": "KABATAŞ",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2563f",
+        "code": 1947,
+        "cityCode": 52,
+        "name": "İKİZCE",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25640",
+        "code": 1900,
+        "cityCode": 52,
+        "name": "ÇAYBAŞI",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25641",
+        "code": 1897,
+        "cityCode": 52,
+        "name": "ÇATALPINAR",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25642",
+        "code": 1891,
+        "cityCode": 52,
+        "name": "ÇAMAŞ",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25643",
+        "code": 1797,
+        "cityCode": 52,
+        "name": "GÜRGENTEPE",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25644",
+        "code": 1795,
+        "cityCode": 52,
+        "name": "GÜLYALI",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25645",
+        "code": 1706,
+        "cityCode": 52,
+        "name": "ÜNYE",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25646",
+        "code": 1696,
+        "cityCode": 52,
+        "name": "ULUBEY",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25648",
+        "code": 1552,
+        "cityCode": 52,
+        "name": "MERKEZ",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25647",
+        "code": 1573,
+        "cityCode": 52,
+        "name": "PERŞEMBE",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25649",
+        "code": 1525,
+        "cityCode": 52,
+        "name": "MESUDİYE",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564b",
+        "code": 1482,
+        "cityCode": 52,
+        "name": "KORGAN",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564a",
+        "code": 1493,
+        "cityCode": 52,
+        "name": "KUMRU",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564c",
+        "code": 1358,
+        "cityCode": 52,
+        "name": "GÖLKÖY",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564d",
+        "code": 1328,
+        "cityCode": 52,
+        "name": "FATSA",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564e",
+        "code": 1158,
+        "cityCode": 52,
+        "name": "AYBASTI",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2564f",
+        "code": 1119,
+        "cityCode": 52,
+        "name": "AKKUŞ",
+        "cityName": "ORDU"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25650",
+        "code": 1949,
+        "cityCode": 53,
+        "name": "İYİDERE",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25652",
+        "code": 1908,
+        "cityCode": 53,
+        "name": "DEREPAZARI",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25651",
+        "code": 1943,
+        "cityCode": 53,
+        "name": "HEMŞİN",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25653",
+        "code": 1796,
+        "cityCode": 53,
+        "name": "GÜNEYSU",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25654",
+        "code": 1586,
+        "cityCode": 53,
+        "name": "MERKEZ",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25655",
+        "code": 1569,
+        "cityCode": 53,
+        "name": "PAZAR",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25656",
+        "code": 1428,
+        "cityCode": 53,
+        "name": "KALKANDERE",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25657",
+        "code": 1405,
+        "cityCode": 53,
+        "name": "İKİZDERE",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25658",
+        "code": 1332,
+        "cityCode": 53,
+        "name": "FINDIKLI",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25659",
+        "code": 1241,
+        "cityCode": 53,
+        "name": "ÇAYELİ",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565a",
+        "code": 1228,
+        "cityCode": 53,
+        "name": "ÇAMLIHEMŞİN",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565c",
+        "code": 2071,
+        "cityCode": 54,
+        "name": "SERDİVAN",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565b",
+        "code": 1146,
+        "cityCode": 53,
+        "name": "ARDEŞEN",
+        "cityName": "RİZE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565d",
+        "code": 2070,
+        "cityCode": 54,
+        "name": "ERENLER",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565e",
+        "code": 2069,
+        "cityCode": 54,
+        "name": "ARİFİYE",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25660",
+        "code": 1986,
+        "cityCode": 54,
+        "name": "SÖĞÜTLÜ",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2565f",
+        "code": 2068,
+        "cityCode": 54,
+        "name": "ADAPAZARI",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25661",
+        "code": 1955,
+        "cityCode": 54,
+        "name": "KARAPÜRÇEK",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25662",
+        "code": 1925,
+        "cityCode": 54,
+        "name": "FERİZLİ",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25663",
+        "code": 1847,
+        "cityCode": 54,
+        "name": "TARAKLI",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25664",
+        "code": 1833,
+        "cityCode": 54,
+        "name": "PAMUKOVA",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25665",
+        "code": 1818,
+        "cityCode": 54,
+        "name": "KOCAALİ",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25666",
+        "code": 1595,
+        "cityCode": 54,
+        "name": "SAPANCA",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25667",
+        "code": 1589,
+        "cityCode": 54,
+        "name": "MERKEZ",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25668",
+        "code": 1453,
+        "cityCode": 54,
+        "name": "KAYNARCA",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25669",
+        "code": 1442,
+        "cityCode": 54,
+        "name": "KARASU",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566a",
+        "code": 1391,
+        "cityCode": 54,
+        "name": "HENDEK",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566b",
+        "code": 1351,
+        "cityCode": 54,
+        "name": "GEYVE",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566c",
+        "code": 1123,
+        "cityCode": 54,
+        "name": "AKYAZI",
+        "cityName": "SAKARYA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566d",
+        "code": 2074,
+        "cityCode": 55,
+        "name": "İLKADIM",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566f",
+        "code": 2072,
+        "cityCode": 55,
+        "name": "ATAKUM",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2566e",
+        "code": 2073,
+        "cityCode": 55,
+        "name": "CANİK",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25670",
+        "code": 1993,
+        "cityCode": 55,
+        "name": "YAKAKENT",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25671",
+        "code": 1879,
+        "cityCode": 55,
+        "name": "AYVACIK",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25672",
+        "code": 1849,
+        "cityCode": 55,
+        "name": "TEKKEKÖY",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25674",
+        "code": 1830,
+        "cityCode": 55,
+        "name": "19 MAYIS",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25673",
+        "code": 1838,
+        "cityCode": 55,
+        "name": "SALIPAZARI",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25675",
+        "code": 1763,
+        "cityCode": 55,
+        "name": "ASARCIK",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25676",
+        "code": 1712,
+        "cityCode": 55,
+        "name": "VEZİRKÖPRÜ",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25677",
+        "code": 1676,
+        "cityCode": 55,
+        "name": "TERME",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25679",
+        "code": 1501,
+        "cityCode": 55,
+        "name": "LADİK",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567a",
+        "code": 1452,
+        "cityCode": 55,
+        "name": "KAVAK",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25678",
+        "code": 1593,
+        "cityCode": 55,
+        "name": "MERKEZ",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567b",
+        "code": 1386,
+        "cityCode": 55,
+        "name": "HAVZA",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567c",
+        "code": 1234,
+        "cityCode": 55,
+        "name": "ÇARŞAMBA",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567e",
+        "code": 1125,
+        "cityCode": 55,
+        "name": "ALAÇAM",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567d",
+        "code": 1164,
+        "cityCode": 55,
+        "name": "BAFRA",
+        "cityName": "SAMSUN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2567f",
+        "code": 1878,
+        "cityCode": 56,
+        "name": "TİLLO",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25680",
+        "code": 1662,
+        "cityCode": 56,
+        "name": "ŞİRVAN",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25681",
+        "code": 1620,
+        "cityCode": 56,
+        "name": "MERKEZ",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25682",
+        "code": 1575,
+        "cityCode": 56,
+        "name": "PERVARİ",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25683",
+        "code": 1495,
+        "cityCode": 56,
+        "name": "KURTALAN",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25684",
+        "code": 1317,
+        "cityCode": 56,
+        "name": "ERUH",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25685",
+        "code": 1179,
+        "cityCode": 56,
+        "name": "BAYKAN",
+        "cityName": "SİİRT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25686",
+        "code": 1981,
+        "cityCode": 57,
+        "name": "SARAYDÜZÜ",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25688",
+        "code": 1693,
+        "cityCode": 57,
+        "name": "TÜRKELİ",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25687",
+        "code": 1910,
+        "cityCode": 57,
+        "name": "DİKMEN",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25689",
+        "code": 1627,
+        "cityCode": 57,
+        "name": "MERKEZ",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568a",
+        "code": 1349,
+        "cityCode": 57,
+        "name": "GERZE",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568b",
+        "code": 1314,
+        "cityCode": 57,
+        "name": "ERFELEK",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568c",
+        "code": 1290,
+        "cityCode": 57,
+        "name": "DURAĞAN",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568d",
+        "code": 1204,
+        "cityCode": 57,
+        "name": "BOYABAT",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568e",
+        "code": 1156,
+        "cityCode": 57,
+        "name": "AYANCIK",
+        "cityName": "SİNOP"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2568f",
+        "code": 1991,
+        "cityCode": 58,
+        "name": "ULAŞ",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25690",
+        "code": 1927,
+        "cityCode": 58,
+        "name": "GÖLOVA",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25692",
+        "code": 1875,
+        "cityCode": 58,
+        "name": "ALTINYAYLA",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25691",
+        "code": 1913,
+        "cityCode": 58,
+        "name": "DOĞANŞAR",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25693",
+        "code": 1870,
+        "cityCode": 58,
+        "name": "AKINCILAR",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25694",
+        "code": 1738,
+        "cityCode": 58,
+        "name": "ZARA",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25695",
+        "code": 1731,
+        "cityCode": 58,
+        "name": "YILDIZELİ",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25696",
+        "code": 1650,
+        "cityCode": 58,
+        "name": "ŞARKIŞLA",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25697",
+        "code": 1646,
+        "cityCode": 58,
+        "name": "SUŞEHRİ",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25698",
+        "code": 1628,
+        "cityCode": 58,
+        "name": "MERKEZ",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25699",
+        "code": 1484,
+        "cityCode": 58,
+        "name": "KOYULHİSAR",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569a",
+        "code": 1431,
+        "cityCode": 58,
+        "name": "KANGAL",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569c",
+        "code": 1376,
+        "cityCode": 58,
+        "name": "HAFİK",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569b",
+        "code": 1407,
+        "cityCode": 58,
+        "name": "İMRANLI",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569d",
+        "code": 1373,
+        "cityCode": 58,
+        "name": "GÜRÜN",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569e",
+        "code": 1342,
+        "cityCode": 58,
+        "name": "GEMEREK",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2569f",
+        "code": 1282,
+        "cityCode": 58,
+        "name": "DİVRİĞİ",
+        "cityName": "SİVAS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a0",
+        "code": 2096,
+        "cityCode": 59,
+        "name": "SÜLEYMANPAŞA",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a1",
+        "code": 2095,
+        "cityCode": 59,
+        "name": "KAPAKLI",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a2",
+        "code": 2094,
+        "cityCode": 59,
+        "name": "ERGENE",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a3",
+        "code": 1825,
+        "cityCode": 59,
+        "name": "MARMARAEREĞLİSİ",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a4",
+        "code": 1673,
+        "cityCode": 59,
+        "name": "MERKEZ",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a6",
+        "code": 1596,
+        "cityCode": 59,
+        "name": "SARAY",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a5",
+        "code": 1652,
+        "cityCode": 59,
+        "name": "ŞARKÖY",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a7",
+        "code": 1538,
+        "cityCode": 59,
+        "name": "MURATLI",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a8",
+        "code": 1511,
+        "cityCode": 59,
+        "name": "MALKARA",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256a9",
+        "code": 1388,
+        "cityCode": 59,
+        "name": "HAYRABOLU",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ab",
+        "code": 1250,
+        "cityCode": 59,
+        "name": "ÇERKEZKÖY",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ac",
+        "code": 1987,
+        "cityCode": 60,
+        "name": "SULUSARAY",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b0",
+        "code": 1740,
+        "cityCode": 60,
+        "name": "ZİLE",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256af",
+        "code": 1834,
+        "cityCode": 60,
+        "name": "PAZAR",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ae",
+        "code": 1858,
+        "cityCode": 60,
+        "name": "YEŞİLYURT",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256aa",
+        "code": 1258,
+        "cityCode": 59,
+        "name": "ÇORLU",
+        "cityName": "TEKİRDAĞ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ad",
+        "code": 1883,
+        "cityCode": 60,
+        "name": "BAŞÇİFTLİK",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b2",
+        "code": 1679,
+        "cityCode": 60,
+        "name": "MERKEZ",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b1",
+        "code": 1690,
+        "cityCode": 60,
+        "name": "TURHAL",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b4",
+        "code": 1545,
+        "cityCode": 60,
+        "name": "NİKSAR",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b5",
+        "code": 1308,
+        "cityCode": 60,
+        "name": "ERBAA",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b6",
+        "code": 1151,
+        "cityCode": 60,
+        "name": "ARTOVA",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b3",
+        "code": 1584,
+        "cityCode": 60,
+        "name": "REŞADİYE",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b7",
+        "code": 1129,
+        "cityCode": 60,
+        "name": "ALMUS",
+        "cityName": "TOKAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b8",
+        "code": 2097,
+        "cityCode": 61,
+        "name": "ORTAHİSAR",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256b9",
+        "code": 1966,
+        "cityCode": 61,
+        "name": "KÖPRÜBAŞI",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ba",
+        "code": 1942,
+        "cityCode": 61,
+        "name": "HAYRAT",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256bc",
+        "code": 1909,
+        "cityCode": 61,
+        "name": "DERNEKPAZARI",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256bb",
+        "code": 1917,
+        "cityCode": 61,
+        "name": "DÜZKÖY",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256bd",
+        "code": 1896,
+        "cityCode": 61,
+        "name": "ÇARŞIBAŞI",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256be",
+        "code": 1842,
+        "cityCode": 61,
+        "name": "ŞALPAZARI",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256bf",
+        "code": 1775,
+        "cityCode": 61,
+        "name": "BEŞİKDÜZÜ",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c1",
+        "code": 1709,
+        "cityCode": 61,
+        "name": "VAKFIKEBİR",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c0",
+        "code": 1732,
+        "cityCode": 61,
+        "name": "YOMRA",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c2",
+        "code": 1686,
+        "cityCode": 61,
+        "name": "MERKEZ",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c4",
+        "code": 1647,
+        "cityCode": 61,
+        "name": "SÜRMENE",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c3",
+        "code": 1681,
+        "cityCode": 61,
+        "name": "TONYA",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c6",
+        "code": 1507,
+        "cityCode": 61,
+        "name": "MAÇKA",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c5",
+        "code": 1548,
+        "cityCode": 61,
+        "name": "OF",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c7",
+        "code": 1244,
+        "cityCode": 61,
+        "name": "ÇAYKARA",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c8",
+        "code": 1150,
+        "cityCode": 61,
+        "name": "ARSİN",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256c9",
+        "code": 1141,
+        "cityCode": 61,
+        "name": "ARAKLI",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256cb",
+        "code": 1688,
+        "cityCode": 62,
+        "name": "MERKEZ",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ca",
+        "code": 1113,
+        "cityCode": 61,
+        "name": "AKÇAABAT",
+        "cityName": "TRABZON"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256cc",
+        "code": 1581,
+        "cityCode": 62,
+        "name": "PÜLÜMÜR",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256cd",
+        "code": 1574,
+        "cityCode": 62,
+        "name": "PERTEK",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ce",
+        "code": 1562,
+        "cityCode": 62,
+        "name": "OVACIK",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d0",
+        "code": 1518,
+        "cityCode": 62,
+        "name": "MAZGİRT",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256cf",
+        "code": 1541,
+        "cityCode": 62,
+        "name": "NAZIMİYE",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d1",
+        "code": 1397,
+        "cityCode": 62,
+        "name": "HOZAT",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d2",
+        "code": 1247,
+        "cityCode": 62,
+        "name": "ÇEMİŞGEZEK",
+        "cityName": "TUNCELİ"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d5",
+        "code": 2091,
+        "cityCode": 63,
+        "name": "EYYÜBİYE",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d3",
+        "code": 2093,
+        "cityCode": 63,
+        "name": "KARAKÖPRÜ",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d4",
+        "code": 2092,
+        "cityCode": 63,
+        "name": "HALİLİYE",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d6",
+        "code": 1800,
+        "cityCode": 63,
+        "name": "HARRAN",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256da",
+        "code": 1630,
+        "cityCode": 63,
+        "name": "SİVEREK",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d7",
+        "code": 1713,
+        "cityCode": 63,
+        "name": "VİRANŞEHİR",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d8",
+        "code": 1702,
+        "cityCode": 63,
+        "name": "MERKEZ",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256d9",
+        "code": 1643,
+        "cityCode": 63,
+        "name": "SURUÇ",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256db",
+        "code": 1393,
+        "cityCode": 63,
+        "name": "HİLVAN",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256dc",
+        "code": 1378,
+        "cityCode": 63,
+        "name": "HALFETİ",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256dd",
+        "code": 1220,
+        "cityCode": 63,
+        "name": "CEYLANPINAR",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256de",
+        "code": 1209,
+        "cityCode": 63,
+        "name": "BOZOVA",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256df",
+        "code": 1194,
+        "cityCode": 63,
+        "name": "BİRECİK",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e0",
+        "code": 1115,
+        "cityCode": 63,
+        "name": "AKÇAKALE",
+        "cityName": "ŞANLIURFA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e1",
+        "code": 1704,
+        "cityCode": 64,
+        "name": "MERKEZ",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e2",
+        "code": 1697,
+        "cityCode": 64,
+        "name": "ULUBEY",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e3",
+        "code": 1629,
+        "cityCode": 64,
+        "name": "SİVASLI",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e4",
+        "code": 1436,
+        "cityCode": 64,
+        "name": "KARAHALLI",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e5",
+        "code": 1323,
+        "cityCode": 64,
+        "name": "EŞME",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e6",
+        "code": 1170,
+        "cityCode": 64,
+        "name": "BANAZ",
+        "cityName": "UŞAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e7",
+        "code": 2099,
+        "cityCode": 65,
+        "name": "TUŞBA",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e8",
+        "code": 2098,
+        "cityCode": 65,
+        "name": "İPEKYOLU",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256e9",
+        "code": 1980,
+        "cityCode": 65,
+        "name": "SARAY",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256eb",
+        "code": 1786,
+        "cityCode": 65,
+        "name": "ÇALDIRAN",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ea",
+        "code": 1918,
+        "cityCode": 65,
+        "name": "EDREMİT",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ec",
+        "code": 1770,
+        "cityCode": 65,
+        "name": "BAHÇESARAY",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ed",
+        "code": 1710,
+        "cityCode": 65,
+        "name": "MERKEZ",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ee",
+        "code": 1565,
+        "cityCode": 65,
+        "name": "ÖZALP",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ef",
+        "code": 1533,
+        "cityCode": 65,
+        "name": "MURADİYE",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f0",
+        "code": 1372,
+        "cityCode": 65,
+        "name": "GÜRPINAR",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f1",
+        "code": 1350,
+        "cityCode": 65,
+        "name": "GEVAŞ",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f2",
+        "code": 1309,
+        "cityCode": 65,
+        "name": "ERCİŞ",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f3",
+        "code": 1236,
+        "cityCode": 65,
+        "name": "ÇATAK",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f5",
+        "code": 1998,
+        "cityCode": 66,
+        "name": "YENİFAKILI",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f4",
+        "code": 1175,
+        "cityCode": 65,
+        "name": "BAŞKALE",
+        "cityName": "VAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f9",
+        "code": 1877,
+        "cityCode": 66,
+        "name": "AYDINCIK",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f6",
+        "code": 1982,
+        "cityCode": 66,
+        "name": "SARAYKENT",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f7",
+        "code": 1952,
+        "cityCode": 66,
+        "name": "KADIŞEHRİ",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256f8",
+        "code": 1895,
+        "cityCode": 66,
+        "name": "ÇANDIR",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256fa",
+        "code": 1733,
+        "cityCode": 66,
+        "name": "MERKEZ",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256fb",
+        "code": 1726,
+        "cityCode": 66,
+        "name": "YERKÖY",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256fc",
+        "code": 1655,
+        "cityCode": 66,
+        "name": "ŞEFAATLİ",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256fd",
+        "code": 1635,
+        "cityCode": 66,
+        "name": "SORGUN",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256ff",
+        "code": 1245,
+        "cityCode": 66,
+        "name": "ÇEKEREK",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25700",
+        "code": 1242,
+        "cityCode": 66,
+        "name": "ÇAYIRALAN",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d256fe",
+        "code": 1602,
+        "cityCode": 66,
+        "name": "SARIKAYA",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25701",
+        "code": 1198,
+        "cityCode": 66,
+        "name": "BOĞAZLIYAN",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25704",
+        "code": 2100,
+        "cityCode": 67,
+        "name": "KİLİMLİ",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25702",
+        "code": 1117,
+        "cityCode": 66,
+        "name": "AKDAĞMADENİ",
+        "cityName": "YOZGAT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25703",
+        "code": 2101,
+        "cityCode": 67,
+        "name": "KOZLU",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25705",
+        "code": 1926,
+        "cityCode": 67,
+        "name": "GÖKÇEBEY",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25706",
+        "code": 1758,
+        "cityCode": 67,
+        "name": "ALAPLI",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25707",
+        "code": 1741,
+        "cityCode": 67,
+        "name": "MERKEZ",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25709",
+        "code": 1276,
+        "cityCode": 67,
+        "name": "DEVREK",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25708",
+        "code": 1313,
+        "cityCode": 67,
+        "name": "EREĞLİ",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570a",
+        "code": 1240,
+        "cityCode": 67,
+        "name": "ÇAYCUMA",
+        "cityName": "ZONGULDAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570c",
+        "code": 1932,
+        "cityCode": 68,
+        "name": "GÜLAĞAÇ",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570b",
+        "code": 2106,
+        "cityCode": 68,
+        "name": "SULTANHANI",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570e",
+        "code": 1866,
+        "cityCode": 68,
+        "name": "SARIYAHŞİ",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570d",
+        "code": 1921,
+        "cityCode": 68,
+        "name": "ESKİL",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2570f",
+        "code": 1861,
+        "cityCode": 68,
+        "name": "GÜZELYURT",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25710",
+        "code": 1860,
+        "cityCode": 68,
+        "name": "AĞAÇÖREN",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25714",
+        "code": 1767,
+        "cityCode": 69,
+        "name": "AYDINTEPE",
+        "cityName": "BAYBURT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25712",
+        "code": 1120,
+        "cityCode": 68,
+        "name": "MERKEZ",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25713",
+        "code": 1788,
+        "cityCode": 69,
+        "name": "DEMİRÖZÜ",
+        "cityName": "BAYBURT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25711",
+        "code": 1557,
+        "cityCode": 68,
+        "name": "ORTAKÖY",
+        "cityName": "AKSARAY"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25716",
+        "code": 1983,
+        "cityCode": 70,
+        "name": "SARIVELİLER",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25715",
+        "code": 1176,
+        "cityCode": 69,
+        "name": "MERKEZ",
+        "cityName": "BAYBURT"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25717",
+        "code": 1884,
+        "cityCode": 70,
+        "name": "BAŞYAYLA",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25718",
+        "code": 1862,
+        "cityCode": 70,
+        "name": "KAZIMKARABEKİR",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25719",
+        "code": 1768,
+        "cityCode": 70,
+        "name": "AYRANCI",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571a",
+        "code": 1439,
+        "cityCode": 70,
+        "name": "MERKEZ",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571b",
+        "code": 1316,
+        "cityCode": 70,
+        "name": "ERMENEK",
+        "cityName": "KARAMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571e",
+        "code": 1901,
+        "cityCode": 71,
+        "name": "ÇELEBİ",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571d",
+        "code": 1954,
+        "cityCode": 71,
+        "name": "KARAKEÇİLİ",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571c",
+        "code": 1992,
+        "cityCode": 71,
+        "name": "YAHŞİHAN",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25720",
+        "code": 1880,
+        "cityCode": 71,
+        "name": "BAHŞİLİ",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2571f",
+        "code": 1882,
+        "cityCode": 71,
+        "name": "BALIŞEYH",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25721",
+        "code": 1638,
+        "cityCode": 71,
+        "name": "SULAKYURT",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25722",
+        "code": 1469,
+        "cityCode": 71,
+        "name": "MERKEZ",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25723",
+        "code": 1463,
+        "cityCode": 71,
+        "name": "KESKİN",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25724",
+        "code": 1268,
+        "cityCode": 71,
+        "name": "DELİCE",
+        "cityName": "KIRIKKALE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25725",
+        "code": 1941,
+        "cityCode": 72,
+        "name": "HASANKEYF",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25728",
+        "code": 1345,
+        "cityCode": 72,
+        "name": "GERCÜŞ",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25726",
+        "code": 1607,
+        "cityCode": 72,
+        "name": "SASON",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25727",
+        "code": 1487,
+        "cityCode": 72,
+        "name": "KOZLUK",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25729",
+        "code": 1184,
+        "cityCode": 72,
+        "name": "BEŞİRİ",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572a",
+        "code": 1174,
+        "cityCode": 72,
+        "name": "MERKEZ",
+        "cityName": "BATMAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572b",
+        "code": 1931,
+        "cityCode": 73,
+        "name": "GÜÇLÜKONAK",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572c",
+        "code": 1698,
+        "cityCode": 73,
+        "name": "ULUDERE",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572d",
+        "code": 1661,
+        "cityCode": 73,
+        "name": "MERKEZ",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572e",
+        "code": 1623,
+        "cityCode": 73,
+        "name": "SİLOPİ",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2572f",
+        "code": 1403,
+        "cityCode": 73,
+        "name": "İDİL",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25732",
+        "code": 1761,
+        "cityCode": 74,
+        "name": "AMASRA",
+        "cityName": "BARTIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25730",
+        "code": 1223,
+        "cityCode": 73,
+        "name": "CİZRE",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25733",
+        "code": 1701,
+        "cityCode": 74,
+        "name": "ULUS",
+        "cityName": "BARTIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25731",
+        "code": 1189,
+        "cityCode": 73,
+        "name": "BEYTÜŞŞEBAP",
+        "cityName": "ŞIRNAK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25734",
+        "code": 1496,
+        "cityCode": 74,
+        "name": "KURUCAŞİLE",
+        "cityName": "BARTIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25735",
+        "code": 1172,
+        "cityCode": 74,
+        "name": "MERKEZ",
+        "cityName": "BARTIN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25736",
+        "code": 2008,
+        "cityCode": 75,
+        "name": "DAMAL",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25737",
+        "code": 1579,
+        "cityCode": 75,
+        "name": "POSOF",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25738",
+        "code": 1380,
+        "cityCode": 75,
+        "name": "HANAK",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25739",
+        "code": 1356,
+        "cityCode": 75,
+        "name": "GÖLE",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573a",
+        "code": 1252,
+        "cityCode": 75,
+        "name": "ÇILDIR",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573c",
+        "code": 2011,
+        "cityCode": 76,
+        "name": "KARAKOYUNLU",
+        "cityName": "IĞDIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573b",
+        "code": 1144,
+        "cityCode": 75,
+        "name": "MERKEZ",
+        "cityName": "ARDAHAN"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573d",
+        "code": 1692,
+        "cityCode": 76,
+        "name": "TUZLUCA",
+        "cityName": "IĞDIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573e",
+        "code": 1398,
+        "cityCode": 76,
+        "name": "MERKEZ",
+        "cityName": "IĞDIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2573f",
+        "code": 1142,
+        "cityCode": 76,
+        "name": "ARALIK",
+        "cityName": "IĞDIR"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25740",
+        "code": 2026,
+        "cityCode": 77,
+        "name": "TERMAL",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25741",
+        "code": 2022,
+        "cityCode": 77,
+        "name": "ÇİFTLİKKÖY",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25742",
+        "code": 2021,
+        "cityCode": 77,
+        "name": "ÇINARCIK",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25743",
+        "code": 2020,
+        "cityCode": 77,
+        "name": "ARMUTLU",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25744",
+        "code": 2019,
+        "cityCode": 77,
+        "name": "ALTINOVA",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25745",
+        "code": 1716,
+        "cityCode": 77,
+        "name": "MERKEZ",
+        "cityName": "YALOVA"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25746",
+        "code": 1856,
+        "cityCode": 78,
+        "name": "YENİCE",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25747",
+        "code": 1587,
+        "cityCode": 78,
+        "name": "SAFRANBOLU",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25748",
+        "code": 1561,
+        "cityCode": 78,
+        "name": "OVACIK",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25749",
+        "code": 1433,
+        "cityCode": 78,
+        "name": "MERKEZ",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574a",
+        "code": 1321,
+        "cityCode": 78,
+        "name": "ESKİPAZAR",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574b",
+        "code": 1296,
+        "cityCode": 78,
+        "name": "EFLANİ",
+        "cityName": "KARABÜK"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574c",
+        "code": 2025,
+        "cityCode": 79,
+        "name": "POLATELİ",
+        "cityName": "KİLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574d",
+        "code": 2024,
+        "cityCode": 79,
+        "name": "MUSABEYLİ",
+        "cityName": "KİLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574e",
+        "code": 2023,
+        "cityCode": 79,
+        "name": "ELBEYLİ",
+        "cityName": "KİLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2574f",
+        "code": 1476,
+        "cityCode": 79,
+        "name": "MERKEZ",
+        "cityName": "KİLİS"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25750",
+        "code": 2029,
+        "cityCode": 80,
+        "name": "TOPRAKKALE",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25751",
+        "code": 2028,
+        "cityCode": 80,
+        "name": "SUMBAS",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25752",
+        "code": 2027,
+        "cityCode": 80,
+        "name": "HASANBEYLİ",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25753",
+        "code": 1743,
+        "cityCode": 80,
+        "name": "DÜZİÇİ",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25754",
+        "code": 1560,
+        "cityCode": 80,
+        "name": "MERKEZ",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25755",
+        "code": 1423,
+        "cityCode": 80,
+        "name": "KADİRLİ",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25757",
+        "code": 2031,
+        "cityCode": 81,
+        "name": "KAYNAŞLI",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25756",
+        "code": 1165,
+        "cityCode": 80,
+        "name": "BAHÇE",
+        "cityName": "OSMANİYE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25758",
+        "code": 2017,
+        "cityCode": 81,
+        "name": "GÜMÜŞOVA",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2575c",
+        "code": 1730,
+        "cityCode": 81,
+        "name": "YIĞILCA",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d25759",
+        "code": 1905,
+        "cityCode": 81,
+        "name": "ÇİLİMLİ",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2575b",
+        "code": 1784,
+        "cityCode": 81,
+        "name": "CUMAYERİ",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2575a",
+        "code": 1794,
+        "cityCode": 81,
+        "name": "GÖLYAKA",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2575d",
+        "code": 1292,
+        "cityCode": 81,
+        "name": "MERKEZ",
+        "cityName": "DÜZCE"
+    },
+    {
+        "_id": "5ffb2b99b79f5b2ec0d2575e",
+        "code": 1116,
+        "cityCode": 81,
+        "name": "AKÇAKOCA",
+        "cityName": "DÜZCE"
+    }
+]

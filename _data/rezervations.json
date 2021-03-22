@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Hakan",
+        "surname": "Fidan",
+        "phone": "905469189000",
+        "email": "hakanfidan@gmail.com",
+        "pax": [
+            {
+                "name": "Okan",
+                "surname": "Koşar",
+                "gender": "E",
+                "tcknOrPassport": "12345678910",
+                "nationality": "TR"
+            },
+            {
+                "name": "Recep",
+                "surname": "Sokkan",
+                "gender": "E",
+                "tcknOrPassport": "12345678911",
+                "nationality": "TR"
+            },
+            {
+                "name": "Büşra",
+                "surname": "Canlı",
+                "gender": "K",
+                "tcknOrPassport": "12345678912",
+                "nationality": "TR"
+            }
+        ],
+        "transferType": "0",
+        "agency": "5ff961864658c82a84d7d5c0",
+        "vehicleType": "Mercedes Vito (6+1)",
+        "vehicle": "5ff961864658c82a84d7d5b2",
+        "driver": "5ff961824658c82a84d7d5b2",
+        "transferDirection": "Havalimanından Noktaya",
+        "terminal": "İç Hatlar",
+        "startPoint": "Dalaman Havalimanı",
+        "startDate": "2021-03-30T00:00:00Z",
+        "endPoint": "Marmaris Merkez",
+        "flightNumber": "TK2222",
+        "isReturn": true,
+        "returnDate": "2021-04-12T00:00:00Z",
+        "babySeat": "1",
+        "childSeat": "0",
+        "wheelSeat": "0",
+        "note": "Note Gelecek",
+        "sendSms": false,
+        "priceCurrency": "EURO",
+        "driverStatus": "ÖDENMEDİ",
+        "status": "ÖDENDİ",
+        "price": "125"
+    }
+]
