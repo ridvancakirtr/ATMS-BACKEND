@@ -1,38 +1,107 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 
+const paxSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'Please add a name'],
+        trim: true,
+        maxlength: [50, 'Brand can not be more than 20 characters']
+    },
+    surname: {
+        type: String,
+        required: [true, 'Please add a surname'],
+        trim: true,
+        maxlength: [50, 'Surname can not be more than 50 characters']
+    },
+    gender: {
+        type: String,
+        required: true,
+        enum: [
+            'E',
+            'K'
+        ]
+    },
+    tcknOrPassport: {
+        type: String,
+        required: [true, 'Please add a TC or Passport'],
+        trim: true,
+        maxlength: [11, 'TC or Passport can not be more than 11 characters']
+    },
+    seatNo: {
+        type: String,
+        trim: true,
+        maxlength: [20, 'KoltukNo can not be more than 11 characters']
+    },
+    phoneNo: {
+        type: String,
+        trim: true,
+        maxlength: [20, 'TelefonNo can not be more than 11 characters']
+    },
+    hesCode: {
+        type: String,
+        trim: true,
+        maxlength: [20, 'Hes Kodu can not be more than 11 characters']
+    },
+    nationality: {
+        type: String,
+        required: [true, 'Please add a nationality'],
+        trim: true,
+        maxlength: [50, 'Nationality can not be more than 50 characters']
+    }
+
+})
+
 const RezervationSchema = new mongoose.Schema(
     {
-        name: {
-            type: String,
-            required: [true, 'Please add a name'],
-            trim: true,
-            maxlength: [50, 'Brand can not be more than 20 characters']
-        },
-        surname: {
-            type: String,
-            required: [true, 'Please add a surname'],
-            trim: true,
-            maxlength: [50, 'Surname can not be more than 50 characters']
-        },
-        phone: {
-            type: String,
-            required: [true, 'Please add a phone'],
-            maxlength: [20, 'Phone number can not be longer than 20 characters'],
-            trim: true,
-        },
-        email: {
-            type: String,
-            match: [
-                /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-                'Please add a valid email'
-            ],
-            maxlength: [50, 'Email can not be longer than 50 characters'],
-            trim: true,
-        },
-        pax: {
-            type: Array,
+        customer: {
+            type: mongoose.Schema.ObjectId,
+            ref: 'Customer',
             required: true
+        },
+        pax: [paxSchema],
+        uetds: {
+            status: {
+                type: Boolean,
+                require: true,
+                default: false //false Bildirilmedi | true Bildirildi 
+            },
+            refNumber: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'RefNumber can not be more than 50 characters'],
+                default: '00000000000000'
+            },
+            baslangicUlke: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Baslangic Ulke can not be more than 50 characters']
+            },
+            baslangicIl: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Baslangic Il can not be more than 50 characters']
+            },
+            baslangicIlce: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Baslangic Ilce can not be more than 50 characters']
+            },
+            bitisUlke: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Bitis Ulke can not be more than 50 characters']
+            },
+            bitisIl: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Bitis Il can not be more than 50 characters']
+            },
+            bitisIlce: {
+                type: String,
+                trim: true,
+                maxlength: [50, 'Bitis Ilce can not be more than 50 characters']
+            }
         },
         transferType: {
             type: String,
@@ -43,11 +112,11 @@ const RezervationSchema = new mongoose.Schema(
                 '2' //Yönlendirilen Transferler
             ]
         },
-        agency:{
+        agency: {
             type: mongoose.Schema.ObjectId,
             ref: 'Agency'
         },
-        directionPrice:{
+        directionPrice: {
             type: Number,
             max: [11, 'Price must can not be more than 11'],
         },
@@ -60,13 +129,13 @@ const RezervationSchema = new mongoose.Schema(
         vehicle: {
             type: mongoose.Schema.ObjectId,
             ref: 'Vehicle',
-            default:undefined
+            default: undefined
         },
-        driver:{
+        employee: [{
             type: mongoose.Schema.ObjectId,
             ref: 'Employee',
-            default:undefined
-        },
+            default: undefined
+        }],
         transferDirection: {
             type: String,
             required: true,

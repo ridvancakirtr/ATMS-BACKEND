@@ -22,6 +22,14 @@ const EmployeeSchema = new mongoose.Schema(
             trim: true,
             maxlength: [50, 'Surname can not be more than 50 characters']
         },
+        gender: {
+            type: String,
+            required: true,
+            enum: [
+                'E',
+                'K'
+            ]
+        },
         phone: {
             type: String,
             maxlength: [20, 'Phone number can not be longer than 20 characters'],
@@ -42,15 +50,15 @@ const EmployeeSchema = new mongoose.Schema(
             required: true
         },
         type: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
-                'Şoför',
-                'Şöför Yrd.',
-                'Host',
-                'Hostes',
-                'Diğer',
-                'Rehber'
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
             ]
         },
         dateOfBirth: {

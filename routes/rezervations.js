@@ -9,7 +9,8 @@ const {
     deleteRezervation,
     getRezervationAgency,
     getRezervationVehicle,
-    getRezervationEmployee
+    getRezervationEmployee,
+    getRezervationCustomer
 } = require('../controllers/rezervations');
 
 const { protect } = require('../middleware/auth')
@@ -23,5 +24,5 @@ router.route('/:id').delete(protect, deleteRezervation);
 router.route('/:agencyId/agency').get(protect, getRezervationAgency);
 router.route('/:vehicleId/vehicle').get(protect, getRezervationVehicle);
 router.route('/:employeeId/employee').get(protect, getRezervationEmployee);
-
+router.route('/:customerId/customer').get(protect, getRezervationCustomer);
 module.exports = router;

@@ -5,7 +5,7 @@ const { seferEkle, seferGuncelle, seferIptal, seferPlakaDegistir, seferAktif, pe
     yolcuBildirimSorgula, seferGrupEkle, seferGrupGuncelle, seferGrupIptal, seferGrupListele, yolcuIptal, 
     yolcuIptalUetdsYolcuRefNoIle,seferDetayCiktisiAl,bildirimOzeti,kullaniciKontrol,
     yetkiBelgesiKontrol,meslekiYeterlilikSorgula,aracMuayeneSorgula,kimlikDogrulama,ipTanimla,ipListele,ipSil,
-    hesKoduKontrolEt,cokluHesKoduKontrolEt,hesKoduBlokeEt,hesKoduBlokeKaldir } = require('../controllers/uetdsSoapService');
+    hesKoduKontrolEt,cokluHesKoduKontrolEt,hesKoduBlokeEt,hesKoduBlokeKaldir } = require('../controllers/uetdsSoapServiceTestURL');
 const { protect } = require('../middleware/auth')
 
 router.route('/seferEkle').post(protect, seferEkle);

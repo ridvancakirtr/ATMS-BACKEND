@@ -12,6 +12,7 @@ const Vehicles = require('./models/Vehicles');
 const Agencies = require('./models/Agencies');
 const VehicleTypes = require('./models/VehicleTypes');
 const Users = require('./models/Users');
+const Customers = require('./models/Customers');
 const Points = require('./models/Points');
 const Airports = require('./models/Airports');
 
@@ -47,6 +48,10 @@ const vehicleTypes = JSON.parse(
 
 const users = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/users.json`, 'utf-8')
+);
+
+const customers = JSON.parse(
+  fs.readFileSync(`${__dirname}/_data/customers.json`, 'utf-8')
 );
 
 const points = JSON.parse(
@@ -93,6 +98,8 @@ const importData = async () => {
     console.log('VehicleTypes...OK'.yellow);
     await Users.create(users);
     console.log('Users...OK'.yellow);
+    await Customers.create(customers);
+    console.log('Customers...OK'.yellow);
     await Points.create(points);
     console.log('Points...OK'.yellow);
     await Airports.create(airports);
@@ -113,6 +120,7 @@ const deleteData = async () => {
     await Agencies.deleteMany();
     await VehicleTypes.deleteMany();
     await Users.deleteMany();
+    await Customers.deleteMany();
     await Points.deleteMany();
     await Airports.deleteMany();
 

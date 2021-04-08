@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "5d7a514b5d2c12c7449be049",
+    "name": "Beyaz",
+    "surname": "Kustak",
+    "email": "beyazkustak@gmail.com",
+    "phone": "905469189000",
+    "gender": "E",
+    "tcknOrPassport": "12345678910",
+    "nationality": "TR"
+  }
+]

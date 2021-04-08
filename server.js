@@ -24,12 +24,14 @@ const vehicles = require('./routes/vehicles')
 const agencies = require('./routes/agencies')
 const vehicletypes = require('./routes/vehicletypes')
 const users = require('./routes/users')
+const customers = require('./routes/customers')
 const auth = require('./routes/auth')
 const uetds = require('./routes/uetds')
 const points = require('./routes/points')
 const airports = require('./routes/airports')
 const rezervations = require('./routes/rezervations')
-const uetdssoapservices = require('./routes/uetdsSoapService')
+const uetdssoapservices = require('./routes/uetdsSoapServiceTestURL')
+const uetdsNotification = require('./routes/uetdsNotification')
 
 //Mount files
 app.use('/api/v1/employees', employees);
@@ -37,12 +39,14 @@ app.use('/api/v1/vehicles', vehicles);
 app.use('/api/v1/agencies', agencies);
 app.use('/api/v1/vehicletypes', vehicletypes);
 app.use('/api/v1/users', users);
+app.use('/api/v1/customers', customers);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/uetds', uetds);
 app.use('/api/v1/points', points);
 app.use('/api/v1/airports', airports);
 app.use('/api/v1/rezervations', rezervations);
 app.use('/api/v1/uetdssoapservice', uetdssoapservices);
+app.use('/api/v1/uetdsnotification', uetdsNotification);
 
 app.use(errorHandler);
 

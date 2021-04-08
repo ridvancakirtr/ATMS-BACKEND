@@ -217,7 +217,6 @@ const seferAktif = async (seferAktifObject) => {
  * @return {Object} 
  */
 const personelEkle = async (personelEkleObject) => {
-    console.log("personelEkleObject----->",personelEkleObject);
     if (typeof personelEkleObject == "object") {
         let xml =
             `<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:uet="http://uetds.unetws.udhb.gov.tr/">
@@ -252,7 +251,6 @@ const personelEkle = async (personelEkleObject) => {
 
         const jsonObj = parser.parse(res.data);
         const data = jsonObj['S:Envelope']['S:Body']['ns2:personelEkleResponse']['return'];
-
         return data;
     }
 }
@@ -342,7 +340,6 @@ const yolcuEkle = async (yolcuEkleObject) => {
         return data;
     }
 }
-
 
 /***
  * @param {Array} yolcuEkleCoklu [uetdsSeferReferansNo*,uyrukUlke*,tcKimlikPasaportNo*,cinsiyet*,adi*,soyadi*,koltukNo,telefonNo,grupId*]

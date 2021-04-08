@@ -1,9 +1,6 @@
 [
     {
-        "name": "Hakan",
-        "surname": "Fidan",
-        "phone": "905469189000",
-        "email": "hakanfidan@gmail.com",
+        "customer": "5d7a514b5d2c12c7449be049",
         "pax": [
             {
                 "name": "Okan",
@@ -27,11 +24,23 @@
                 "nationality": "TR"
             }
         ],
+        "uetds": {
+            "status": false,
+            "refNumber": "",
+            "baslangicUlke": "TR",
+            "baslangicIl": "48",
+            "baslangicIlce": "99125",
+            "baslangicYer": "Dalaman Havalimanı",
+            "bitisUlke": "TR",
+            "bitisIl": "48",
+            "bitisIlce": "1517",
+            "bitisYer": "Marmaris Merkez"
+        },
         "transferType": "0",
         "agency": "5ff961864658c82a84d7d5c0",
         "vehicleType": "Mercedes Vito (6+1)",
         "vehicle": "5ff961864658c82a84d7d5b2",
-        "driver": "5ff961824658c82a84d7d5b2",
+        "employee": ["5ff961824658c82a84d7d5b2"],
         "transferDirection": "Havalimanından Noktaya",
         "terminal": "İç Hatlar",
         "startPoint": "Dalaman Havalimanı",
