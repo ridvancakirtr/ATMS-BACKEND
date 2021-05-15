@@ -7,9 +7,15 @@
         "address": "Dalaman",
         "authorizedName": "Hakan",
         "authorizedSurname": "Akgün",
-        "authorizedPhone": 905469998888,
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
         "authorizedEmail": "hakan@gmail.com",
-        "companyOwner":true
+        "companyOwner": true
     },
     {
         "_id": "5ff961864658c82a84d7d5c1",
@@ -19,7 +25,13 @@
         "address": "Ortaca",
         "authorizedName": "Irmak",
         "authorizedSurname": "Cansu",
-        "authorizedPhone": 905469937888,
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
         "authorizedEmail": "irmak@gmail.com"
     },
     {
@@ -30,7 +42,13 @@
         "address": "Marmaris",
         "authorizedName": "Recep",
         "authorizedSurname": "Osman",
-        "authorizedPhone": 905469955444,
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
         "authorizedEmail": "recep@gmail.com"
     },
     {
@@ -41,7 +59,13 @@
         "address": "Göcek",
         "authorizedName": "Ufuk",
         "authorizedSurname": "Aslan",
-        "authorizedPhone": 905469933658,
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
         "authorizedEmail": "ufuk@gmail.com"
     },
     {
@@ -52,7 +76,13 @@
         "address": "Kaş",
         "authorizedName": "Mehmet",
         "authorizedSurname": "Yılmaz",
-        "authorizedPhone": 905469937877,
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
         "authorizedEmail": "mehmet@gmail.com"
     }
 ]

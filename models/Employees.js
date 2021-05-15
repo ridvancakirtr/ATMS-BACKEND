@@ -5,10 +5,10 @@ const EmployeeSchema = new mongoose.Schema(
     {
         tcknOrPassport: {
             type: String,
+            unique: true,
             required: [true, 'Please add a TCKN or Passport'],
             trim: true,
-            maxlength: [20, 'TCKN Or Passport can not be more than 20 characters'],
-            unique: true
+            maxlength: [20, 'TCKN Or Passport can not be more than 20 characters']
         },
         name: {
             type: String,
@@ -31,9 +31,31 @@ const EmployeeSchema = new mongoose.Schema(
             ]
         },
         phone: {
-            type: String,
-            maxlength: [20, 'Phone number can not be longer than 20 characters'],
-            trim: true,
+            countryCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            nationalNumber:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            countryCallingCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            formattedNumber:{
+                type: String,
+                required:true,
+                trim: true
+            },
+            phoneNumber:{
+                type: String,
+                required:true,
+                trim: true
+            }
         },
         email: {
             type: String,
@@ -44,10 +66,17 @@ const EmployeeSchema = new mongoose.Schema(
             maxlength: [50, 'Email can not be longer than 50 characters'],
             trim: true,
         },
-        country: {
-            type: mongoose.Schema.ObjectId,
-            ref: 'Country',
-            required: true
+        nationality: {
+            code:{
+                type: String,
+                required:true,
+                trim: true
+            },
+            countryName:{
+                type: String,
+                required:true,
+                trim: true
+            }
         },
         type: {
             type: Number,
@@ -67,18 +96,13 @@ const EmployeeSchema = new mongoose.Schema(
         },
         lisanceType: {
             type: String,
-            maxlength: [5, 'Lisance type can not be longer than 20 characters'],
+            maxlength: [5, 'Lisance type can not be longer than 5 characters'],
             trim: true
         },
         lisanceNumber: {
             type: String,
-            maxlength: [50, 'Lisance number can not be longer than 50 characters'],
+            maxlength: [5, 'Lisance number can not be longer than 5 characters'],
             trim: true
-        },
-        office: {
-            type: mongoose.Schema.ObjectId,
-            ref: 'Office',
-            required: true
         },
         address: {
             type: String,
@@ -91,7 +115,5 @@ const EmployeeSchema = new mongoose.Schema(
 );
 
 EmployeeSchema.plugin(mongoosePaginate);
-
-
 
 module.exports = mongoose.model('Employee', EmployeeSchema);

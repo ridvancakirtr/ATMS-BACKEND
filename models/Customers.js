@@ -16,11 +16,32 @@ const CustomerSchema = new mongoose.Schema(
             maxlength: [50, 'Surname can not be more than 50 characters']
         },
         phone: {
-            type: String,
-            required: [true, 'Please add a phone'],
-            maxlength: [20, 'Phone number can not be longer than 20 characters'],
-            trim: true,
-            unique:true
+            countryCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            nationalNumber:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            countryCallingCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            formattedNumber:{
+                type: String,
+                required:true,
+                trim: true,
+                unique:true
+            },
+            phoneNumber:{
+                type: String,
+                required:true,
+                trim: true
+            }
         },
         email: {
             type: String,
@@ -46,10 +67,16 @@ const CustomerSchema = new mongoose.Schema(
             maxlength: [11, 'TC or Passport can not be more than 11 characters']
         },
         nationality: {
-            type: String,
-            required: [true, 'Please add a nationality'],
-            trim: true,
-            maxlength: [50, 'Nationality can not be more than 50 characters']
+            code:{
+                type: String,
+                required:true,
+                trim: true
+            },
+            countryName:{
+                type: String,
+                required:true,
+                trim: true
+            }
         }
     },
     { timestamps: true },

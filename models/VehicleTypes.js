@@ -19,7 +19,8 @@ const VehicleTypesSchema = new mongoose.Schema(
             type: Number,
             required: [true, 'Please add a queue'],
             trim: true,
-            maxlength: [2, 'Queue can not be more than 2 characters']
+            maxlength: [2, 'Queue can not be more than 2 characters'],
+            unique:true
         },
     },
     { timestamps: true },

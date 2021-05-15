@@ -4,9 +4,15 @@
     "name": "Operatör Hesabı",
     "surname": "Akar",
     "email": "operator2@gmail.com",
-    "phone": "905469189000",
-    "role": "Operator",
-    "gender": "Erkek",
+    "phone": {
+      "countryCode": "TR",
+      "nationalNumber": "5469189000",
+      "countryCallingCode": "90",
+      "formattedNumber": "+905469189000",
+      "phoneNumber": "546 918 90 00"
+  },
+    "role": 1,
+    "gender": "E",
     "password": "123456"
   },
   {
@@ -14,9 +20,15 @@
     "name": "Operatör Hesabı",
     "surname": "Uçar",
     "email": "operator1@gmail.com",
-    "phone": "905469189000",
-    "role": "Operator",
-    "gender": "Erkek",
+    "phone": {
+      "countryCode": "TR",
+      "nationalNumber": "5469189000",
+      "countryCallingCode": "90",
+      "formattedNumber": "+905469189000",
+      "phoneNumber": "546 918 90 00"
+  },
+    "role": 1,
+    "gender": "E",
     "password": "123456"
   },
   {
@@ -24,9 +36,15 @@
     "name": "Yönetici Hesabı",
     "surname": "Yılmaz",
     "email": "admin@gmail.com",
-    "phone": "905469189000",
-    "role": "Yonetici",
-    "gender": "Kadın",
+    "phone": {
+      "countryCode": "TR",
+      "nationalNumber": "5469189000",
+      "countryCallingCode": "90",
+      "formattedNumber": "+905469189000",
+      "phoneNumber": "546 918 90 00"
+  },
+    "role": 0,
+    "gender": "K",
     "password": "123456"
   }
 ]

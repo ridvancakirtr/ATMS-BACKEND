@@ -14,7 +14,7 @@ const getEmployees = asyncHandler(async (req, res, next) => {
     let options = {
         select: '',
         sort: { date: -1 },
-        populate: '',
+        populate: 'country',
         lean: true,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
         limit: parseInt(Number(limit) <= 0 ? 1 : Number(limit), 10) || 10,
@@ -29,7 +29,7 @@ const getEmployees = asyncHandler(async (req, res, next) => {
         }
         res.status(200).json({
             success: true,
-            data: pagination,
+            ...pagination,
         })
     });
 

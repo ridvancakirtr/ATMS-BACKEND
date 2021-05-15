@@ -26,7 +26,7 @@ const AgenciesSchema = new mongoose.Schema(
             type: String,
             required: [true, 'Please add a Address'],
             trim: true,
-            maxlength: [50, 'Address can not be more than 50 characters']
+            maxlength: [255, 'Address can not be more than 255 characters']
         },
         authorizedName: {
             type: String,
@@ -41,10 +41,31 @@ const AgenciesSchema = new mongoose.Schema(
             maxlength: [50, 'Authorized surname can not be more than 50 characters'],
         },
         authorizedPhone: {
-            type: Number,
-            required: [true, 'Please add a authorized phone'],
-            trim: true,
-            maxlength: [50, 'Authorized phone can not be more than 50 characters'],
+            countryCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            nationalNumber:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            countryCallingCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            formattedNumber:{
+                type: String,
+                required:true,
+                trim: true
+            },
+            phoneNumber:{
+                type: String,
+                required:true,
+                trim: true
+            }
         },
         authorizedEmail: {
             type: String,
@@ -56,7 +77,8 @@ const AgenciesSchema = new mongoose.Schema(
             trim: true,
         },
         companyOwner:{
-            type:Boolean
+            type:Boolean,
+            default:false
         }
     },
     { collection: 'Agency' },

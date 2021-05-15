@@ -4,9 +4,18 @@
     "name": "Beyaz",
     "surname": "Kustak",
     "email": "beyazkustak@gmail.com",
-    "phone": "905469189000",
+    "phone": {
+      "countryCode": "TR",
+      "nationalNumber": "5469189000",
+      "countryCallingCode": "90",
+      "formattedNumber": "+905469189000",
+      "phoneNumber":"546 918 90 00"
+    },
     "gender": "E",
     "tcknOrPassport": "12345678910",
-    "nationality": "TR"
+    "nationality": {
+      "code": "DE",
+      "countryName": "Almanya"
+    }
   }
 ]

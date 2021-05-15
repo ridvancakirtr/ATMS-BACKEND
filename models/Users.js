@@ -18,9 +18,31 @@ const UserSchema = new mongoose.Schema(
             maxlength: [50, 'Surname can not be more than 50 characters']
         },
         phone: {
-            type: String,
-            maxlength: [20, 'Phone number can not be longer than 20 characters'],
-            trim: true,
+            countryCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            nationalNumber:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            countryCallingCode:{
+                type: String,
+                required:true,
+                trim: true,
+            },
+            formattedNumber:{
+                type: String,
+                required:true,
+                trim: true
+            },
+            phoneNumber:{
+                type: String,
+                required:true,
+                trim: true
+            }
         },
         email: {
             type: String,
@@ -36,22 +58,23 @@ const UserSchema = new mongoose.Schema(
             type: String,
             required: true,
             enum: [
-                'Erkek',
-                'Kadın'
+                'E',
+                'K'
             ]
         },
         role: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
-                'Yonetici',
-                'Operator'
+                0,
+                1
             ]
         },
         password: {
             type: String,
             required: [true, 'Please add a password'],
             minlength: 6,
+            maxlength: [50, 'Email can not be longer than 50 characters'],
             select: false,
         },
         resetPasswordToken: String,

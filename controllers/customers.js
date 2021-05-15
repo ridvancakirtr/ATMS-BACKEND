@@ -8,12 +8,28 @@ const asyncHandler = require('../middleware/async');
 // @access  Private
 const getCustomers = asyncHandler(async (req, res, next) => {
 
-    const { page, limit } = req.query;
+    const { page, limit, search } = req.query;
 
     let query = {};
+
+    if (typeof search != "undefined") {
+        query = {
+            $or:
+                [
+                    { "tcknOrPassport": { $regex: search, $options: "i" } },
+                    { "name": { $regex: search, $options: "i" } },
+                    { "surname": { $regex: search, $options: "i" } },
+                    { "email": { $regex: search, $options: "i" } },
+                    { "phone": { $regex: search, $options: "i" } },
+                    { "gender": { $regex: search, $options: "i" } },
+                    { "nationality": { $regex: search, $options: "i" } }
+                ]
+        }
+    }
+
     let options = {
         select: '',
-        sort: { date: -1 },
+        sort: { createdAt: -1 },
         populate: '',
         lean: false,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
@@ -57,12 +73,20 @@ const getCustomer = asyncHandler(async (req, res, next) => {
 // @route   POST /api/v1/customers/
 // @access  Private
 const createCustomer = asyncHandler(async (req, res, next) => {
+    const customerCheck = await Customer.findOne({ phone: req.body.phone })
+
+    if (customerCheck == 'null') {
+        return next(new ErrorResponse(`Customers is avaliable with phone of ${req.body.phone}`, 404));
+    }
+
     const customer = await Customer.create(req.body)
 
     res.status(201).json({
         success: true,
         data: customer
     })
+
+
 });
 
 // @desc      Update Customers
@@ -90,7 +114,7 @@ const updateCustomer = asyncHandler(async (req, res, next) => {
 // @access    Private
 const deleteCustomer = asyncHandler(async (req, res, next) => {
     const customer = await Customer.findOneAndDelete(req.params.id);
-    console.log("-->",req.params.id);
+    console.log("-->", req.params.id);
     if (!customer) {
         return next(new ErrorResponse(`Customer not found with id of ${req.params.id}`, 400))
     }

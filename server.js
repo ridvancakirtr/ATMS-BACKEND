@@ -4,12 +4,16 @@ const dotenv = require('dotenv')
 const connectDB = require('./config/db');
 const colors = require('colors')
 const morgan = require('morgan')
+var cors = require('cors')
+
 const errorHandler = require('./middleware/error');
 
 dotenv.config({ path: './config/config.env' })
 const app = express()
 
 app.use(express.json());
+
+app.use(cors({ origin: ["http://localhost:8080"], credentials: true }));
 
 if (process.env.NODE_ENV === "development") {
     app.use(morgan('dev'));
