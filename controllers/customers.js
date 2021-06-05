@@ -20,13 +20,13 @@ const getCustomers = asyncHandler(async (req, res, next) => {
                     { "name": { $regex: search, $options: "i" } },
                     { "surname": { $regex: search, $options: "i" } },
                     { "email": { $regex: search, $options: "i" } },
-                    { "phone": { $regex: search, $options: "i" } },
+                    { "phone.formattedNumber": { $regex: search, $options: "i" } },
                     { "gender": { $regex: search, $options: "i" } },
                     { "nationality": { $regex: search, $options: "i" } }
                 ]
         }
     }
-
+    
     let options = {
         select: '',
         sort: { createdAt: -1 },

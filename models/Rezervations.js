@@ -107,9 +107,9 @@ const RezervationSchema = new mongoose.Schema(
             type: String,
             required: true,
             enum: [
-                '0',//Firmanın kendisine ait transferler
-                '1',//Alınan Transfeler
-                '2' //Yönlendirilen Transferler
+                0,//Firmanın kendisine ait transferler
+                1,//Alınan Transfeler
+                2 //Yönlendirilen Transferler
             ]
         },
         agency: {
@@ -157,7 +157,7 @@ const RezervationSchema = new mongoose.Schema(
             type: String,
             required: [true, 'Please add a start point'],
             trim: true,
-            maxlength: [50, 'Start point can not be more than 50 characters']
+            maxlength: [150, 'Start point can not be more than 50 characters']
         },
         startDate: {
             type: Date
@@ -166,7 +166,7 @@ const RezervationSchema = new mongoose.Schema(
             type: String,
             required: [true, 'Please add a end point'],
             trim: true,
-            maxlength: [50, 'End point can not be more than 50 characters']
+            maxlength: [150, 'End point can not be more than 50 characters']
         },
         flightNumber: {
             type: String,
@@ -174,7 +174,6 @@ const RezervationSchema = new mongoose.Schema(
             trim: true,
             maxlength: [50, 'Flight number can not be more than 50 characters']
         },
-        isReturn: Boolean,
         returnDate: {
             type: Date
         },
@@ -203,27 +202,31 @@ const RezervationSchema = new mongoose.Schema(
             type: String,
             required: true,
             enum: [
-                'TURK LİRASI',
-                'EURO',
-                'DOLAR',
-                'POUND'
+                0,//'TURK LİRASI'
+                1,//'EURO'
+                2,//'DOLAR'
+                3,//'POUND'
             ]
         },
         driverStatus: {
             type: String,
             required: true,
             enum: [
-                'ÖDENDİ',
-                'ÖDENMEDİ'
+                0, // ödenmedi
+                1 // ödendi
             ]
         },
         status: {
             type: String,
             required: true,
             enum: [
-                'ÖDENDİ',
-                'ÖDENMEDİ'
+                0, // ödenmedi
+                1 // ödendi
             ]
+        },
+        tax: {
+            type: Number,
+            required: true
         },
         price: {
             type: Number,

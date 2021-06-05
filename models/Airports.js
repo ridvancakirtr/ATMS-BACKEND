@@ -6,7 +6,8 @@ const AirportSchema = new mongoose.Schema(
         airport: {
             type: mongoose.Schema.ObjectId,
             ref: 'UetdsAirport',
-            required: true
+            required: true,
+            unique:true
         }
     },
     { collection: 'Airport' }

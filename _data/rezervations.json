@@ -47,16 +47,16 @@
         "startDate": "2021-03-30T00:00:00Z",
         "endPoint": "Marmaris Merkez",
         "flightNumber": "TK2222",
-        "isReturn": true,
         "returnDate": "2021-04-12T00:00:00Z",
         "babySeat": "1",
         "childSeat": "0",
         "wheelSeat": "0",
         "note": "Note Gelecek",
         "sendSms": false,
-        "priceCurrency": "EURO",
-        "driverStatus": "ÖDENMEDİ",
-        "status": "ÖDENDİ",
+        "priceCurrency": 0,
+        "driverStatus": 0,
+        "status": 1,
+        "tax": "50",
         "price": "125"
     }
 ]

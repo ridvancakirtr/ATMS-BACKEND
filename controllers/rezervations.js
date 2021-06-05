@@ -27,14 +27,7 @@ const getRezervations = asyncHandler(async (req, res, next) => {
     options = {
         select: '',
         sort: { date: -1 },
-        //populate: ['customer', 'agency', 'employee', 'vehicle','employee.country'],
-        populate:{
-            path: 'employee',
-            populate: {
-                path: 'country',
-                model: 'Country'
-            }
-        },
+        populate: ['customer', 'agency', 'employee', 'vehicle'],
         lean: false,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
         limit: parseInt(Number(limit) <= 0 ? 1 : Number(limit), 10) || 10

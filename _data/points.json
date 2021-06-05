@@ -13,7 +13,8 @@
     },
     {
         "_id": "5ffb221dac13c2331c858a32",
-        "point": "Ölüdeniz - Lykia World Hotel",
+        "point": "Ölüdeniz",
+        "hotel": "Lykia World Hotel",
         "type": "Otel",
         "city": "5ffb2b99b79f5b2ec0d25625"
     },
@@ -37,7 +38,8 @@
     },
     {
         "_id": "5ffb227fac13c2331c858a36",
-        "point": "Rixos Otel",
+        "point": "Merkez",
+        "hotel": "Rixos Otell",
         "type": "Otel",
         "city": "5ffb2b99b79f5b2ec0d25627"
     }

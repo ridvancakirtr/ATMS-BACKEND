@@ -15,7 +15,7 @@ const getAirports = asyncHandler(async (req, res, next) => {
         select: '',
         sort: { date: -1 },
         populate: 'airport',
-        lean: true,
+        lean: false,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
         limit: parseInt(Number(limit) <= 0 ? 1 : Number(limit), 10) || 10,
     };
@@ -29,7 +29,7 @@ const getAirports = asyncHandler(async (req, res, next) => {
         }
         res.status(200).json({
             success: true,
-            data: pagination,
+            ...pagination,
         })
     });
 
