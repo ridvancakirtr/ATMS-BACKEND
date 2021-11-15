@@ -15,6 +15,7 @@ const Users = require('./models/Users');
 const Customers = require('./models/Customers');
 const Points = require('./models/Points');
 const Airports = require('./models/Airports');
+const Taxation = require('./models/settings/taxation');
 
 //UETDS
 const UetdsAirport = require('./models/_UetdsAirports');
@@ -62,6 +63,10 @@ const airports = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/airports.json`, 'utf-8')
 );
 
+const taxation = JSON.parse(
+  fs.readFileSync(`${__dirname}/_data/taxation.json`, 'utf-8')
+);
+
 
 //UETDS
 const uetdsAirports = JSON.parse(
@@ -79,14 +84,6 @@ const uetdsCountries = JSON.parse(
 // Import into DB
 const importData = async () => {
   try {
-    //UETDS
-    await UetdsAirport.create(uetdsAirports);
-    console.log('UetdsAirport...OK'.yellow);
-    await UetdsCity.create(uetdsCities);
-    console.log('UetdsCity...OK'.yellow);
-    await UetdsCountry.create(uetdsCountries);
-    console.log('UetdsCountry...OK'.yellow);
-
     //İşlemler
     await Employees.create(employees);
     console.log('Employees...OK'.yellow);
@@ -104,6 +101,16 @@ const importData = async () => {
     console.log('Points...OK'.yellow);
     await Airports.create(airports);
     console.log('Airports...OK'.yellow);
+    await Taxation.create(taxation);
+    console.log('Taxation...OK'.yellow);
+
+    //UETDS
+    await UetdsAirport.create(uetdsAirports);
+    console.log('UetdsAirport...OK'.yellow);
+    await UetdsCity.create(uetdsCities);
+    console.log('UetdsCity...OK'.yellow);
+    await UetdsCountry.create(uetdsCountries);
+    console.log('UetdsCountry...OK'.yellow);
 
     console.log('Data Imported...'.green.inverse);
     process.exit();
@@ -123,7 +130,8 @@ const deleteData = async () => {
     await Customers.deleteMany();
     await Points.deleteMany();
     await Airports.deleteMany();
-
+    await Taxation.deleteMany();
+    
     //UETDS
     await UetdsAirport.deleteMany();
     await UetdsCity.deleteMany();

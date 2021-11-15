@@ -36,6 +36,7 @@ const airports = require('./routes/airports')
 const rezervations = require('./routes/rezervations')
 const uetdssoapservices = require('./routes/uetdsSoapServiceTestURL')
 const uetdsNotification = require('./routes/uetdsNotification')
+const taxation = require('./routes/settings/taxation')
 
 //Mount files
 app.use('/api/v1/employees', employees);
@@ -51,6 +52,8 @@ app.use('/api/v1/airports', airports);
 app.use('/api/v1/rezervations', rezervations);
 app.use('/api/v1/uetdssoapservice', uetdssoapservices);
 app.use('/api/v1/uetdsnotification', uetdsNotification);
+
+app.use('/api/v1/settings/taxation', taxation);
 
 app.use(errorHandler);
 
