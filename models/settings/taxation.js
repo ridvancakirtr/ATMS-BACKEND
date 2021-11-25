@@ -2,15 +2,15 @@ const mongoose = require('mongoose');
 
 const TaxationSchema = new mongoose.Schema(
     {
-        taxation: {
+        isTaxation: {
             type: Boolean,
             default:true
         },
-        taxationType: {
+        typeOfTaxation: {
             type: Boolean,
             default:true
         },
-        taxationRate: {
+        localTaxRate: {
             type: Number,
             required: [true, 'Please add taxation rate'],
             trim: true,

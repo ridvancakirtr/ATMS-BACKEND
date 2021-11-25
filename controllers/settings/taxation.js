@@ -27,7 +27,7 @@ const updateTaxation = asyncHandler(async (req, res, next) => {
     if (!taxation) {
         return next(new ErrorResponse(`Taxation not found with id of ${req.params.id}`, 404));
     }
-
+    
     res.status(200).json({
         success: true,
         data: taxation

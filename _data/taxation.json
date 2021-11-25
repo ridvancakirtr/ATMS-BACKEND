@@ -1,8 +1,8 @@
 [
   {
     "_id": "61646c5187c97c35d0db0207",
-    "taxation": true,
-    "taxationType": true,
-    "taxationRate": 18
+    "isTaxation": true,
+    "typeOfTaxation": true,
+    "localTaxRate": 18
   }
 ]
