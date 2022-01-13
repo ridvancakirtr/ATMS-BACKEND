@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 
@@ -32,11 +33,6 @@ const paxSchema = new mongoose.Schema({
         type: String,
         trim: true,
         maxlength: [20, 'KoltukNo can not be more than 11 characters']
-    },
-    phoneNo: {
-        type: String,
-        trim: true,
-        maxlength: [20, 'TelefonNo can not be more than 11 characters']
     },
     hesCode: {
         type: String,
@@ -104,7 +100,7 @@ const RezervationSchema = new mongoose.Schema(
             }
         },
         transferType: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
                 0,//Firmanın kendisine ait transferler
@@ -131,7 +127,7 @@ const RezervationSchema = new mongoose.Schema(
             ref: 'Vehicle',
             default: undefined
         },
-        employee: [{
+        employees: [{
             type: mongoose.Schema.ObjectId,
             ref: 'Employee',
             default: undefined
@@ -159,8 +155,23 @@ const RezervationSchema = new mongoose.Schema(
             trim: true,
             maxlength: [150, 'Start point can not be more than 50 characters']
         },
-        startDate: {
+        pickUpDate: {
             type: Date
+        },
+        pickUpTime: {
+            type: String
+        },
+        dropOffDate: {
+            type: Date
+        },
+        dropOffTime: {
+            type: String
+        },
+        employees: {
+            type: Array
+        },
+        isReturn: {
+            type: Boolean
         },
         endPoint: {
             type: String,
@@ -173,9 +184,6 @@ const RezervationSchema = new mongoose.Schema(
             required: [true, 'Please add a flight number'],
             trim: true,
             maxlength: [50, 'Flight number can not be more than 50 characters']
-        },
-        returnDate: {
-            type: Date
         },
         babySeat: {
             type: Number,
@@ -197,7 +205,14 @@ const RezervationSchema = new mongoose.Schema(
             max: [255, 'Note must can not be more than 255'],
             trim: true
         },
-        sendSms: Boolean,
+        smsNotification: {
+            type: Boolean,
+            default: false
+        },
+        uetdsNotification: {
+            type: Boolean,
+            default: false
+        },
         priceCurrency: {
             type: String,
             required: true,
@@ -223,6 +238,10 @@ const RezervationSchema = new mongoose.Schema(
                 0, // ödenmedi
                 1 // ödendi
             ]
+        },
+        uetdsPrice: {
+            type: Number,
+            required: true
         },
         tax: {
             type: Number,

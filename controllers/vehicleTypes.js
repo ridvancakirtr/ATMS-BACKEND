@@ -13,7 +13,7 @@ const getVehicleTypes = asyncHandler(async (req, res, next) => {
     let query = {};
     let options = {
         select: '',
-        sort: { date: -1 },
+        sort: { date: +1 },
         populate: '',
         lean: false,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
