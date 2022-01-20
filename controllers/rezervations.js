@@ -1,5 +1,3 @@
-'use strict';
-
 const ErrorResponse = require('../utils/errorResponse');
 const Rezervation = require('../models/Rezervations');
 const asyncHandler = require('../middleware/async');

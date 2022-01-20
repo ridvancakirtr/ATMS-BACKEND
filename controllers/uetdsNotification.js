@@ -4,36 +4,33 @@ const Rezervation = require('../models/Rezervations');
 const uetdsNotification = require('../middleware/uetds-send-notification/uetds-send-notification');
 
 // @desc    Send Notification
-// @route   POST /api/v1/uetdsnotification/send/:rezervationId
+// @route   POST /api/v1/uetdsnotification/send/:id
 // @access  Private
 const sendNotification = asyncHandler(async (req, res, next) => {
-    let rezervation = await Rezervation.findById(req.params.rezervationId)
+    
+    let rezervation = await Rezervation.findById(req.params.id)
         .populate('customer')
         .populate('agency')
-        .populate('vehicle')
-        .populate({
-            path: 'employee',
-            populate: {
-                path: 'country',
-                model: 'Country'
-            }
-        })
+        .populate('employee')
+        .populate('vehicle');
 
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
 
-    let result = await uetdsNotification.uetdsBildir(rezervation);
+    console.log(JSON.stringify(rezervation));
+
+    let result = await uetdsNotification.uetdsBildir(JSON.parse(JSON.stringify(rezervation)));
 
     if (result.status) {
         let updateUetdsRezervation = await Rezervation.findByIdAndUpdate(
             {
-                _id: req.params.rezervationId
+                _id: req.params.id
             },
             {
                 $set: {
-                    'uetds.status': true,
-                    'uetds.refNumber': result.uetdsSeferRefNo
+                    'uetdsStatus': true,
+                    'uetdsRefNumber': result.uetdsSeferRefNo
                 }
             },
             {
@@ -45,43 +42,37 @@ const sendNotification = asyncHandler(async (req, res, next) => {
         if (!updateUetdsRezervation) {
             return next(new ErrorResponse(`Uetds Update Rezervation not found with id of ${req.params.id}`, 404));
         }
-
-        result.rezervation = "Rezervation is Updated"
     } else {
-        result.rezervation = "Rezervation is not updated"
+        return next(new ErrorResponse(`Failed to send U-ETDS`, 404));
     }
 
-
-
-
     res.status(200).json({
-        ...result,
-
+        success: true,
+        data:result,
     })
 
 });
 
 // @desc    Cancel Notification
-// @route   POST /api/v1/uetdsnotification/cancel/:rezervationId
+// @route   POST /api/v1/uetdsnotification/cancel/:id
 // @access  Private
 const cancelNotification = asyncHandler(async (req, res, next) => {
-    let rezervation = await Rezervation.findById(req.params.rezervationId);
+    let rezervation = await Rezervation.findById(req.params.id);
 
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
 
-    let result = await uetdsNotification.uetdsIptalEt(rezervation);
-    console.log(result);
+    let result = await uetdsNotification.uetdsIptalEt(JSON.parse(JSON.stringify(rezervation)));
     if (result.status) {
         let updateUetdsRezervation = await Rezervation.findByIdAndUpdate(
             {
-                _id: req.params.rezervationId
+                _id: req.params.id
             },
             {
                 $set: {
-                    'uetds.refNumber': '00000000000000',
-                    'uetds.status': false,
+                    'uetdsStatus': false,
+                    'uetdsRefNumber': null
                 }
             },
             {
@@ -91,23 +82,48 @@ const cancelNotification = asyncHandler(async (req, res, next) => {
         )
 
         if (!updateUetdsRezervation) {
-            return next(new ErrorResponse(`Uetds Update Rezervation not found with id of ${req.params.id}`, 404));
+            return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
         }
-
-        result.rezervation = "Rezervation is updated"
     } else {
-        result.rezervation = "Rezervation is not updated"
+        return next(new ErrorResponse(`Failed to cansel U-ETDS`, 404));
     }
 
     res.status(200).json({
-        ...result
+        success: true,
+        data:result,
+    })
+
+});
+
+// @desc    Print Out PDF
+// @route   POST /api/v1/printout/:id
+// @access  Private
+const printOut = asyncHandler(async (req, res, next) => {
+    let rezervation = await Rezervation.findById(req.params.id);
+
+    if (!rezervation) {
+        return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
+    }
+
+    if (rezervation.uetdsRefNumber==null) {
+        return next(new ErrorResponse(`Uetds Ref Number NULL of ${req.params.id}`, 404));
+    }
+
+    let result = await uetdsNotification.printOut(rezervation.uetdsRefNumber);
+    if (!result.status) {
+        return next(new ErrorResponse(`PDF Export Error`, 404));
+    }
+
+    res.status(200).json({
+        success: true,
+        data:result,
     })
 
 });
 
 
-
 module.exports = {
     sendNotification,
-    cancelNotification
+    cancelNotification,
+    printOut
 }

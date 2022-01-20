@@ -1,63 +1,153 @@
 [
     {
-        "customer": "5d7a514b5d2c12c7449be049",
-        "pax": [
+        "transferType": 0,
+        "vehicle": {
+            "isRental": false,
+            "_id": "5ff961864658c82a84d7d5b4",
+            "brand": "Mercedes",
+            "model": "Vito",
+            "year": 2020,
+            "km": 155000,
+            "plate": "48 E 2133",
+            "note": "Araç Notu",
+            "createdAt": "2022-01-19T13:13:29.794Z",
+            "updatedAt": "2022-01-19T13:13:29.794Z",
+            "__v": 0
+        },
+        "employee": [
             {
-                "name": "Okan",
-                "surname": "Koşar",
+                "phone": {
+                    "countryCode": "TR",
+                    "nationalNumber": "5469189000",
+                    "countryCallingCode": "90",
+                    "formattedNumber": "+905469189000",
+                    "phoneNumber": "546 918 90 00"
+                },
+                "nationality": {
+                    "code": "DE",
+                    "countryName": "Almanya"
+                },
+                "_id": "5ff961824658c82a84d7d5b1",
+                "tcknOrPassport": "44908730810",
+                "name": "Rıdvan",
+                "surname": "Çakır",
                 "gender": "E",
-                "tcknOrPassport": "12345678910",
-                "nationality": "TR"
-            },
-            {
-                "name": "Recep",
-                "surname": "Sokkan",
-                "gender": "E",
-                "tcknOrPassport": "12345678911",
-                "nationality": "TR"
-            },
-            {
-                "name": "Büşra",
-                "surname": "Canlı",
-                "gender": "K",
-                "tcknOrPassport": "12345678912",
-                "nationality": "TR"
+                "email": "ridvancakirtr@gmail.com",
+                "type": 0,
+                "dateOfBirth": "2000-05-18T00:00:00.000Z",
+                "lisanceType": "B",
+                "lisanceNumber": "25445",
+                "address": "Dalaman Kapukargın Cafer Sok.25",
+                "createdAt": "2022-01-19T13:13:28.546Z",
+                "updatedAt": "2022-01-19T13:13:28.546Z",
+                "__v": 0
             }
         ],
-        "uetds": {
-            "status": false,
-            "refNumber": "",
-            "baslangicUlke": "TR",
-            "baslangicIl": "48",
-            "baslangicIlce": "99125",
-            "baslangicYer": "Dalaman Havalimanı",
-            "bitisUlke": "TR",
-            "bitisIl": "48",
-            "bitisIlce": "1517",
-            "bitisYer": "Marmaris Merkez"
-        },
-        "transferType": "0",
-        "agency": "5ff961864658c82a84d7d5c0",
-        "vehicleType": "Mercedes Vito (6+1)",
-        "vehicle": "5ff961864658c82a84d7d5b2",
-        "employee": ["5ff961824658c82a84d7d5b2"],
-        "transferDirection": "Havalimanından Noktaya",
-        "terminal": "İç Hatlar",
-        "startPoint": "Dalaman Havalimanı",
-        "startDate": "2021-03-30T00:00:00Z",
-        "endPoint": "Marmaris Merkez",
-        "flightNumber": "TK2222",
-        "returnDate": "2021-04-12T00:00:00Z",
-        "babySeat": "1",
-        "childSeat": "0",
-        "wheelSeat": "0",
-        "note": "Note Gelecek",
         "smsNotification": false,
-        "uetdsNotification": false,
-        "priceCurrency": 0,
+        "uetdsNotification": true,
+        "uetdsStatus": false,
+        "uetdsRefNumber": "22011962445084",
         "driverStatus": 0,
         "status": 1,
-        "tax": "50",
-        "price": "125"
+        "_id": "61e80e988831252cb44c4bb9",
+        "agency": {
+            "authorizedPhone": {
+                "countryCode": "TR",
+                "nationalNumber": "5469189000",
+                "countryCallingCode": "90",
+                "formattedNumber": "+905469189000",
+                "phoneNumber": "546 918 90 00"
+            },
+            "companyOwner": true,
+            "_id": "5ff961864658c82a84d7d5c0",
+            "companyName": "Akgün Transfer",
+            "taxAdministration": "Dalaman",
+            "taxNumber": 11111,
+            "address": "Dalaman",
+            "authorizedName": "Hakan",
+            "authorizedSurname": "Akgün",
+            "authorizedEmail": "hakan@gmail.com",
+            "__v": 0
+        },
+        "vehicleType": "Mercedes Vito - 9 Kişi",
+        "customer": {
+            "phone": {
+                "countryCode": "TR",
+                "nationalNumber": "5469189000",
+                "countryCallingCode": "90",
+                "formattedNumber": "+905469189000",
+                "phoneNumber": "546 918 90 00"
+            },
+            "nationality": {
+                "code": "DE",
+                "countryName": "Almanya"
+            },
+            "_id": "5d7a514b5d2c12c7449be049",
+            "name": "Beyaz",
+            "surname": "Kustak",
+            "email": "beyazkustak@gmail.com",
+            "gender": "E",
+            "tcknOrPassport": "12345678910",
+            "createdAt": "2022-01-19T13:13:30.546Z",
+            "updatedAt": "2022-01-19T13:13:30.546Z",
+            "__v": 0
+        },
+        "transferDirection": "0",
+        "startPoint": {
+            "_id": "5ffb2522f2b1541010e1c532",
+            "airport": {
+                "_id": "5ffb2b94b79f5b2ec0d25368",
+                "code": 99151,
+                "cityCode": 48,
+                "name": "Milas-Bodrum Havalimanı",
+                "cityName": "MUĞLA",
+                "__v": 0
+            },
+            "__v": 0
+        },
+        "endPoint": {
+            "point": "Güllük",
+            "city": [
+                {
+                    "_id": "5ffb2b99b79f5b2ec0d25627",
+                    "code": 1197,
+                    "cityCode": 48,
+                    "name": "BODRUM",
+                    "cityName": "MUĞLA",
+                    "__v": 0
+                }
+            ]
+        },
+        "flightNumber": "TK777",
+        "terminal": "İç Hatlar",
+        "isReturn": false,
+        "pickUpDate": "2022-01-17T21:00:00.000Z",
+        "pickUpTime": "2022-01-18T06:00:00.203Z",
+        "dropOffDate": "2022-01-17T21:00:00.000Z",
+        "dropOffTime": "2022-01-18T06:00:00.203Z",
+        "babySeat": 0,
+        "childSeat": 0,
+        "wheelSeat": 0,
+        "pax": [
+            {
+                "nationality": {
+                    "code": "TR",
+                    "countryName": "Türkiye"
+                },
+                "_id": "61e80e988831252cb44c4bba",
+                "tcknOrPassport": "44908730836",
+                "name": "RIDVAN",
+                "surname": "CAKIR",
+                "gender": "E"
+            }
+        ],
+        "note": null,
+        "price": 540,
+        "uetdsPrice": 200,
+        "directionPrice": 0,
+        "priceCurrency": "0",
+        "createdAt": "2022-01-19T13:14:00.180Z",
+        "updatedAt": "2022-01-19T13:14:00.180Z",
+        "__v": 0
     }
 ]

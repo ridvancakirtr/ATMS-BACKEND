@@ -3,6 +3,12 @@ const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 
 const paxSchema = new mongoose.Schema({
+    tcknOrPassport: {
+        type: String,
+        required: [true, 'Please add a TC or Passport'],
+        trim: true,
+        maxlength: [11, 'TC or Passport can not be more than 11 characters']
+    },
     name: {
         type: String,
         required: [true, 'Please add a name'],
@@ -23,27 +29,19 @@ const paxSchema = new mongoose.Schema({
             'K'
         ]
     },
-    tcknOrPassport: {
-        type: String,
-        required: [true, 'Please add a TC or Passport'],
-        trim: true,
-        maxlength: [11, 'TC or Passport can not be more than 11 characters']
-    },
-    seatNo: {
-        type: String,
-        trim: true,
-        maxlength: [20, 'KoltukNo can not be more than 11 characters']
-    },
-    hesCode: {
-        type: String,
-        trim: true,
-        maxlength: [20, 'Hes Kodu can not be more than 11 characters']
-    },
     nationality: {
-        type: String,
-        required: [true, 'Please add a nationality'],
-        trim: true,
-        maxlength: [50, 'Nationality can not be more than 50 characters']
+        code: {
+            type: String,
+            required: [true, 'Please add a nationality'],
+            trim: true,
+            maxlength: [50, 'Nationality can not be more than 50 characters']
+        },
+        countryName: {
+            type: String,
+            required: [true, 'Please add a Country Name'],
+            trim: true,
+            maxlength: [50, 'Country Name can not be more than 50 characters']
+        }
     }
 
 })
@@ -56,49 +54,6 @@ const RezervationSchema = new mongoose.Schema(
             required: true
         },
         pax: [paxSchema],
-        uetds: {
-            status: {
-                type: Boolean,
-                require: true,
-                default: false //false Bildirilmedi | true Bildirildi 
-            },
-            refNumber: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'RefNumber can not be more than 50 characters'],
-                default: '00000000000000'
-            },
-            baslangicUlke: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Baslangic Ulke can not be more than 50 characters']
-            },
-            baslangicIl: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Baslangic Il can not be more than 50 characters']
-            },
-            baslangicIlce: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Baslangic Ilce can not be more than 50 characters']
-            },
-            bitisUlke: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Bitis Ulke can not be more than 50 characters']
-            },
-            bitisIl: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Bitis Il can not be more than 50 characters']
-            },
-            bitisIlce: {
-                type: String,
-                trim: true,
-                maxlength: [50, 'Bitis Ilce can not be more than 50 characters']
-            }
-        },
         transferType: {
             type: Number,
             required: true,
@@ -106,7 +61,8 @@ const RezervationSchema = new mongoose.Schema(
                 0,//Firmanın kendisine ait transferler
                 1,//Alınan Transfeler
                 2 //Yönlendirilen Transferler
-            ]
+            ],
+            default:0
         },
         agency: {
             type: mongoose.Schema.ObjectId,
@@ -125,20 +81,20 @@ const RezervationSchema = new mongoose.Schema(
         vehicle: {
             type: mongoose.Schema.ObjectId,
             ref: 'Vehicle',
-            default: undefined
+            default: null
         },
-        employees: [{
+        employee: [{
             type: mongoose.Schema.ObjectId,
             ref: 'Employee',
-            default: undefined
+            default: null
         }],
         transferDirection: {
             type: String,
             required: true,
             enum: [
-                'Havalimanından Noktaya',
-                'Noktadan Havalimanına',
-                'Noktadan Noktaya'
+                0,//'Havalimanından Noktaya'
+                1,//'Noktadan Havalimanına'
+                2,//'Noktadan Noktaya'
             ]
         },
         terminal: {
@@ -150,34 +106,27 @@ const RezervationSchema = new mongoose.Schema(
             ]
         },
         startPoint: {
-            type: String,
-            required: [true, 'Please add a start point'],
-            trim: true,
-            maxlength: [150, 'Start point can not be more than 50 characters']
+            type: Object,
+            required: [true, 'Please add a end point']
         },
         pickUpDate: {
             type: Date
         },
         pickUpTime: {
-            type: String
+            type: Date
         },
         dropOffDate: {
             type: Date
         },
         dropOffTime: {
-            type: String
-        },
-        employees: {
-            type: Array
+            type: Date
         },
         isReturn: {
             type: Boolean
         },
         endPoint: {
-            type: String,
-            required: [true, 'Please add a end point'],
-            trim: true,
-            maxlength: [150, 'End point can not be more than 50 characters']
+            type: Object,
+            required: [true, 'Please add a end point']
         },
         flightNumber: {
             type: String,
@@ -213,6 +162,16 @@ const RezervationSchema = new mongoose.Schema(
             type: Boolean,
             default: false
         },
+        uetdsStatus:{
+            type: Boolean,
+            default:false
+        },
+        uetdsRefNumber:{
+            type: String,
+            max: [255, 'Note must can not be more than 255'],
+            trim: true,
+            default:null
+        },
         priceCurrency: {
             type: String,
             required: true,
@@ -224,26 +183,24 @@ const RezervationSchema = new mongoose.Schema(
             ]
         },
         driverStatus: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
                 0, // ödenmedi
                 1 // ödendi
-            ]
+            ],
+            default:0
         },
         status: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
                 0, // ödenmedi
                 1 // ödendi
-            ]
+            ],
+            default:0
         },
         uetdsPrice: {
-            type: Number,
-            required: true
-        },
-        tax: {
             type: Number,
             required: true
         },

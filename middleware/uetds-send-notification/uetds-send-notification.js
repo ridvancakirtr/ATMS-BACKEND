@@ -3,16 +3,13 @@ const uetdsSoapService = require('../uetds-soap-service/uetds-soap-service');
 
 const seferEkle = async (rezervation) => {
     const aracPlaka = rezervation.vehicle.plate;
-    const seferAciklama = rezervation.startPoint + " - " + rezervation.endPoint;
-
-    const hareketTarihi = new Date(rezervation.startDate).toISOString().slice(0, 10);
-    const hareketSaati = new Date(rezervation.startDate).toISOString().slice(11, 16);
-    const aracTelefonu = "00000000000"
+    const seferAciklama = "";
+    const hareketTarihi = new Date(rezervation.pickUpDate).toISOString().slice(0, 10);
+    const hareketSaati = new Date(rezervation.pickUpTime).toISOString().slice(11, 16);
+    const aracTelefonu = ""
     const firmaSeferNo = ""
-    const seferBitisTarihi = new Date(rezervation.startDate).toISOString().slice(0, 10);
-
-    new Date(rezervation.startDate).setUTCHours(2);
-    const seferBitisSaati = new Date(rezervation.startDate).toISOString().slice(11, 16);
+    const seferBitisTarihi = new Date(rezervation.dropOffDate).toISOString().slice(0, 10);
+    const seferBitisSaati = new Date(rezervation.dropOffTime).toISOString().slice(11, 16);
 
     const result = await uetdsSoapService.seferEkle({ aracPlaka, seferAciklama, hareketTarihi, hareketSaati, aracTelefonu, firmaSeferNo, seferBitisTarihi, seferBitisSaati });
 
@@ -20,26 +17,50 @@ const seferEkle = async (rezervation) => {
 }
 
 const seferIptal = async (rezervation) => {
-    let seferIptal = { uetdsSeferReferansNo: rezervation.uetds.refNumber, iptalAciklama: "İptal Edildi" }
+    let seferIptal = { uetdsSeferReferansNo: rezervation.uetdsRefNumber, iptalAciklama: "İptal Edildi" }
     const result = await uetdsSoapService.seferIptal(seferIptal);
     return result
 }
 
 const seferGrupEkle = async (uetdsReferansNo, rezervation) => {
+    let tempBaslangicIl,tempBaslangicIlce,tempBaslangicYer=null
+    let tempBitisIl,tempBitisIlce,tempBitisYer=null
+
+    if(rezervation.startPoint["airport"]!== undefined){
+        tempBaslangicIl=rezervation.startPoint.airport.cityCode
+        tempBaslangicIlce=rezervation.startPoint.airport.code
+    }
+
+    if(rezervation.startPoint["city"]!== undefined){
+        tempBaslangicIl=rezervation.startPoint.city.cityCode
+        tempBaslangicIlce=rezervation.startPoint.city.code
+        tempBaslangicYer=rezervation.startPoint.point
+    }
+
+    if(rezervation.endPoint["airport"]!== undefined){
+        tempBitisIl=rezervation.endPoint.airport.cityCode
+        tempBitisIlce=rezervation.endPoint.airport.code
+    }
+
+    if(rezervation.endPoint["city"]!== undefined){
+        tempBitisIl=rezervation.endPoint.city[0].cityCode
+        tempBitisIlce=rezervation.endPoint.city[0].code
+        tempBitisYer=rezervation.endPoint.point
+    }
+    
+
     const uetdsSeferReferansNo = uetdsReferansNo;
-    const grupAciklama = rezervation.pax.length + " Toplam Yolcu ";
-    const baslangicUlke = rezervation.uetds.baslangicUlke;
-    const baslangicIl = rezervation.uetds.baslangicIl;
-    const baslangicIlce = rezervation.uetds.baslangicIlce;
-    const baslangicYer = rezervation.startPoint;
-    const bitisUlke = rezervation.uetds.bitisUlke;
-    const bitisIl = rezervation.uetds.bitisIl;
-    const bitisIlce = rezervation.uetds.bitisIlce;
-    const bitisYer = rezervation.endPoint;
+    const grupAciklama = " Toplam Yolcu :"+rezervation.pax.length;
+    const baslangicUlke = 'TR';
+    const baslangicIl = tempBaslangicIl;
+    const baslangicIlce = tempBaslangicIlce;
+    const baslangicYer = tempBaslangicYer;
+    const bitisUlke = 'TR';
+    const bitisIl = tempBitisIl;
+    const bitisIlce = tempBitisIlce;
+    const bitisYer = tempBitisYer;
     const grupAdi = "GRUP " + rezervation.customer.name + " " + rezervation.customer.surname;
-    const grupUcret = rezervation.price;
-    console.log("baslangicUlke->", baslangicUlke);
-    console.log("bitisUlke->", bitisUlke);
+    const grupUcret = rezervation.uetdsPrice;
     const result = await uetdsSoapService.seferGrupEkle({
         uetdsSeferReferansNo,
         grupAciklama,
@@ -68,10 +89,10 @@ const yolcuEkleCoklu = async (uetdsSeferReferansNo, uetdsSeferGrupID, rezervatio
             soyadi: element.surname,
             cinsiyet: element.gender,
             tcKimlikPasaportNo: element.tcknOrPassport,
-            uyrukUlke: element.nationality,
-            koltukNo: element.seatNo,
-            telefonNo: element.phoneNo,
-            hesKodu: element.hesCode,
+            uyrukUlke: element.nationality.code,
+            koltukNo: '',
+            telefonNo: '',
+            hesKodu: '',
             grupId: uetdsSeferGrupID,
             uetdsSeferReferansNo: uetdsSeferReferansNo
         }
@@ -91,7 +112,7 @@ const personelEkle = async (uetdsSeferReferansNo, rezervation) => {
         let personel = {
             uetdsSeferReferansNo: uetdsSeferReferansNo,
             turKodu: element.type,
-            uyrukUlke: element.country.code,
+            uyrukUlke: element.nationality.code,
             tcKimlikPasaportno: element.tcknOrPassport,
             cinsiyet: element.gender,
             adi: element.name,
@@ -135,7 +156,7 @@ const uetdsBildir = async (rezervation) => {
     const yolcuEkleCokluResult = await yolcuEkleCoklu(uetdsSeferReferansNo, uetdsSeferGrupID, rezervation);
     if (yolcuEkleCokluResult.sonucKodu != 0) {
         isResult.push({ status: yolcuEkleCokluResult.sonucKodu, message: yolcuEkleCokluResult.sonucMesaji })
-        console.log(yolcuEkleCokluResult.sonucMesaji);
+        console.log('yolcuEkleCoklu',yolcuEkleCokluResult.sonucMesaji);
     } else {
         isResult.push({ status: yolcuEkleCokluResult.sonucKodu, message: yolcuEkleCokluResult.sonucMesaji })
         console.log("Yolcu Çoklu Eklendi :", yolcuEkleCokluResult);
@@ -145,7 +166,7 @@ const uetdsBildir = async (rezervation) => {
     personelEkleResult.forEach((element, index, array) => {
         if (element.sonucKodu != 0) {
             isResult.push({ status: element.sonucKodu, message: element.sonucMesaji })
-            console.log(element.sonucMesaji);
+            console.log('Personel hata',element.sonucMesaji);
         } else {
             isResult.push({ status: element.sonucKodu, message: element.sonucMesaji })
         }
@@ -163,7 +184,7 @@ const uetdsBildir = async (rezervation) => {
                 index: index
             }
         }
-    }
+    }      
 
     return {
         status: true,
@@ -172,7 +193,7 @@ const uetdsBildir = async (rezervation) => {
     }
 }
 
-const uetdsIptalEt = async (rezervation) => {
+const uetdsIptalEt = async (uetdsSeferReferansNo) => {
     let isResult = []
 
     const seferIptalResult = await seferIptal(rezervation);
@@ -196,159 +217,186 @@ const uetdsIptalEt = async (rezervation) => {
     }
 }
 
-/*
-const rezervation = {
-    uetds: {
-        status: false,
-        refNumber: "21032960876172",
-        groupId: "000000",
-        baslangicUlke: "TR",
-        baslangicIl: "48",
-        baslangicIlce: "99125",
-        bitisUlke: "TR",
-        bitisIl: "48",
-        bitisIlce: "1517",
-    },
-    isUetds: true,
-    _id: "6060e063dfdc380744cb64b7",
-    customer: {
-        _id: "5d7a514b5d2c12c7449be049",
-        name: "Beyaz",
-        surname: "Kustak",
-        email: "beyazkustak@gmail.com",
-        phone: "905469189000",
-        gender: "E",
-        tcknOrPassport: "12345678910",
-        nationality: "TR",
-        createdAt: "2021-03-26T20:51:43.782Z",
-        updatedAt: "2021-03-26T20:51:43.782Z",
-        __v: 0
-    },
-    pax: [
-        {
-            name: "Okan",
-            surname: "Koşar",
-            gender: "E",
-            tcknOrPassport: "12345678910",
-            nationality: "TR"
-        },
-        {
-            name: "Recep",
-            surname: "Sokkan",
-            gender: "E",
-            tcknOrPassport: "12345678911",
-            nationality: "TR"
-        },
-        {
-            name: "Büşra",
-            surname: "Canlı",
-            gender: "K",
-            tcknOrPassport: "12345678912",
-            nationality: "TR"
+const printOut = async (uetdsSeferReferansNo) => {
+    let seferDetayCiktisiAlObject = {uetdsSeferReferansNo: uetdsSeferReferansNo} 
+    const resultSeferCikti = await uetdsSoapService.seferDetayCiktisiAl(seferDetayCiktisiAlObject);
+    
+    if(resultSeferCikti.sonucKodu!=0){
+        return {
+            status: false,
+            message: "HATA"
         }
-    ],
-    transferType: "0",
-    agency: {
-        _id: "5ff961864658c82a84d7d5c0",
-        companyName: "Akgün Transfer",
-        taxAdministration: "Dalaman",
-        taxNumber: 11111,
-        address: "Dalaman",
-        authorizedName: "Hakan",
-        authorizedSurname: "Akgün",
-        authorizedPhone: 905469998888,
-        authorizedEmail: "hakan@gmail.com",
-        companyOwner: true,
-        __v: 0
-    },
-    vehicleType: "Mercedes Vito (6+1)",
-    vehicle: {
-        isRental: true,
-        _id: "5ff961864658c82a84d7d5b2",
-        brand: "Wolksvagen",
-        model: "Transporter",
-        year: 2018,
-        km: 145000,
-        plate: "48E1245",
-        note: "Araç Notu",
-        createdAt: "2021-03-26T20:51:41.618Z",
-        updatedAt: "2021-03-26T20:51:41.618Z",
-        __v: 0
-    },
-    employee: [
-        {
-            _id: "5ff961824658c82a84d7d5b2",
-            tcknOrPassport: "44908730836",
-            name: "Mert",
-            surname: "Çakır",
-            gender: "E",
-            phone: "+905468887745",
-            email: "mercakir@gmail.com",
-            country: {
-                _id: "5ffb2bacb79f5b2ec0d2575f",
-                code: "TR",
-                countryName: "Türkiye",
-                __v: 0
-            },
-            type: "0",
-            dateOfBirth: "1998-06-12T00:00:00.000Z",
-            lisanceType: "B",
-            lisanceNumber: "2544545",
-            address: "Dalaman Ege Mh Sok.91",
-            createdAt: "2021-03-26T20:51:41.124Z",
-            updatedAt: "2021-03-26T20:51:41.124Z",
-            __v: 0
-        },
-        {
-            _id: "5ff961824658c82a84d7d5b3",
-            tcknOrPassport: "121121212122",
-            name: "Recep",
-            surname: "Akgun",
-            gender: "E",
-            phone: "+905468887745",
-            email: "mercakir@gmail.com",
-            country: {
-                _id: "5ffb2bacb79f5b2ec0d2575f",
-                code: "TR",
-                countryName: "Türkiye",
-                __v: 0
-            },
-            type: "0",
-            dateOfBirth: "1998-06-12T00:00:00.000Z",
-            lisanceType: "B",
-            lisanceNumber: "2544545",
-            address: "Dalaman Ege Mh Sok.91",
-            createdAt: "2021-03-26T20:51:41.124Z",
-            updatedAt: "2021-03-26T20:51:41.124Z",
-            __v: 0
-        }
-    ],
-    transferDirection: "Havalimanından Noktaya",
-    terminal: "İç Hatlar",
-    startPoint: "Dalaman Havalimanı",
-    startDate: "2021-03-30T00:00:00.000Z",
-    endPoint: "Marmaris Merkez",
-    flightNumber: "TK2222",
-    isReturn: true,
-    returnDate: "2021-04-12T00:00:00.000Z",
-    babySeat: 1,
-    childSeat: 0,
-    wheelSeat: 0,
-    note: "Note Gelecek",
-    sendSms: false,
-    priceCurrency: "EURO",
-    driverStatus: "ÖDENMEDİ",
-    status: "ÖDENDİ",
-    price: 125
+    }
+
+    return {
+        status: true,
+        pdf: resultSeferCikti.sonucPdf,
+        message: "OK"
+    }
 }
 
+const rezervation = {
+    "transferType": 0,
+    "vehicle": {
+        "isRental": false,
+        "_id": "5ff961864658c82a84d7d5b4",
+        "brand": "Mercedes",
+        "model": "Vito",
+        "year": 2020,
+        "km": 155000,
+        "plate": "48 E 2133",
+        "note": "Araç Notu",
+        "createdAt": "2022-01-19T13:13:29.794Z",
+        "updatedAt": "2022-01-19T13:13:29.794Z",
+        "__v": 0
+    },
+    "employee": [
+        {
+            "phone": {
+                "countryCode": "TR",
+                "nationalNumber": "5469189000",
+                "countryCallingCode": "90",
+                "formattedNumber": "+905469189000",
+                "phoneNumber": "546 918 90 00"
+            },
+            "nationality": {
+                "code": "DE",
+                "countryName": "Almanya"
+            },
+            "_id": "5ff961824658c82a84d7d5b1",
+            "tcknOrPassport": "44908730810",
+            "name": "Rıdvan",
+            "surname": "Çakır",
+            "gender": "E",
+            "email": "ridvancakirtr@gmail.com",
+            "type": 0,
+            "dateOfBirth": "2000-05-18T00:00:00.000Z",
+            "lisanceType": "B",
+            "lisanceNumber": "25445",
+            "address": "Dalaman Kapukargın Cafer Sok.25",
+            "createdAt": "2022-01-19T13:13:28.546Z",
+            "updatedAt": "2022-01-19T13:13:28.546Z",
+            "__v": 0
+        }
+    ],
+    "smsNotification": false,
+    "uetdsNotification": true,
+    "uetdsStatus": false,
+    "uetdsRefNumber": '22011962445084',
+    "driverStatus": 0,
+    "status": 1,
+    "_id": "61e80e988831252cb44c4bb9",
+    "agency": {
+        "authorizedPhone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
+        "companyOwner": true,
+        "_id": "5ff961864658c82a84d7d5c0",
+        "companyName": "Akgün Transfer",
+        "taxAdministration": "Dalaman",
+        "taxNumber": 11111,
+        "address": "Dalaman",
+        "authorizedName": "Hakan",
+        "authorizedSurname": "Akgün",
+        "authorizedEmail": "hakan@gmail.com",
+        "__v": 0
+    },
+    "vehicleType": "Mercedes Vito - 9 Kişi",
+    "customer": {
+        "phone": {
+            "countryCode": "TR",
+            "nationalNumber": "5469189000",
+            "countryCallingCode": "90",
+            "formattedNumber": "+905469189000",
+            "phoneNumber": "546 918 90 00"
+        },
+        "nationality": {
+            "code": "DE",
+            "countryName": "Almanya"
+        },
+        "_id": "5d7a514b5d2c12c7449be049",
+        "name": "Beyaz",
+        "surname": "Kustak",
+        "email": "beyazkustak@gmail.com",
+        "gender": "E",
+        "tcknOrPassport": "12345678910",
+        "createdAt": "2022-01-19T13:13:30.546Z",
+        "updatedAt": "2022-01-19T13:13:30.546Z",
+        "__v": 0
+    },
+    "transferDirection": "0",
+    "startPoint": {
+        "_id": "5ffb2522f2b1541010e1c532",
+        "airport": {
+            "_id": "5ffb2b94b79f5b2ec0d25368",
+            "code": 99151,
+            "cityCode": 48,
+            "name": "Milas-Bodrum Havalimanı",
+            "cityName": "MUĞLA",
+            "__v": 0
+        },
+        "__v": 0
+    },
+    "endPoint": {
+        "point": "Güllük",
+        "city": [
+            {
+                "_id": "5ffb2b99b79f5b2ec0d25627",
+                "code": 1197,
+                "cityCode": 48,
+                "name": "BODRUM",
+                "cityName": "MUĞLA",
+                "__v": 0
+            }
+        ]
+    },
+    "flightNumber": "TK777",
+    "terminal": "İç Hatlar",
+    "isReturn": false,
+    "pickUpDate": "2022-01-17T21:00:00.000Z",
+    "pickUpTime": "2022-01-18T06:00:00.203Z",
+    "dropOffDate": "2022-01-17T21:00:00.000Z",
+    "dropOffTime": "2022-01-18T06:00:00.203Z",
+    "babySeat": 0,
+    "childSeat": 0,
+    "wheelSeat": 0,
+    "pax": [
+        {
+            "nationality": {
+                "code": "TR",
+                "countryName": "Türkiye"
+            },
+            "_id": "61e80e988831252cb44c4bba",
+            "tcknOrPassport": "44908730836",
+            "name": "RIDVAN",
+            "surname": "CAKIR",
+            "gender": "E"
+        }
+    ],
+    "note": null,
+    "price": 540,
+    "uetdsPrice": 200,
+    "directionPrice": 0,
+    "priceCurrency": "0",
+    "createdAt": "2022-01-19T13:14:00.180Z",
+    "updatedAt": "2022-01-19T13:14:00.180Z",
+    "__v": 0
+}
+/*
 uetdsBildir(rezervation).then((data) => {
     console.log(data);
 });
 
+printOut("21011460312742").then((data) => {
+    console.log(data);
+});
 */
-
 module.exports = {
     uetdsBildir,
-    uetdsIptalEt
+    uetdsIptalEt,
+    printOut
 }
