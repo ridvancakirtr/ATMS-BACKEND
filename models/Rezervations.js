@@ -69,14 +69,12 @@ const RezervationSchema = new mongoose.Schema(
             ref: 'Agency'
         },
         directionPrice: {
-            type: Number,
-            max: [11, 'Price must can not be more than 11'],
+            type: Number
         },
         vehicleType: {
-            type: String,
-            required: [true, 'Please add a start vehicle type'],
-            trim: true,
-            maxlength: [50, 'Vehicle type can not be more than 50 characters']
+            type: mongoose.Schema.ObjectId,
+            ref: 'VehicleType',
+            default: null
         },
         vehicle: {
             type: mongoose.Schema.ObjectId,
@@ -109,16 +107,7 @@ const RezervationSchema = new mongoose.Schema(
             type: Object,
             required: [true, 'Please add a end point']
         },
-        pickUpDate: {
-            type: Date
-        },
-        pickUpTime: {
-            type: Date
-        },
-        dropOffDate: {
-            type: Date
-        },
-        dropOffTime: {
+        pickUpDateTime: {
             type: Date
         },
         isReturn: {
@@ -155,10 +144,6 @@ const RezervationSchema = new mongoose.Schema(
             trim: true
         },
         smsNotification: {
-            type: Boolean,
-            default: false
-        },
-        uetdsNotification: {
             type: Boolean,
             default: false
         },
@@ -201,8 +186,7 @@ const RezervationSchema = new mongoose.Schema(
             default:0
         },
         uetdsPrice: {
-            type: Number,
-            required: true
+            type: Number
         },
         price: {
             type: Number,

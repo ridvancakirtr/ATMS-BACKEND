@@ -2,14 +2,18 @@ const uetdsSoapService = require('../uetds-soap-service/uetds-soap-service');
 
 
 const seferEkle = async (rezervation) => {
+    const newDate = new Date(rezervation.pickUpDateTime);
+    const newDateEnd = new Date(rezervation.pickUpDateTime);    
+    newDateEnd.setHours(newDate.getHours() + 2);
+
     const aracPlaka = rezervation.vehicle.plate;
     const seferAciklama = "";
-    const hareketTarihi = new Date(rezervation.pickUpDate).toISOString().slice(0, 10);
-    const hareketSaati = new Date(rezervation.pickUpTime).toISOString().slice(11, 16);
+    const hareketTarihi = newDate.toISOString().slice(0, 10);
+    const hareketSaati = newDate.toISOString().slice(11, 16);
     const aracTelefonu = ""
     const firmaSeferNo = ""
-    const seferBitisTarihi = new Date(rezervation.dropOffDate).toISOString().slice(0, 10);
-    const seferBitisSaati = new Date(rezervation.dropOffTime).toISOString().slice(11, 16);
+    const seferBitisTarihi = newDateEnd.toISOString().slice(0, 10);
+    const seferBitisSaati = newDateEnd.toISOString().slice(11, 16);
 
     const result = await uetdsSoapService.seferEkle({ aracPlaka, seferAciklama, hareketTarihi, hareketSaati, aracTelefonu, firmaSeferNo, seferBitisTarihi, seferBitisSaati });
 
@@ -163,6 +167,7 @@ const uetdsBildir = async (rezervation) => {
     }
 
     const personelEkleResult = await personelEkle(uetdsSeferReferansNo, rezervation);
+    console.log("personelEkleResult------ :", personelEkleResult);
     personelEkleResult.forEach((element, index, array) => {
         if (element.sonucKodu != 0) {
             isResult.push({ status: element.sonucKodu, message: element.sonucMesaji })
@@ -193,7 +198,7 @@ const uetdsBildir = async (rezervation) => {
     }
 }
 
-const uetdsIptalEt = async (uetdsSeferReferansNo) => {
+const uetdsIptalEt = async (rezervation) => {
     let isResult = []
 
     const seferIptalResult = await seferIptal(rezervation);
@@ -203,6 +208,7 @@ const uetdsIptalEt = async (uetdsSeferReferansNo) => {
         isResult.push({ status: seferIptalResult.sonucKodu, message: seferIptalResult.sonucMesaji })
         console.log("Sefer İptal Edildi :", seferIptalResult);
     }
+    console.log(isResult[0]);
     const element = isResult[0];
     if (element.status != 0) {
         return {

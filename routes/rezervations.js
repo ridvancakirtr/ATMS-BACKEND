@@ -10,7 +10,9 @@ const {
     getRezervationAgency,
     getRezervationVehicle,
     getRezervationEmployee,
-    getRezervationCustomer
+    getRezervationCustomer,
+    updateVehicleOfRezervation,
+    updateEmployeeOfRezervation
 } = require('../controllers/rezervations');
 
 const { protect } = require('../middleware/auth')
@@ -19,8 +21,9 @@ router.route('/').get(protect, getRezervations);
 router.route('/:id').get(protect, getRezervation);
 router.route('/').post(protect, createRezervation);
 router.route('/:id').put(protect, updateRezervation);
+router.route('/:id/vehicle').put(protect, updateVehicleOfRezervation);
+router.route('/:id/employee').put(protect, updateEmployeeOfRezervation);
 router.route('/:id').delete(protect, deleteRezervation);
-
 router.route('/:agencyId/agency').get(protect, getRezervationAgency);
 router.route('/:vehicleId/vehicle').get(protect, getRezervationVehicle);
 router.route('/:employeeId/employee').get(protect, getRezervationEmployee);

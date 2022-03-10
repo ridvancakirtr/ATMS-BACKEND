@@ -1,7 +1,7 @@
 const ErrorResponse = require('../utils/errorResponse');
 const Rezervation = require('../models/Rezervations');
 const asyncHandler = require('../middleware/async');
-const uetdsSoapService = require('../middleware/uetds-soap-service/uetds-soap-service');
+const uetdsSendNotification = require('../middleware/uetds-send-notification/uetds-send-notification');
 
 // @desc    Get All Rezervation
 // @route   GET /api/v1/rezervation/
@@ -24,10 +24,14 @@ const getRezervations = asyncHandler(async (req, res, next) => {
         query = { employee: req.params.employeeId };
     }
 
+    if (req.params.vehicleTypeId) {
+        query = { vehicleType: req.params.vehicleTypeId };
+    }
+
     options = {
         select: '',
         sort: { date: -1 },
-        populate: ['customer', 'agency', 'employee', 'vehicle'],
+        populate: ['customer', 'agency', 'employee', 'vehicle', 'vehicleType'],
         lean: false,
         page: parseInt(Number(page) < 0 ? 0 : Number(page), 10) || 1,
         limit: parseInt(Number(limit) <= 0 ? 1 : Number(limit), 10) || 10
@@ -186,7 +190,8 @@ const getRezervation = asyncHandler(async (req, res, next) => {
         .populate('customer')
         .populate('agency')
         .populate('employee')
-        .populate('vehicle');
+        .populate('vehicle')
+        .populate('vehicleType');
 
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
@@ -203,31 +208,56 @@ const getRezervation = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/rezervation/
 // @access  Private
 const createRezervation = asyncHandler(async (req, res, next) => {
-    const rezervation = await Rezervation.create(req.body);
+    let departureWay,returnWay=null
+    let rezObject=req.body
+
+    if(rezObject.uetdsNotification){
+        console.log('UETDS AKTIF');
+    }else{
+        console.log('UETDS PASIF');
+    }
+
+    departureWay = await Rezervation.create(rezObject);
+
+     //Return Transfer 
+    if(rezObject.isReturn){
+        let tempStartPoint=rezObject.startPoint
+        let tempEndPoint=rezObject.endPoint
+        let tempDropOffDateTime=rezObject.dropOffDateTime
+
+        delete rezObject.dropOffDateTime
+
+        rezObject.startPoint=null
+        rezObject.startPoint=tempEndPoint
+
+        rezObject.endPoint=null
+        rezObject.endPoint=tempStartPoint
+        
+        rezObject.pickUpDateTime=null
+        rezObject.pickUpDateTime=tempDropOffDateTime
+
+        returnWay= await Rezervation.create(rezObject);
+        
+    }
+    
     res.status(201).json({
         success: true,
-        data: rezervation
+        data: {
+            departureWay,
+            returnWay
+        }
     })
 });
 
-// @desc      Update Airport
+// @desc      Update Rezervation
 // @route     PUT /api/v1/rezervation/:id
 // @access    Private
 const updateRezervation = asyncHandler(async (req, res, next) => {
-    let rezervation = await Rezervation.findById(req.params.id)
-        .populate('customer')
-        .populate('agency')
-        .populate('employee')
-        .populate('vehicle');
-
+    let rezervation = await Rezervation.findOneAndReplace(req.params.id, req.body);
+    console.log('---', req.body);
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
-
-    rezervation = await Rezervation.findOneAndReplace(req.params.id, req.body, {
-        new: true,
-        runValidators: true
-    });
 
     res.status(200).json({
         success: true,
@@ -235,8 +265,39 @@ const updateRezervation = asyncHandler(async (req, res, next) => {
     });
 });
 
+// @desc      Update Vehicle of Rezervation
+// @route     PUT /api/v1/rezervation/:id/vehicle
+// @access    Private
+const updateVehicleOfRezervation = asyncHandler(async (req, res, next) => {
+    let rezervation = await Rezervation.findOneAndUpdate({_id:req.params.id}, { $set: {vehicle:req.body.vehicle} },{useFindAndModify: false});
 
-// @desc      Delete Airport
+    if (!rezervation) {
+        return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
+    }
+    res.status(200).json({
+        success: true,
+        data: rezervation
+    });
+});
+
+// @desc      Update Employee of Rezervation
+// @route     PUT /api/v1/rezervation/:id/employee
+// @access    Private
+const updateEmployeeOfRezervation = asyncHandler(async (req, res, next) => {
+    
+    let rezervation = await Rezervation.findOneAndUpdate({_id:req.params.id}, { $set: {employee:req.body.employee} },{useFindAndModify: false});
+
+    if (!rezervation) {
+        return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
+    }
+    console.log(rezervation);
+    res.status(200).json({
+        success: true,
+        data: rezervation
+    });
+});
+
+// @desc      Delete Rezervation
 // @route     DELETE /api/v1/rezervation/:id
 // @access    Private
 const deleteRezervation = asyncHandler(async (req, res, next) => {
@@ -261,5 +322,7 @@ module.exports = {
     getRezervationCustomer,
     getRezervation,
     updateRezervation,
-    deleteRezervation
+    deleteRezervation,
+    updateVehicleOfRezervation,
+    updateEmployeeOfRezervation
 }

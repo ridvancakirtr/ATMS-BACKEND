@@ -58,12 +58,12 @@ const sendNotification = asyncHandler(async (req, res, next) => {
 // @access  Private
 const cancelNotification = asyncHandler(async (req, res, next) => {
     let rezervation = await Rezervation.findById(req.params.id);
-
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
-
+    console.log(rezervation);
     let result = await uetdsNotification.uetdsIptalEt(JSON.parse(JSON.stringify(rezervation)));
+    console.log('-----',result);
     if (result.status) {
         let updateUetdsRezervation = await Rezervation.findByIdAndUpdate(
             {
