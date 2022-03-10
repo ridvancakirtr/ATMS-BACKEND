@@ -18,7 +18,7 @@ const sendNotification = asyncHandler(async (req, res, next) => {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
 
-    console.log(JSON.stringify(rezervation));
+    console.log('rezervation---------***',rezervation);
 
     let result = await uetdsNotification.uetdsBildir(JSON.parse(JSON.stringify(rezervation)));
 

@@ -211,12 +211,6 @@ const createRezervation = asyncHandler(async (req, res, next) => {
     let departureWay,returnWay=null
     let rezObject=req.body
 
-    if(rezObject.uetdsNotification){
-        console.log('UETDS AKTIF');
-    }else{
-        console.log('UETDS PASIF');
-    }
-
     departureWay = await Rezervation.create(rezObject);
 
      //Return Transfer 
@@ -253,7 +247,7 @@ const createRezervation = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/rezervation/:id
 // @access    Private
 const updateRezervation = asyncHandler(async (req, res, next) => {
-    let rezervation = await Rezervation.findOneAndReplace(req.params.id, req.body);
+    let rezervation = await Rezervation.findOneAndReplace(req.params.id, req.body).populate('customer');
     console.log('---', req.body);
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
@@ -270,7 +264,7 @@ const updateRezervation = asyncHandler(async (req, res, next) => {
 // @access    Private
 const updateVehicleOfRezervation = asyncHandler(async (req, res, next) => {
     let rezervation = await Rezervation.findOneAndUpdate({_id:req.params.id}, { $set: {vehicle:req.body.vehicle} },{useFindAndModify: false});
-
+    
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
