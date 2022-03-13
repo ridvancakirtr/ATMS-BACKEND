@@ -69,7 +69,8 @@ const RezervationSchema = new mongoose.Schema(
             ref: 'Agency'
         },
         directionPrice: {
-            type: Number
+            type: Number,
+            default: null
         },
         vehicleType: {
             type: mongoose.Schema.ObjectId,
@@ -186,7 +187,8 @@ const RezervationSchema = new mongoose.Schema(
             default:0
         },
         uetdsPrice: {
-            type: Number
+            type: Number,
+            default: null
         },
         price: {
             type: Number,
