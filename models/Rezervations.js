@@ -88,7 +88,7 @@ const RezervationSchema = new mongoose.Schema(
             default: null
         }],
         transferDirection: {
-            type: String,
+            type: Number,
             required: true,
             enum: [
                 0,//'Havalimanından Noktaya'

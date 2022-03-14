@@ -212,9 +212,22 @@ const createRezervation = asyncHandler(async (req, res, next) => {
     let rezObject=req.body
 
     departureWay = await Rezervation.create(rezObject);
-
+    
      //Return Transfer 
     if(rezObject.isReturn){
+        let lock=false
+        
+        if(rezObject.transferDirection==0){
+            rezObject.transferDirection=null
+            rezObject.transferDirection=1
+            lock=true
+        }
+
+        if(rezObject.transferDirection==1 && !lock){
+            rezObject.transferDirection=null
+            rezObject.transferDirection=0
+        }
+
         let tempStartPoint=rezObject.startPoint
         let tempEndPoint=rezObject.endPoint
         let tempDropOffDateTime=rezObject.dropOffDateTime

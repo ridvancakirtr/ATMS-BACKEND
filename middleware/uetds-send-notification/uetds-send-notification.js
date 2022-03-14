@@ -36,8 +36,8 @@ const seferGrupEkle = async (uetdsReferansNo, rezervation) => {
     }
 
     if(rezervation.startPoint["city"]!== undefined){
-        tempBaslangicIl=rezervation.startPoint.city.cityCode
-        tempBaslangicIlce=rezervation.startPoint.city.code
+        tempBaslangicIl=rezervation.startPoint.city[0].cityCode
+        tempBaslangicIlce=rezervation.startPoint.city[0].code
         tempBaslangicYer=rezervation.startPoint.point
     }
 
@@ -150,7 +150,7 @@ const uetdsBildir = async (rezervation) => {
     const seferGrupResult = await seferGrupEkle(uetdsSeferReferansNo, rezervation);
     if (seferGrupResult.sonucKodu != 0) {
         isResult.push({ status: seferGrupResult.sonucKodu, message: seferGrupResult.sonucMesaji })
-        console.log("------------>", seferGrupResult.sonucMesaji);
+        console.log("------------>**", seferGrupResult.sonucMesaji);
     } else {
         isResult.push({ status: seferGrupResult.sonucKodu, message: seferGrupResult.sonucMesaji })
         console.log("Sefer Grup Eklendi :", seferGrupResult);
