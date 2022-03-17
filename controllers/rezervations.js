@@ -261,7 +261,7 @@ const createRezervation = asyncHandler(async (req, res, next) => {
 // @access    Private
 const updateRezervation = asyncHandler(async (req, res, next) => {
     let rezervation = await Rezervation.findOneAndReplace(req.params.id, req.body).populate('customer');
-    console.log('---', req.body);
+
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
