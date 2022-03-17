@@ -260,10 +260,7 @@ const createRezervation = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/rezervation/:id
 // @access    Private
 const updateRezervation = asyncHandler(async (req, res, next) => {
-    console.log('id:------',req.params.id)
-    console.log('body:-----',req.body)
     let rezervation = await Rezervation.findByIdAndUpdate(req.params.id, req.body,{upsert: true}).populate('customer');
-    console.log('rezervation:-----',rezervation)
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
     }
