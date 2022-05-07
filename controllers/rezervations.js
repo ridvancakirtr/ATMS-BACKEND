@@ -1,17 +1,33 @@
 const ErrorResponse = require('../utils/errorResponse');
 const Rezervation = require('../models/Rezervations');
 const asyncHandler = require('../middleware/async');
-const uetdsSendNotification = require('../middleware/uetds-send-notification/uetds-send-notification');
 
 // @desc    Get All Rezervation
-// @route   GET /api/v1/rezervation/
+// @route   GET /api/v1/rezervation/?startDate=2021-5-12&endDate=2023-5-5&direction=2
 // @access  Private
+// @variable  direction=0 - direction=1 - direction=2 
 const getRezervations = asyncHandler(async (req, res, next) => {
     let query = {};
     let options = {};
 
     const { page, limit } = req.query;
+    
+    if (req.query.startDate && req.query.endDate) {
 
+        let sDate=new Date(req.query.startDate)
+        let eDate=new Date(req.query.endDate)
+
+        sDate.setUTCHours(0,0,0);
+        eDate.setUTCHours(23,59,59,999);
+        
+
+        query = {pickUpDateTime:{$gte:new Date(sDate),$lt:new Date(eDate)}}
+    }
+
+    if (req.query.direction==0 || req.query.direction==1 || req.query.direction==2) {
+        Object.assign(query,{transferDirection:req.query.direction});
+    }
+  
     if (req.params.agencyId) {
         query = { agency: req.params.agencyId };
     }
@@ -275,7 +291,7 @@ const updateRezervation = asyncHandler(async (req, res, next) => {
 // @route     PUT /api/v1/rezervation/:id/vehicle
 // @access    Private
 const updateVehicleOfRezervation = asyncHandler(async (req, res, next) => {
-    let rezervation = await Rezervation.findOneAndUpdate({_id:req.params.id}, { $set: {vehicle:req.body.vehicle} },{useFindAndModify: false});
+    let rezervation = await Rezervation.findByIdAndUpdate({_id:req.params.id}, { $set: {vehicle:req.body.vehicle} },{useFindAndModify: false});
     
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
@@ -291,7 +307,7 @@ const updateVehicleOfRezervation = asyncHandler(async (req, res, next) => {
 // @access    Private
 const updateEmployeeOfRezervation = asyncHandler(async (req, res, next) => {
     
-    let rezervation = await Rezervation.findOneAndUpdate({_id:req.params.id}, { $set: {employee:req.body.employee} },{useFindAndModify: false});
+    let rezervation = await Rezervation.findByIdAndUpdate({_id:req.params.id}, { $set: {employee:req.body.employee} },{useFindAndModify: false});
 
     if (!rezervation) {
         return next(new ErrorResponse(`Rezervation not found with id of ${req.params.id}`, 404));
