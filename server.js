@@ -26,7 +26,7 @@ connectDB();
 const employees = require('./routes/employees')
 const vehicles = require('./routes/vehicles')
 const agencies = require('./routes/agencies')
-const vehicletypes = require('./routes/vehicletypes')
+const vehicletypes = require('./routes/vehicleTypes')
 const users = require('./routes/users')
 const customers = require('./routes/customers')
 const auth = require('./routes/auth')
